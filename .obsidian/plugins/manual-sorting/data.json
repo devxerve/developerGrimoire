@@ -1,0 +1,376 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "01 - Languages",
+        "02 - Conceps",
+        "03 - Notes",
+        "04 - DevOps",
+        "05 - Projects",
+        "06 - Tools",
+        "99 - Meta"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages": {
+      "children": [
+        "01 - Languages/C",
+        "01 - Languages/C++",
+        "01 - Languages/HTML-CSS",
+        "01 - Languages/Java",
+        "01 - Languages/JavaScript",
+        "01 - Languages/SQL"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/C": {
+      "children": [
+        "01 - Languages/C/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/C++": {
+      "children": [
+        "01 - Languages/C++/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/HTML-CSS": {
+      "children": [
+        "01 - Languages/HTML-CSS/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/Java": {
+      "children": [
+        "01 - Languages/Java/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/JavaScript": {
+      "children": [
+        "01 - Languages/JavaScript/Core",
+        "01 - Languages/JavaScript/Node.js",
+        "01 - Languages/JavaScript/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/JavaScript/Core": {
+      "children": [
+        "01 - Languages/JavaScript/Core/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/JavaScript/Node.js": {
+      "children": [
+        "01 - Languages/JavaScript/Node.js/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01 - Languages/SQL": {
+      "children": [
+        "01 - Languages/SQL/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02 - Conceps": {
+      "children": [
+        "02 - Conceps/Databases",
+        "02 - Conceps/Algorithms & Data Structures.md",
+        "02 - Conceps/Clean coding.md",
+        "02 - Conceps/Design Patterns.md",
+        "02 - Conceps/OOP.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02 - Conceps/Databases": {
+      "children": [
+        "02 - Conceps/Databases/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "03 - Notes": {
+      "children": [
+        "03 - Notes/SQL - operators.md",
+        "03 - Notes/databasesElements.md",
+        "03 - Notes/databases - erm_Model.md",
+        "03 - Notes/database - erm_Rm_traduction.md",
+        "03 - Notes/databaseRelevantTerms.md",
+        "03 - Notes/databasesCharacteristics.md",
+        "03 - Notes/SQL - updateSentence.md",
+        "03 - Notes/SQL - selectSentence.md",
+        "03 - Notes/SQL - correlatedQuerys.md",
+        "03 - Notes/SQL - createSentence.md",
+        "03 - Notes/SQL - deleteSentence.md",
+        "03 - Notes/SQL - dropSentence.md",
+        "03 - Notes/SQL - insertSentence.md",
+        "03 - Notes/SQL - bulkInsert.md",
+        "03 - Notes/SQL - mysql_Introduction.md",
+        "03 - Notes/SQL - joinSentence.md",
+        "03 - Notes/SQL - alterTableSentence.md",
+        "03 - Notes/SQL - advancedStatements.md",
+        "03 - Notes/SQL - minimumSelect_syntax.md",
+        "03 - Notes/SQL - subQuerys.md",
+        "03 - Notes/algorithms.md",
+        "03 - Notes/bestPractices.md",
+        "03 - Notes/Java - accesModifiers.md",
+        "03 - Notes/Java - args.md",
+        "03 - Notes/Java - arraylist_forEach.md",
+        "03 - Notes/Java - arrays.md",
+        "03 - Notes/Java - casting.md",
+        "03 - Notes/Java - codeStructure.md",
+        "03 - Notes/Java - constants.md",
+        "03 - Notes/Java - Constructors.md",
+        "03 - Notes/Java - databaseConnection.md",
+        "03 - Notes/Java - dataTypes.md",
+        "03 - Notes/Java - fileHandling.md",
+        "03 - Notes/Java - files.md",
+        "03 - Notes/Java - inheritance_polimorphism.md",
+        "03 - Notes/Java - introduction_to_Objects.md",
+        "03 - Notes/Java - iterationStructures.md",
+        "03 - Notes/Java - jFrame.md",
+        "03 - Notes/Java - methods.md",
+        "03 - Notes/Java - operators.md",
+        "03 - Notes/Java - processBuilder.md",
+        "03 - Notes/Java - processes.md",
+        "03 - Notes/Java - selectionStructures.md",
+        "03 - Notes/Java - snippets.md",
+        "03 - Notes/Java - stringBuilder.md",
+        "03 - Notes/Java - Try_withResources.md",
+        "03 - Notes/Java - wrappers.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps": {
+      "children": [
+        "04 - DevOps/CI-CD",
+        "04 - DevOps/Docker"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps/CI-CD": {
+      "children": [
+        "04 - DevOps/CI-CD/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps/Docker": {
+      "children": [
+        "04 - DevOps/Docker/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05 - Projects": {
+      "children": [
+        "05 - Projects/Serious Games - Hydration Bag"
+      ],
+      "sortOrder": "custom"
+    },
+    "05 - Projects/Serious Games - Hydration Bag": {
+      "children": [
+        "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad",
+        "05 - Projects/Serious Games - Hydration Bag/Database",
+        "05 - Projects/Serious Games - Hydration Bag/Architecture.md",
+        "05 - Projects/Serious Games - Hydration Bag/Technical Decisions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad": {
+      "children": [
+        "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad/Components.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05 - Projects/Serious Games - Hydration Bag/Database": {
+      "children": [
+        "05 - Projects/Serious Games - Hydration Bag/Database/Schema.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "06 - Tools": {
+      "children": [
+        "06 - Tools/Git",
+        "06 - Tools/IDEs.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "06 - Tools/Git": {
+      "children": [
+        "06 - Tools/Git/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta": {
+      "children": [
+        "99 - Meta/00 - Templates",
+        "99 - Meta/01 - Notebooks",
+        "99 - Meta/attachments",
+        "99 - Meta/Preloaded Classes"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/00 - Templates": {
+      "children": [
+        "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
+        "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
+        "99 - Meta/00 - Templates/(TEMPLATE) Language Index.md",
+        "99 - Meta/00 - Templates/(TEMPLATE) Plans.md",
+        "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
+        "99 - Meta/00 - Templates/(TEMPLATE) Unique (JAVA).md"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/01 - Notebooks": {
+      "children": [
+        "99 - Meta/01 - Notebooks/ScrapBook",
+        "99 - Meta/01 - Notebooks/Excalidraw"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/01 - Notebooks/Excalidraw": {
+      "children": [
+        "99 - Meta/01 - Notebooks/Excalidraw/processComunicationDiagram.md",
+        "99 - Meta/01 - Notebooks/Excalidraw/processComunication.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/polimorfismDiagram.md",
+        "99 - Meta/01 - Notebooks/Excalidraw/polimorfism.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/InheritanceDiagram.md",
+        "99 - Meta/01 - Notebooks/Excalidraw/inheritance.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/01 - Notebooks/ScrapBook": {
+      "children": [
+        "99 - Meta/01 - Notebooks/ScrapBook/processcomsScrap.jpg",
+        "99 - Meta/01 - Notebooks/ScrapBook/polimorfismScrap.png",
+        "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/attachments": {
+      "children": [
+        "99 - Meta/attachments/serious",
+        "99 - Meta/attachments/2fa.jpg",
+        "99 - Meta/attachments/Agencia_viajes.sql",
+        "99 - Meta/attachments/Algoritmos_2.drawio",
+        "99 - Meta/attachments/almacenamiento_informacion.pdf",
+        "99 - Meta/attachments/Android_SDK_tools.png",
+        "99 - Meta/attachments/avd_manager.png",
+        "99 - Meta/attachments/BBDD 2 - BBD Relacionales Ejercicios.drawio",
+        "99 - Meta/attachments/BBDD 2 - BBD Relacionales Ejercicios-Ejercicio 1.1.jpg",
+        "99 - Meta/attachments/BBDD_liga_ebanca_motorblog.sql",
+        "99 - Meta/attachments/bbdd_relacionales.pdf",
+        "99 - Meta/attachments/Board algorithms.pdf",
+        "99 - Meta/attachments/Celula de carga.png",
+        "99 - Meta/attachments/CentroEstudiosOnline.sql",
+        "99 - Meta/attachments/ciclo_desarrollo.png",
+        "99 - Meta/attachments/cinta_cobre.png",
+        "99 - Meta/attachments/coding.jpg",
+        "99 - Meta/attachments/Concepto_base_SERIOUS.drawio",
+        "99 - Meta/attachments/configuracion_avd.png",
+        "99 - Meta/attachments/configuracion_AVD_tablet.png",
+        "99 - Meta/attachments/Configuracion_sdk.png",
+        "99 - Meta/attachments/consultas.pdf",
+        "99 - Meta/attachments/Contador_Junit.drawio",
+        "99 - Meta/attachments/Contador_Junit.jpg",
+        "99 - Meta/attachments/conversión binario-hexadecimal (sistemas).png",
+        "99 - Meta/attachments/conversión binario-octal (sistemas).png",
+        "99 - Meta/attachments/conversión decimal-binario (sistemas).png",
+        "99 - Meta/attachments/conversión Universal (sistemas).png",
+        "99 - Meta/attachments/Corrección_examen_BBDD 30 octubre.drawio",
+        "99 - Meta/attachments/Corrección_examen_BBDD 30 octubre.jpg",
+        "99 - Meta/attachments/Correcion_Examen_MR.png",
+        "99 - Meta/attachments/create_db.sql",
+        "99 - Meta/attachments/create_db_serious.sql",
+        "99 - Meta/attachments/db_serious_games_dbdiagram.png",
+        "99 - Meta/attachments/diagrama.png",
+        "99 - Meta/attachments/diagrama_measurements.jpg",
+        "99 - Meta/attachments/draw_background.png",
+        "99 - Meta/attachments/Ejemplo_circuito.png",
+        "99 - Meta/attachments/ejemplo_create.png",
+        "99 - Meta/attachments/Ejemplo_estructura.png",
+        "99 - Meta/attachments/Ejemplo_N_n.jpg",
+        "99 - Meta/attachments/Ejemplos Cardinalidad_1-1.png",
+        "99 - Meta/attachments/Ejemplos Cardinalidad_1-N.png",
+        "99 - Meta/attachments/ejemplos_while_do_while.drawio",
+        "99 - Meta/attachments/Ejercicio Gerentes (Ejercicio 8 Ejercicios II PDF).drawio",
+        "99 - Meta/attachments/Ejercicio Gerentes (Ejercicio 8 Ejercicios II PDF).jpg",
+        "99 - Meta/attachments/Ejercicio Gimnasio (Enunciado lo tiene carmen).drawio",
+        "99 - Meta/attachments/Ejercicio Gimnasio (Enunciado lo tiene carmen).jpg",
+        "99 - Meta/attachments/Ejercicio1_practicaExamen.drawio",
+        "99 - Meta/attachments/Ejercicio1_practicaExamenBBDD.jpg",
+        "99 - Meta/attachments/Ejercicio1_Tarea3_pruebas.jpg",
+        "99 - Meta/attachments/Ejercicio2_Tarea3_pruebas.png",
+        "99 - Meta/attachments/Ejercicio2_Tarea3_pruebas 1.png",
+        "99 - Meta/attachments/Ejercicio3_Tarea3_pruebas.png",
+        "99 - Meta/attachments/Ejercicio3_Tarea3_pruebas 1.png",
+        "99 - Meta/attachments/ESP32.png",
+        "99 - Meta/attachments/Examen SQL CONSULTAS.sql",
+        "99 - Meta/attachments/Examen_Creacion_Tablas.sql",
+        "99 - Meta/attachments/f1.jpg",
+        "99 - Meta/attachments/gsr.png",
+        "99 - Meta/attachments/homeScreen.png",
+        "99 - Meta/attachments/Huella Ecologica.png",
+        "99 - Meta/attachments/image.png",
+        "99 - Meta/attachments/image-1.png",
+        "99 - Meta/attachments/image-2.png",
+        "99 - Meta/attachments/light_sensor.png",
+        "99 - Meta/attachments/Logo_ufv.png",
+        "99 - Meta/attachments/Manejo de ficheros.pdf",
+        "99 - Meta/attachments/manejo_conectores_JAVA-SQL.pdf",
+        "99 - Meta/attachments/MER_Serious.jpg",
+        "99 - Meta/attachments/Modelo_IaaS.png",
+        "99 - Meta/attachments/Modelo_PaaS.png",
+        "99 - Meta/attachments/Modulo HX711.png",
+        "99 - Meta/attachments/nuevo_manager.png",
+        "99 - Meta/attachments/On_Premise.png",
+        "99 - Meta/attachments/opera_UTEHjW4Nxm.png",
+        "99 - Meta/attachments/opera_UTEHjW4Nxm 1.png",
+        "99 - Meta/attachments/p1_metodo_menor_diagrama.jpg",
+        "99 - Meta/attachments/parametrisation.jpg",
+        "99 - Meta/attachments/Pasted Image 20260225094319_141.png",
+        "99 - Meta/attachments/Pixel.png",
+        "99 - Meta/attachments/Practia1_programacion.drawio",
+        "99 - Meta/attachments/Prg_funcionamientojava (1).png",
+        "99 - Meta/attachments/Programación - 3 - Ejemplos - do-while.jpg",
+        "99 - Meta/attachments/Programación - 3 - Ejemplos -while.jpg",
+        "99 - Meta/attachments/pseudocodigo.png",
+        "99 - Meta/attachments/psp_banner.png",
+        "99 - Meta/attachments/SaaS.png",
+        "99 - Meta/attachments/selector_dispositivo.png",
+        "99 - Meta/attachments/selector_dispositivo_AVD(tablet).png",
+        "99 - Meta/attachments/Serious_presentacion.pptx",
+        "99 - Meta/attachments/sintaxis_sql.pdf",
+        "99 - Meta/attachments/Tabla comparativa de empresas tecnológicas.xlsx",
+        "99 - Meta/attachments/Tarea3_pruebas_ejercicio1.png",
+        "99 - Meta/attachments/Tarea3_pruebas_ejercicio2.png",
+        "99 - Meta/attachments/Tarea3_pruebas_ejercicio2 1.png",
+        "99 - Meta/attachments/Tarea3_pruebas_ejercicio3.png.png",
+        "99 - Meta/attachments/Tarea3_pruebas_ejercicio3.png 1.png",
+        "99 - Meta/attachments/tratamiento_datos.pdf",
+        "99 - Meta/attachments/UBUNTU.png",
+        "99 - Meta/attachments/WINDOWS.png",
+        "99 - Meta/attachments/XervE.jpg",
+        "99 - Meta/attachments/zumbador.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/attachments/serious": {
+      "children": [
+        "99 - Meta/attachments/serious/agua_total.jpg",
+        "99 - Meta/attachments/serious/parametrisation.jpg",
+        "99 - Meta/attachments/serious/Quantity_water_bottle-Cantidad_agua_botella.jpg"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/Preloaded Classes": {
+      "children": [
+        "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+        "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "alphabetical",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

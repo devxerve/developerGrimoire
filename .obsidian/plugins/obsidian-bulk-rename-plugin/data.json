@@ -1,0 +1,15 @@
+{
+  "folderName": "Notes",
+  "fileNames": [],
+  "existingSymbol": "",
+  "replacePattern": "java - {{Title}}",
+  "regExpState": {
+    "regExp": "",
+    "flags": [],
+    "withRegExpForReplaceSymbols": false
+  },
+  "tags": [
+    "tags:java"
+  ],
+  "viewType": "folder"
+}

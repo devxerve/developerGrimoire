@@ -1,0 +1,10 @@
+---
+{}
+---
+
+# Algorithms & data structures
+
+[[algorithms]]
+
+
+
