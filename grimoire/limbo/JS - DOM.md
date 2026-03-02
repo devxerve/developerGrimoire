@@ -1,8 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # :dev_javascript_plain: Dom - Modelo De Objetos Del Documento

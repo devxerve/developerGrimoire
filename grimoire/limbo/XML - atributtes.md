@@ -1,8 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 El papel de los Atributos

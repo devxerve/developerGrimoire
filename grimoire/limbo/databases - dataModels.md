@@ -1,10 +1,8 @@
 ---
-References:
-  - "[[bbdd_relacionales.pdf]]"
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # 💾 Modelo De Datos

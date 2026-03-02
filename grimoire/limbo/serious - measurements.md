@@ -1,11 +1,8 @@
 ---
-date: 2026-02-06T10:44
 cssclasses:
-  - center-images
-  - center-titles
-  - rounded-images
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 # Diagrama
 ![[diagrama_measurements.jpg|407x592]]

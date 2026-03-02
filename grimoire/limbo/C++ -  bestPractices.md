@@ -1,10 +1,10 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
-# :devCplusplusOriginal:
+# :dev_cplusplus_original:
 # 1. Convenciones De Nombres
 Usa camelCase para variables/metodos, PascalCase para clases.
 

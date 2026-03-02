@@ -7,21 +7,19 @@ cssclasses:
 tags:
 ---
 
-# :dev_thealgorithms_original: Algoritmos
+# :dev_thealgorithms_original: Algorithms
 
-> [!Definitions] Definición
-> Algoritmo: Un algoritmo es un procedimiento especificado paso a paso para resolver un problema en una cantidad finita de tiempo
+> [!note] Definition
+> An algorithm is a specified step by step procedure that aims to resolve a specific problem.
 
-Los algoritmos pueden estar escritos en seudocódigo o representados con Diagrams de flujo (Flow charts)
-> [!Summary] Caracteristicas de un Algoritmo
-> **Finitud**: Tiene que terminar
-**Definición**: Cada paso debe estar definido con precisión, sin ambigüedades.
-**Entrada**: Debe tener 0 o más entradas, son informaciones que se proporcionan al algoritmo antes de funcionar
-**Salida**: Tiene 1 o más salidas, guardan relación con las entradas.
-**Efectividad**: Tiene que set realista y realizable
+An algorithm can be represented in 2 different models, pseudo-code and flow-chart
 
 
-## 2 Tipos:
-![[diagrama.png]]
+> [!abstract] Algorithm’s characteristics
+> **Finitude:** It must terminate
+> **Clarity:** Each step has to be defined with precision, no ambiguety.
+> **Inputs:** It has to have 0 or more Input streams, those are data provided to the algorithm before it starts.
+> **Outputs:** It must have 1 or more Outputs, they share a relation with inputs.
+> **Effectiveness**: Has to be realistic and doable. 
+## Flow chart representation
 
-![[pseudocodigo.png]]

@@ -1,9 +1,8 @@
 ---
 cssclasses:
-  - center-images
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # Legibilidad Del Código

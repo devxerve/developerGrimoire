@@ -1,8 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # :dev_java_plain::rif_test_tube: Junit

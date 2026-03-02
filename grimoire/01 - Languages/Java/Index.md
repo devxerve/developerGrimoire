@@ -8,11 +8,11 @@ cssclasses:
 
 # :dev_java_original: Java
 
-## :dev_java_original: :fab_readme: Java - about
+## :dev_java_original: :fab_readme: Java - About
 General purpose object oriented programming (OOP) language
 ***
 # Notes
-## :dev_java_original: Java - basics
+## :dev_java_original: Java - Basics
 
 [[Java - codeStructure]]
 [[Java - dataTypes]]
@@ -29,7 +29,7 @@ General purpose object oriented programming (OOP) language
 [[Java - tryCatch]]
 [[Java - Try_withResources]]
 ***
-## :dev_java_original: Java - oop
+## :dev_java_original: Java - OOP
 
 [[Java - introduction_to_Objects]]
 [[Java - Constructors]]
@@ -39,23 +39,23 @@ General purpose object oriented programming (OOP) language
 
 
 ***
-## :dev_java_original: Java - gui
+## :dev_java_original: Java - GUI
 [[Java - jFrame]]
 
 
 ***
-## :dev_java_original::luc_timer: Java - concurrency
+## :dev_java_original::luc_timer: Java - Concurrency
 [[Java - processes]]
 [[Java - processBuilder]]
 
 ***
-## :dev_java_original: :fas_database: Java - files and database handling
+## :dev_java_original: :fas_database: Java - Files and database handling
 [[Java - files]]
 [[Java - fileHandling]]
 [[Java - databaseConnection]]
 
 ***
-## :dev_java_original: 📖 Java - resources
+## :dev_java_original: 📖 Java - Resources
 - Official documentation  →  https://docs.oracle.com/en/java/
 
 ### :dev_java_original: :fas_tools: Utilities

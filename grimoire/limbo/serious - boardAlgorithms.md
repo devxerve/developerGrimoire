@@ -1,10 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - rounded-images
-  - center-images
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 # Módulos de la placa 
 > [!info] IMPORTANTE

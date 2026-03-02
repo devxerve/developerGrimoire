@@ -1,11 +1,8 @@
 ---
 cssclasses:
-  - center-images
-  - note
-  - pen-purple
-  - page-grid
-  - center-titles
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # :dev_vscode_original: Depuración Del Código

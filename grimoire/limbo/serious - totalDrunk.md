@@ -1,10 +1,8 @@
 ---
 cssclasses:
-  - center-images
-  - rounded-images
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 # Diagrama
 ![[agua_total.jpg|Agua total|433x804]]

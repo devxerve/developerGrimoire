@@ -1,9 +1,8 @@
 ---
 cssclasses:
-  - note
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 > [!note] Procesos

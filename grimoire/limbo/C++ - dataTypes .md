@@ -1,8 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 Son datos muy similares a los [[Datos Primitivos java]] pero pueden tener modificadores, y tienen tamaños dependientes del compiler o la plataforma

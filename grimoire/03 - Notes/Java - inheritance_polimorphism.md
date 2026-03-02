@@ -98,7 +98,7 @@ public class Perro extends Animal{
 > Se ejecuta la versión correcta según el objeto que la llama
 > En el ejemplo de arriba si lo ejecuta Animal se mostrara GRRR, si lo ejecuta Perro se mostrara GUAU
 
-![[polimorfism.png]]
+![[polymorphism.png]]
 
 
 

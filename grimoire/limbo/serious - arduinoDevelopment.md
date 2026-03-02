@@ -1,10 +1,8 @@
 ---
 cssclasses:
-  - rounded-images
-  - center-titles
-  - center-images
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # Programación En Arduino

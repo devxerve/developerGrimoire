@@ -1,9 +1,8 @@
 ---
-date: 2026-01-25T16:46
 cssclasses:
-  - center-images
-  - center-titles
-  - rounded-images
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 # ::devMysqlOriginal:
 # Create Sentence

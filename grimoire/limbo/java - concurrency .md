@@ -1,11 +1,8 @@
 ---
 cssclasses:
-  - center-titles
-  - center-images
-  - rounded-images
-  - page-grid
-  - pen-red
-date: 2026-02-05T16:09
+  - "centerTitles "
+  - " centerImages "
+  - " roundedImages"
 ---
 
 # Programación Concurrente
