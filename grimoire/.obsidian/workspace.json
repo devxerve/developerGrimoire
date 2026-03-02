@@ -185,9 +185,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "b85fdab943fd79cf",
+            "type": "leaf",
+            "state": {
+              "type": "keep-the-rhythm",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Keep the Rhythm"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -209,10 +219,11 @@
       "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "file-share:Toggle connection": false
+      "file-share:Toggle connection": false,
+      "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "d8a34eaeacd6c7c8",
+  "active": "b85fdab943fd79cf",
   "lastOpenFiles": [
     "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
     "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
