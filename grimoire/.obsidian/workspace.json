@@ -37,28 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/algorithms.md",
+                "file": "03 - Notes/bestPractices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithms"
-            }
-          },
-          {
-            "id": "5844e8a23cfcde8e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "algorithmDiagram"
+              "title": "bestPractices"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,8 +206,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -239,20 +227,22 @@
       "command-palette:Open command palette": false,
       "zk-prefixer:Create new unique note": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "file-share:Toggle connection": false
     }
   },
-  "active": "5844e8a23cfcde8e",
+  "active": "37f5ecd1641ec48c",
   "lastOpenFiles": [
-    "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
-    "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
+    "02 - Conceps/Databases.md",
+    "02 - Conceps/Algorithms & Data Structures.md",
     "03 - Notes/algorithms.md",
+    "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
+    "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
     "06 - Archives/02 - Notebooks/Excalidraw",
     "06 - Archives/02 - Notebooks",
     "06 - Archives",
@@ -289,7 +279,6 @@
     "01 - Languages/SQL/Index.md",
     "03 - Notes/Java - arrays.md",
     "03 - Notes/Java - arraylist_forEach.md",
-    "03 - Notes/Java - args.md",
     "02 - Conceps/Databases",
     "99 - Meta/attachments/draw_background.png",
     "99 - Meta/01 - Notebooks/ScrapBook/processcomsScrap.jpg",

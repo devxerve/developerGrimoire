@@ -5,9 +5,9 @@ cssclasses:
   - " roundedImages"
 ---
 
-# Databases
+# :dev_sql::dev_mysql_original:Databases
 
-## Notas
+## :dev_sql::dev_mysql_original:Notes
 [[databasesElements]]
 [[databasesCharacteristics]]
 [[databaseRelevantTerms]]

@@ -23,3 +23,4 @@ An algorithm can be represented in 2 different models, pseudo-code and flow-char
 > **Effectiveness**: Has to be realistic and doable. 
 ## Flow chart representation
 
+![[algorithm.png]]

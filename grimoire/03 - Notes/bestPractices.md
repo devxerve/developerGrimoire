@@ -7,25 +7,25 @@ tags:
 ---
 
 # :dev_java_original::luc_check_circle: Buenas prácticas en java
-## :dev_java_original: 1. Nombres claros y consistentes
+## :dev_java_original: 1. Consistent and clear names
 
-Usa nombres descriptivos, siguiendo las convenciones de nomenclatura de Java.
+Use descriptive names, using the specific nomenclature of each language.
 
-```java title="nombres"
-public class GestorDeUsuarios {
-    private String nombreUsuario;
-    private final int MAX_USUARIOS = 100;
+```java title="naming"
+public class UserManager { // CapitalCase for classes
+    private String userName; // camelCase for variables and methods
+    private final int MAX_USERS = 100; //UPPERCASE for constants
 }
 ```
-## :dev_java_original: 2. Mantén un código legible
+## :dev_java_original: 2. Keep your code clean
 
-Usa indentación (4 espacios), líneas cortas y separa bloques lógicamente.
-
-```java title="identacion"
-if (saldo > 0) {
-    procesarPago();
+[[Clean coding]]
+Use indents (4 spaces), short lines and separate codeblocks by its use.
+```java title="Clean Code"
+if (disposable > 0) {
+    processPayment();
 } else {
-    mostrarError();
+    showError();
 }
 ```
 ## :dev_java_original: 3. Declara variables con el alcance mínimo necesario

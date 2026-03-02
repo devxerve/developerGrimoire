@@ -76,17 +76,11 @@
     },
     "02 - Conceps": {
       "children": [
-        "02 - Conceps/Databases",
+        "02 - Conceps/Databases.md",
         "02 - Conceps/Algorithms & Data Structures.md",
         "02 - Conceps/Clean coding.md",
         "02 - Conceps/Design Patterns.md",
         "02 - Conceps/OOP.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "02 - Conceps/Databases": {
-      "children": [
-        "02 - Conceps/Databases/Index.md"
       ],
       "sortOrder": "custom"
     },
@@ -230,6 +224,8 @@
     },
     "99 - Meta/01 - Notebooks/Excalidraw": {
       "children": [
+        "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
         "99 - Meta/01 - Notebooks/Excalidraw/polymorphism.png",
         "99 - Meta/01 - Notebooks/Excalidraw/Scripts",
         "99 - Meta/01 - Notebooks/Excalidraw/inheritance.png",
@@ -422,13 +418,6 @@
         "limbo/XML - Intro.md",
         "limbo/XML - structure.md",
         "limbo/XML - validDocuments.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "06 - Archives/02 - Notebooks/Excalidraw": {
-      "children": [
-        "06 - Archives/02 - Notebooks/Excalidraw/Drawing 2026-03-02 11.59.30.excalidraw.png",
-        "06 - Archives/02 - Notebooks/Excalidraw/Drawing 2026-03-02 11.59.30.excalidraw.md"
       ],
       "sortOrder": "custom"
     }
