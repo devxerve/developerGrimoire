@@ -86,6 +86,7 @@
     },
     "03 - Notes": {
       "children": [
+        "03 - Notes/Java - constructors.md",
         "03 - Notes/SQL - operators.md",
         "03 - Notes/databasesElements.md",
         "03 - Notes/databases - erm_Model.md",
@@ -115,7 +116,6 @@
         "03 - Notes/Java - casting.md",
         "03 - Notes/Java - codeStructure.md",
         "03 - Notes/Java - constants.md",
-        "03 - Notes/Java - Constructors.md",
         "03 - Notes/Java - databaseConnection.md",
         "03 - Notes/Java - dataTypes.md",
         "03 - Notes/Java - fileHandling.md",
@@ -131,7 +131,7 @@
         "03 - Notes/Java - selectionStructures.md",
         "03 - Notes/Java - snippets.md",
         "03 - Notes/Java - stringBuilder.md",
-        "03 - Notes/Java - Try_withResources.md",
+        "03 - Notes/Java - Try Blocks.md",
         "03 - Notes/Java - wrappers.md"
       ],
       "sortOrder": "custom"

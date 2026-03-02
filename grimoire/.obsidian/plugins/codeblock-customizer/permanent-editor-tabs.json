@@ -1,1 +1,7 @@
-{}
+{
+  "03 - Notes/bestPractices.md": {
+    "not_dry": 8568,
+    "dry": 9141,
+    "naming": 530
+  }
+}

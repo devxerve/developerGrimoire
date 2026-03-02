@@ -4,7 +4,6 @@ cssclasses:
   - centerTitles
   - " centerImages "
   - " roundedImages"
-tags:
 ---
 
 # :dev_thealgorithms_original: Algorithms
@@ -23,4 +22,14 @@ An algorithm can be represented in 2 different models, pseudo-code and flow-char
 > **Effectiveness**: Has to be realistic and doable. 
 ## Flow chart representation
 
-![[algorithm.png]]
+![[algorithm.png|383x528]]
+## Pseudo-code representation
+```text title="pseudo-code"
+Start
+	read number (4)
+	if (number%2 = 0)
+		print even
+	else
+		print odd
+End
+```

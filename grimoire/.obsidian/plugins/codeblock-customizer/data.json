@@ -1151,7 +1151,7 @@
         "hideFenceLines": false,
         "buttons": {
           "alwaysShowButtons": false,
-          "alwaysShowCopyCodeButton": false,
+          "alwaysShowCopyCodeButton": true,
           "enableSelectCodeButton": false,
           "enableDeleteCodeButton": false,
           "enableWrapCodeButton": false
@@ -1213,7 +1213,7 @@
       },
       "groupedCodeBlocks": {
         "rememberTabState": true,
-        "persistence": "session"
+        "persistence": "permanent"
       },
       "annotations": {
         "convertAllComments": false,
@@ -1333,7 +1333,7 @@
   "newPromptName": "",
   "alternateHighlightColorName": "",
   "languageBorderColorName": "",
-  "settingsType": "highlighting",
+  "settingsType": "prompts",
   "langSpecificSettingsType": "header.codeBlockLangBackgroundColor",
   "languageSpecificLanguageName": ""
 }

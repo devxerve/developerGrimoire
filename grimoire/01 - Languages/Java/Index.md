@@ -27,7 +27,7 @@ General purpose object oriented programming (OOP) language
 [[Java - args]]
 [[Java - wrappers]]
 [[Java - tryCatch]]
-[[Java - Try_withResources]]
+[[Java - Try Blocks]]
 ***
 ## :dev_java_original: Java - OOP
 

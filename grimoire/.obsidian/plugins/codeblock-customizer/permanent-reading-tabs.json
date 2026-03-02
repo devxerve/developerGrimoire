@@ -1,1 +1,7 @@
-{}
+{
+  "03 - Notes/bestPractices.md": {
+    "scope": 0,
+    "undry": 1,
+    "naming": 2
+  }
+}

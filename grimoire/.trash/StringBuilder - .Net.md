@@ -1,6 +1,0 @@
----
-cssclasses: center-titles
----
-
-
-
