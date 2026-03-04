@@ -99,11 +99,65 @@
         "changes": [
           {
             "timeKey": "08:25",
-            "w": -2,
-            "c": -58
+            "w": -4,
+            "c": -55
+          },
+          {
+            "timeKey": "08:30",
+            "w": 6,
+            "c": 10
+          },
+          {
+            "timeKey": "08:35",
+            "w": -35,
+            "c": -203
+          },
+          {
+            "timeKey": "08:50",
+            "w": 2,
+            "c": 30
+          },
+          {
+            "timeKey": "08:55",
+            "w": 4,
+            "c": 58
+          },
+          {
+            "timeKey": "09:00",
+            "w": 48,
+            "c": 898
+          },
+          {
+            "timeKey": "09:05",
+            "w": -8,
+            "c": -64
           }
         ],
         "id": 3
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "99 - Meta/01 - Notebooks/Excalidraw/entity_relations.excalidraw.md",
+        "wordCountStart": 44,
+        "charCountStart": 570,
+        "changes": [],
+        "id": 4
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "02 - Conceps/Databases.md",
+        "wordCountStart": 17,
+        "charCountStart": 311,
+        "changes": [],
+        "id": 5
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "03 - Notes/Java - snippets.md",
+        "wordCountStart": 222,
+        "charCountStart": 1995,
+        "changes": [],
+        "id": 6
       }
     ]
   }

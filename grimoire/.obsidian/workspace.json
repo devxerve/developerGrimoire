@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Conceps/Databases.md",
+                "file": "03 - Notes/Java - snippets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databases"
+              "title": "Java - snippets"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Conceps/Databases.md",
+                "file": "03 - Notes/Java - snippets.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databases"
+              "title": "Outline of Java - snippets"
             }
           },
           {
@@ -222,7 +222,7 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "e10e70b0669df391",
+  "active": "6681dd15406b1c3e",
   "lastOpenFiles": [
     "02 - Conceps/Databases.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
