@@ -86,7 +86,7 @@
     },
     "03 - Notes": {
       "children": [
-        "03 - Notes/Java - constructors.md",
+        "03 - Notes/Java - Constructors.md",
         "03 - Notes/SQL - operators.md",
         "03 - Notes/databasesElements.md",
         "03 - Notes/databases - erm_Model.md",
@@ -224,6 +224,10 @@
     },
     "99 - Meta/01 - Notebooks/Excalidraw": {
       "children": [
+        "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_1.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_N.png",
+        "99 - Meta/01 - Notebooks/Excalidraw/entity_relations.excalidraw.md",
         "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
         "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
         "99 - Meta/01 - Notebooks/Excalidraw/polymorphism.png",

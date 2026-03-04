@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b72ef8aaf9f7673",
+        "id": "444fa4102e2592fb",
         "type": "tabs",
         "children": [
           {
-            "id": "37f5ecd1641ec48c",
+            "id": "6681dd15406b1c3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/algorithms.md",
+                "file": "02 - Conceps/Databases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithms"
+              "title": "Databases"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Trash explorer"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Notes/algorithms.md",
+                "file": "02 - Conceps/Databases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of algorithms"
+              "title": "Outline of Databases"
             }
           },
           {
@@ -197,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -223,18 +222,23 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "b85fdab943fd79cf",
+  "active": "e10e70b0669df391",
   "lastOpenFiles": [
+    "02 - Conceps/Databases.md",
+    "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
+    "03 - Notes/database - erm_Rm_traduction.md",
+    "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_1.png",
+    "99 - Meta/01 - Notebooks/Excalidraw/entity_relations.excalidraw.md",
+    "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_N.png",
+    "03 - Notes/algorithms.md",
     "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
     "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
-    "03 - Notes/algorithms.md",
     "03 - Notes/bestPractices.md",
     "output/bestPractices.html",
     "output",
     "03 - Notes/Java - Try Blocks.md",
     "99 - Meta/01 - Notebooks/Excalidraw/inheritance.png",
     "99 - Meta/01 - Notebooks/Excalidraw/polymorphism.png",
-    "02 - Conceps/Databases.md",
     "02 - Conceps/Algorithms & Data Structures.md",
     "06 - Archives/02 - Notebooks/Excalidraw",
     "06 - Archives/02 - Notebooks",
@@ -264,11 +268,7 @@
     "03 - Notes/SQL - createSentence.md",
     "03 - Notes/SQL - correlatedQuerys.md",
     "03 - Notes/SQL - bulkInsert.md",
-    "03 - Notes/SQL - alterTableSentence.md",
-    "03 - Notes/SQL - advancedStatements.md",
     "99 - Meta/attachments/draw_background.png",
-    "99 - Meta/01 - Notebooks/ScrapBook/processcomsScrap.jpg",
-    "99 - Meta/01 - Notebooks/ScrapBook/polimorfismScrap.png",
     "Dashboard.canvas",
     "Fullstack Roadmap.canvas",
     "00 - Home/Dashboard.canvas",

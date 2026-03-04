@@ -2,24 +2,71 @@
 References:
   - "[[bbdd_relacionales.pdf]]"
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - centerTitles
+  - " centerImages "
+  - " roundedImages"
 tags:
   - databases
 ---
 
-# :fas_database: Traducción modelo entidad-relación a modelo relacional
-## Reglas de traducción
-### 1. Entidad --> tabla
-Todas las entidades son directamente una tabla, por cada entidad existe una tabla en el modelo relacional.
-### 2. Normas
-#### Primera norma:
-el orden de los atributos no es significativo
-#### Segunda norma: relaciones:
+# :fas_database: ERM to RM translation
+## Translation basics
+### 1. Entity --> table
+Each entity is a table, for each entity there is a table in the relational model
+### 2. Key rules
+#### Attributes order:
+
+Attributes order is not meaningful, it does not matter.
+#### Relations 
 ##### 1:N
-migro la clave primaria de la entidad que es 1 a la entidad que es N (el código de departamento va a pasar a nombre)
+The primary key from the entity that is `1` is migrated to the `N` entity
+![[entity_relations1_N.png]]
+
+| Order Table | |
+|-------------|---|
+| `order_id` | **PK** |
+| attributes | |
+| `client_id`| **FK** |
+
+| Client Table |        |
+| ------------ | ------ |
+| `client_id`  | **PK** |
+| attributes   |        |
+
 ##### N:N
-se traducirá en una tabla nueva, en la cual migraremos las dos claves primarias, que serán ajenas
+Both primary keys are migrated to another table, making the primary key the group of both foreign keys.
+![[entity_relationsN_N.png]]
+
+| Student Table | |
+|---------------|---|
+| `student_id` | **PK** |
+| attributes   | |
+
+| Subject Table | |
+|---------------|---|
+| `subject_id` | **PK** |
+| attributes   | |
+
+| Student_courses_Subject |        |
+| ----------------------- | ------ |
+| `student_id`            | **PK** |
+| `subject_id`            | **PK** |
+| attributes              |        |
+
+
 ##### 1:1
-se puede migrar hacia el sentido que genere menos nulos (en este caso genera menos nulos si migramos la clave primaria de empleado a departamento, creando un atributo empleado_jefe para la tabla departamento). 
+The migration should be done in a way which less `NULLS` are generated
+![[entity_relations1_1.png]]
+
+
+| DriverLicense |               |
+| ------------- | ------------- |
+| `license_id`  | **PK**        |
+| attributes    |               |
+| `citizen_id`  | **FK UNIQUE** |
+
+| Citizen Table | |
+|---------------|---|
+| `citizen_id` | **PK** |
+| attributes   | |
+
