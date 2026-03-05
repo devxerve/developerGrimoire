@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "03 - Notes.zip",
         "limbo",
         "01 - Languages",
         "02 - Conceps",
@@ -88,11 +89,11 @@
       "children": [
         "03 - Notes/Java - Constructors.md",
         "03 - Notes/SQL - operators.md",
-        "03 - Notes/databasesElements.md",
+        "03 - Notes/databases - elements.md",
         "03 - Notes/databases - erm_Model.md",
         "03 - Notes/database - erm_Rm_traduction.md",
-        "03 - Notes/databaseRelevantTerms.md",
-        "03 - Notes/databasesCharacteristics.md",
+        "03 - Notes/database - relevantTerms.md",
+        "03 - Notes/databases - characteristics.md",
         "03 - Notes/SQL - updateSentence.md",
         "03 - Notes/SQL - selectSentence.md",
         "03 - Notes/SQL - correlatedQuerys.md",

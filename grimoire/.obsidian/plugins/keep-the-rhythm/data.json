@@ -194,7 +194,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "03 - Notes/databaseRelevantTerms.md",
+        "filePath": "03 - Notes/database - relevantTerms.md",
         "wordCountStart": 135,
         "charCountStart": 862,
         "changes": [
@@ -226,7 +226,23 @@
         "filePath": "03 - Notes/databases - erm_Model.md",
         "wordCountStart": 152,
         "charCountStart": 1240,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "10:45",
+            "w": 12,
+            "c": 28
+          },
+          {
+            "timeKey": "10:50",
+            "w": 4,
+            "c": 7
+          },
+          {
+            "timeKey": "10:55",
+            "w": 1,
+            "c": 1
+          }
+        ],
         "id": 10
       },
       {
@@ -242,8 +258,38 @@
         "filePath": "03 - Notes/algorithms.md",
         "wordCountStart": 131,
         "charCountStart": 977,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "10:45",
+            "w": 0,
+            "c": -36
+          }
+        ],
         "id": 12
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/Java - Try Blocks.md",
+        "wordCountStart": 182,
+        "charCountStart": 1556,
+        "changes": [],
+        "id": 13
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - characteristics.md",
+        "wordCountStart": 108,
+        "charCountStart": 833,
+        "changes": [],
+        "id": 14
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - elements.md",
+        "wordCountStart": 261,
+        "charCountStart": 1820,
+        "changes": [],
+        "id": 15
       }
     ]
   }

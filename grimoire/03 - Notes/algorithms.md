@@ -5,7 +5,6 @@ cssclasses:
   - " roundedImages"
   - " centerImages"
 ---
-
 # :dev_thealgorithms_original: Algorithms
 
 > [!note] Definition
