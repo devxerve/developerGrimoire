@@ -80,8 +80,8 @@
             "state": {
               "type": "trash-explorer",
               "state": {},
-              "icon": "trash",
-              "title": "Trash explorer"
+              "icon": "lucide-ghost",
+              "title": "trash-explorer"
             }
           }
         ]
@@ -181,8 +181,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -196,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -222,7 +222,7 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "6681dd15406b1c3e",
+  "active": "b85fdab943fd79cf",
   "lastOpenFiles": [
     "02 - Conceps/Databases.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
