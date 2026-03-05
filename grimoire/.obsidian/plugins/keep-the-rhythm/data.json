@@ -223,6 +223,16 @@
             "timeKey": "10:30",
             "w": -13,
             "c": -58
+          },
+          {
+            "timeKey": "23:25",
+            "w": 13,
+            "c": 63
+          },
+          {
+            "timeKey": "23:30",
+            "w": 59,
+            "c": 335
           }
         ],
         "id": 9
@@ -286,7 +296,18 @@
         "filePath": "03 - Notes/databases - characteristics.md",
         "wordCountStart": 108,
         "charCountStart": 833,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "23:20",
+            "w": 39,
+            "c": 225
+          },
+          {
+            "timeKey": "23:25",
+            "w": -41,
+            "c": -281
+          }
+        ],
         "id": 14
       },
       {
@@ -294,7 +315,13 @@
         "filePath": "03 - Notes/databases - elements.md",
         "wordCountStart": 261,
         "charCountStart": 1820,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "23:25",
+            "w": -261,
+            "c": -1820
+          }
+        ],
         "id": 15
       },
       {
@@ -942,6 +969,62 @@
         "charCountStart": 591,
         "changes": [],
         "id": 87
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - subQuerys.md",
+        "wordCountStart": 113,
+        "charCountStart": 913,
+        "changes": [],
+        "id": 88
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - selectSentence.md",
+        "wordCountStart": 449,
+        "charCountStart": 3225,
+        "changes": [],
+        "id": 89
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - operators.md",
+        "wordCountStart": 66,
+        "charCountStart": 564,
+        "changes": [],
+        "id": 90
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - mysql_Introduction.md",
+        "wordCountStart": 66,
+        "charCountStart": 482,
+        "changes": [],
+        "id": 91
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - minimumSelect_syntax.md",
+        "wordCountStart": 123,
+        "charCountStart": 917,
+        "changes": [],
+        "id": 92
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/SQL - joinSentence.md",
+        "wordCountStart": 248,
+        "charCountStart": 1720,
+        "changes": [],
+        "id": 93
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/Java - accesModifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 940,
+        "changes": [],
+        "id": 94
       }
     ]
   }

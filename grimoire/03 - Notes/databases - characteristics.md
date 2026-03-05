@@ -10,16 +10,14 @@ tags:
 ---
 
 
-# :fas_database: Características de una base de datos
-- Definición: Una base de datos es un conjunto de datos organizado siguiendo una estructura que se define una sola vez y se usa a la vez por muchos equipos y usuarios.
-- Los datos están centralizados y organizados minimizando su  [[Términos relevantes BBDD|Redundancia]] y facilitando su gestión.
-- Es única para toda la organización.
-- Esta formada no solamente por los datos de la organización, sino también por una descripción de dichos datos (metadatos).
+# :fas_database: Databases characteristics
 
-**==Es obligatorio que una tabla tenga una clave primaria y que cada dato sea atómico (solo un dato por campo).==**
+- Definition: A database is a group of data following a structure that is defined one single time, and its used at the same time by many users and teams.
+- Data is centralized and organized minimizing its [[database - relevantTerms#Redundancy|Redundancy]] and make them easy to manage.
+- Its unique for all the organization
+- It is formed not only by organization data, but also a description of those data (metadata)
 
-
-
+<mark style="background: #FF5582A6;">It is mandatory that a table has a primary key and that every datum is atomic (only 1 datum per field)</mark>
 
 
 

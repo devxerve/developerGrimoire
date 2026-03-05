@@ -8,6 +8,15 @@ tags:
 ---
 
 # :fas_database: Databases relevant terms
+## Primary key
+A primary key it is a piece of data (datum) that cannot be repeated or NULL in the table it belongs.
+
+## Secondary key
+These keys are candidates for being a primary key, but they are not because other types of data are more meaningful for this purpose.
+
+## Foreign key
+A foreign key is a datum that is related to another table, it has the power of making relations between tables. 
+
 ## Redundancy:
 Redundancy happens when a specific piece of data is repeated throughout the database, it is still tolerable, when there is too much it is a bad practice.
 # Integrity
