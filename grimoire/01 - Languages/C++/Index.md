@@ -1,18 +1,21 @@
 ---
-{}
+cssclasses:
+  - "centerTitles "
+  - " centerImages"
+  - " roundedImages"
 ---
 
 # C++
 
-## Sobre este lenguaje
-Lenguaje de programación de propósito general y bajo nivel.
-Usado principalmente para Arduino Lilypad en el proyecto Serious Games.
+## Notes
+[[c++ - dataTypes]]
+[[c++ - constructors]]
 
-## Notas
 
-## Recursos
+## Resources
 -
 
-## Pendiente por aprender
-- [ ] Punteros en profundidad
-- [ ] Gestión de memoria
+## Yet to learn
+- [ ] Pointers
+- [ ] Memory management
+- [ ] 

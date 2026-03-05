@@ -1,5 +1,8 @@
 ---
-{}
+cssclasses:
+  - "centerTitles "
+  - " centerImages"
+  - " roundedImages"
 ---
 
 # JavaScript — core

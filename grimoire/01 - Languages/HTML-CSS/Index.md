@@ -1,5 +1,8 @@
 ---
-{}
+cssclasses:
+  - "centerTitles "
+  - " centerImages"
+  - " roundedImages"
 ---
 
 # Html & css
