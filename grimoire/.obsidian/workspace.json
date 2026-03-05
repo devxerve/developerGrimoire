@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/Java - snippets.md",
+                "file": "03 - Notes/databaseRelevantTerms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java - snippets"
+              "title": "databaseRelevantTerms"
             }
           }
         ]
@@ -224,6 +224,8 @@
   },
   "active": "b85fdab943fd79cf",
   "lastOpenFiles": [
+    "03 - Notes/bestPractices.md",
+    "03 - Notes/Java - snippets.md",
     "02 - Conceps/Databases.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
     "03 - Notes/database - erm_Rm_traduction.md",
@@ -233,7 +235,6 @@
     "03 - Notes/algorithms.md",
     "99 - Meta/01 - Notebooks/Excalidraw/algorithmDiagram.md",
     "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
-    "03 - Notes/bestPractices.md",
     "output/bestPractices.html",
     "output",
     "03 - Notes/Java - Try Blocks.md",

@@ -1,8 +1,8 @@
 ---
 cssclasses:
-  - centerTitles
-  - " centerImages "
+  - "centerTitles "
   - " roundedImages"
+  - " centerImages"
 tags:
   - java
 ---

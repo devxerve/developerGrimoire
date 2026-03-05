@@ -2,8 +2,8 @@
 date: 2026-02-25T08:28
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # ::dev_java_original:Original: Sincronización de procesos

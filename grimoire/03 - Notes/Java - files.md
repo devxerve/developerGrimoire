@@ -1,8 +1,8 @@
 ---
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_java_original: java.io

@@ -2,9 +2,9 @@
 References:
   - "[[bbdd_relacionales.pdf]]"
 cssclasses:
-  - centerTitles
-  - " centerImages "
+  - "centerTitles "
   - " roundedImages"
+  - " centerImages"
 tags:
   - databases
 ---

@@ -2,8 +2,8 @@
 date: 2026-02-19T12:17
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_java_original:Exception’s control | try-catch blocks

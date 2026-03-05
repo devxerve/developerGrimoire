@@ -2,9 +2,9 @@
 References:
   - "[[almacenamiento_informacion.pdf]]"
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " roundedImages"
+  - " centerImages"
 tags:
   - databases
 ---

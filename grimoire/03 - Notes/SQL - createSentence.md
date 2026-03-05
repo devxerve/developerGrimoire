@@ -3,8 +3,8 @@ tags:
   - sql
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_mysql_original: Creacion de bases, tablas y vistas sentencia create

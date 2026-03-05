@@ -1,9 +1,9 @@
 ---
 date: 2026-02-28T14:10
 cssclasses:
-  - centerTitles
-  - " centerImages "
+  - "centerTitles "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # Operadores relacionales

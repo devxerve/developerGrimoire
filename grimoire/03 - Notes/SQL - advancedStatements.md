@@ -3,8 +3,8 @@ tags:
   - sql
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 date: 2026-02-02T12:26
 ---
 

@@ -2,8 +2,8 @@
 date: 2026-02-13T12:58
 cssclasses:
   - "centerTitles "
-  - " centerImages "
   - " roundedImages"
+  - " centerImages"
 ---
 
 # Java - databaseConnection (jdbc)

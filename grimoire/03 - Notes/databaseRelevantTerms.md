@@ -1,25 +1,23 @@
 ---
 cssclasses:
-  - center-titles
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " roundedImages"
+  - " centerImages"
 tags:
   - databases
 ---
 
-# :fas_database: Términos relevantes bbdd
-## Redundancia:
-Se dice que hay redundancia cuando un dato se repite en la base de datos, a un nivel bajo es tolerable, cuando hay demasiada resulta inconveniente
-# Integridad
-Se dice que un dato esta integro cuando no se ha perdido parte o la totalidad de su información y/o contexto
+# :fas_database: Databases relevant terms
+## Redundancy:
+Redundancy happens when a specific piece of data is repeated throughout the database, it is still tolerable, when there is too much it is a bad practice.
+# Integrity
+When a data is not partially or totally broken we say that that data is integral
 
-# Consistencia
-Cuando un dato es consistente es por que tiene una información que tiene sentido.
-(por ejemplo en fecha de nacimiento por lo general no se pone Lunes sino la fecha en cuestión)
+# Consistency
+For a data to be consistent is essential that the info inside it has sense
+For example you usually don't store someone was born in Monday, you store the specific date.
+# Tuples
+A tuple of data is a structure of data (for example a row in a table)
 
-# Tuplas
-Una tupla de datos es un conjunto de datos (Una fila en una tabla)
-
-# Diccionario de datos
-Es un conjunto de descripciones de los diferentes campos de la base de datos, sirven para aportar un contexto a la base de datos.
-
+# Data diccionary
+Description of the different fields of the database, they give a context about the database.

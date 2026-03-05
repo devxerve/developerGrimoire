@@ -1,16 +1,14 @@
 ---
 date: 2026-02-11T10:26
 cssclasses:
-  - center-titles
-  - center-images
-  - rounded-images
-  - page-grid
-  - pen-red
+  - "centerTitles "
+  - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_java_original::luc_layout_template: Snippets java
 # setCharset()
-## <mark style="background: #FF5582A6;">Incluir Caracteres (UTF-8) en system out</mark>
+## <mark style="background: #FF5582A6;">Includes characters UTF-8 in System.out</mark>
 
 ```java title="setCharset()"
 private static void setCharset() {
@@ -22,61 +20,55 @@ private static void setCharset() {
 }
 ```
 
-# leerInt()
-## <mark style="background: #FF5582A6;">Control De número entero </mark>
+# Input Validation
 
-```java title="LeerInt()"
-public static int leerInt(Scanner entrada) {
+```java title="int_validation" group="validation"
+public static int readInt(Scanner input) {
 	int output;
-	boolean salir = false;
+	boolean exit = false;
 	output = INI_INT;
 				
 	do {
 		try {
-			output = entrada.nextInt();
-			salir = true;
+			output = input.nextInt();
+			exit = true;
 		} catch (InputMismatchException ex) {
-			System.out.println("Entrada invalida, se esperaba un número entero");
-			entrada.next();
+			System.out.println("Input not valid, an integer number was expected");
+			input.next();
 		}
-	} while (!salir);
+	} while (!exit);
 	return output;
-			
+}
 ```
-
-# leerFloat()
-## <mark style="background: #FF5582A6;">Control De número float </mark>
-
-```java title="leerFloat()"
-public static float leerFloat(Scanner entrada) {
+```java title="validate float" group="validation"
+public static float readFloat(Scanner input) {
 	float output;
-	boolean salir = false;
+	boolean exit = false;
 	output = INI_FLOAT;
 	do {
 		try {
 			output = entrada.nextFloat();
-			salir = true;
+			exit = true;
 		} catch (InputMismatchException ex) {
-			System.out.println("Entrada invalida, se esperaba un número decimal");
-			entrada.next();
+			System.out.println("Input not valid, a float number was expected");
+			input.next();
 		}
-	} while (!salir);
+	} while (!exit);
 	return output;
 }
 ```
 
-# generarNum()
-## <mark style="background: #FF5582A6;">Generar Números en un rango</mark>
+# generateNumber()
 
 ```java title="generarNum()" group=genNum
-public static int generarNum(int max, int min) {
+public static int generateNumber(int max, int min) {
 	int output;
 	output = (int) (Math.random() * (max - min + 1) + min);
 	return output;
 }
 ```
 ```java title="Float generarNum()" group=genNum
-public static float generarNum(int max, int min) {
+public static float generateNumber(int max, int min) {
 	float output;
 	output = (int) (Math.random() * (max - min + 1) + min);
 	return output;
