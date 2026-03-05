@@ -7,7 +7,7 @@ cssclasses:
 
 # Diagrama
 
-![[parametrisation.jpg]]
+![[99 - Meta/attachments/parametrisation.jpg]]
 
 <div class="page-break" style="page-break-before: always;"></div>
 

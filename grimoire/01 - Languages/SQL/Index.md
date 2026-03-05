@@ -14,7 +14,7 @@ cssclasses:
 
 ### 📝:dev_sql::dev_mysql_original: SQL - ddl (Definition)
 [[sql - createSentence]]
-[[sql - alterTableSentence]]
+[[sql - altertableSentence]]
 [[sql - dropSentence]]
 
 ### ✏️ :dev_sql::dev_mysql_original: SQL - dml (Manipulation)

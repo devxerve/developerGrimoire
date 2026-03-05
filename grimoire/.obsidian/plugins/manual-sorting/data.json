@@ -2,12 +2,12 @@
   "customOrder": {
     "/": {
       "children": [
+        "02 - Concepts",
+        "05  - Projects",
         "limbo",
         "01 - Languages",
-        "02 - Conceps",
         "03 - Notes",
         "04 - DevOps",
-        "05 - Projects",
         "06 - Tools",
         "99 - Meta"
       ],
@@ -74,125 +74,56 @@
       ],
       "sortOrder": "custom"
     },
-    "02 - Conceps": {
-      "children": [
-        "02 - Conceps/Databases.md",
-        "02 - Conceps/OOP.md",
-        "02 - Conceps/algorithms_&_dataStructures.md",
-        "02 - Conceps/cleanCoding.md",
-        "02 - Conceps/designPatterns.md"
-      ],
-      "sortOrder": "custom"
-    },
     "03 - Notes": {
       "children": [
-        "03 - Notes/cleanCode - bestPractices.md",
-        "03 - Notes/Java - accesModifiers.md",
-        "03 - Notes/Java - args.md",
-        "03 - Notes/Java - arraylist_forEach.md",
-        "03 - Notes/Java - arrays.md",
-        "03 - Notes/Java - casting.md",
-        "03 - Notes/Java - codeStructure.md",
-        "03 - Notes/java - concurrency .md",
-        "03 - Notes/Java - constants.md",
-        "03 - Notes/Java - Constructors.md",
-        "03 - Notes/Java - databaseConnection.md",
-        "03 - Notes/Java - dataTypes.md",
-        "03 - Notes/Java - fileHandling.md",
-        "03 - Notes/Java - files.md",
-        "03 - Notes/Java - inheritance_polimorphism.md",
-        "03 - Notes/Java - introduction_to_Objects.md",
-        "03 - Notes/Java - iterationStructures.md",
-        "03 - Notes/Java - jFrame.md",
-        "03 - Notes/Java - jUnit.md",
-        "03 - Notes/Java - methods.md",
-        "03 - Notes/Java - operators.md",
-        "03 - Notes/Java - processBuilder.md",
-        "03 - Notes/Java - processes.md",
-        "03 - Notes/Java - selectionStructures.md",
-        "03 - Notes/Java - snippets.md",
-        "03 - Notes/Java - stringBuilder.md",
-        "03 - Notes/Java - Try Blocks.md",
-        "03 - Notes/Java - wrappers.md",
-        "03 - Notes/SQL - advancedStatements.md",
-        "03 - Notes/SQL - alterTableSentence.md",
-        "03 - Notes/SQL - bulkInsert.md",
-        "03 - Notes/SQL - correlatedQuerys.md",
-        "03 - Notes/SQL - createSentence.md",
-        "03 - Notes/SQL - deleteSentence.md",
-        "03 - Notes/SQL - dropSentence.md",
-        "03 - Notes/SQL - insertSentence.md",
-        "03 - Notes/SQL - joinSentence.md",
-        "03 - Notes/SQL - minimumSelect_syntax.md",
-        "03 - Notes/SQL - mysql_Introduction.md",
-        "03 - Notes/SQL - operators.md",
-        "03 - Notes/SQL - selectSentence.md",
-        "03 - Notes/SQL - subQuerys.md",
-        "03 - Notes/SQL - updateSentence.md",
-        "03 - Notes/databases - erm_Model.md",
-        "03 - Notes/database - erm_Rm_traduction.md",
-        "03 - Notes/database - relevantTerms.md",
+        "03 - Notes/cleancode - bestPractices.md",
+        "03 - Notes/java - accesmodifiers.md",
+        "03 - Notes/java - args.md",
+        "03 - Notes/java - arraylist_foreach.md",
+        "03 - Notes/java - arrays.md",
+        "03 - Notes/java - casting.md",
+        "03 - Notes/java - codestructure.md",
+        "03 - Notes/java - concurrency.md",
+        "03 - Notes/java - constants.md",
+        "03 - Notes/java - constructors.md",
+        "03 - Notes/java - databaseConnection.md",
+        "03 - Notes/java - datatypes.md",
+        "03 - Notes/java - filehandling.md",
+        "03 - Notes/java - files.md",
+        "03 - Notes/java - inheritance_polimorphism.md",
+        "03 - Notes/java - introduction_to_objects.md",
+        "03 - Notes/java - iterationStructures.md",
+        "03 - Notes/java - jframe.md",
+        "03 - Notes/java - junit.md",
+        "03 - Notes/java - methods.md",
+        "03 - Notes/java - operators.md",
+        "03 - Notes/java - processbuilder.md",
+        "03 - Notes/java - processes.md",
+        "03 - Notes/java - selectionStructures.md",
+        "03 - Notes/java - snippets.md",
+        "03 - Notes/java - stringbuilder.md",
+        "03 - Notes/java - tryblocks.md",
+        "03 - Notes/java - wrappers.md",
+        "03 - Notes/sql - advancedStatements.md",
+        "03 - Notes/sql - altertableSentence.md",
+        "03 - Notes/sql - bulkInsert.md",
+        "03 - Notes/sql - correlatedQuerys.md",
+        "03 - Notes/sql - createSentence.md",
+        "03 - Notes/sql - deleteSentence.md",
+        "03 - Notes/sql - dropSentence.md",
+        "03 - Notes/sql - insertSentence.md",
+        "03 - Notes/sql - joinSentence.md",
+        "03 - Notes/sql - minimumSelect_syntax.md",
+        "03 - Notes/sql - mysql_introduction.md",
+        "03 - Notes/sql - operators.md",
+        "03 - Notes/sql - selectSentence.md",
+        "03 - Notes/sql - subquerys.md",
+        "03 - Notes/sql - updateSentence.md",
+        "03 - Notes/databases - erm_model.md",
+        "03 - Notes/databases - erm_rm_traduction.md",
+        "03 - Notes/databases - relevantTerms.md",
         "03 - Notes/databases - characteristics.md",
         "03 - Notes/algorithms - algorithms.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "04 - DevOps": {
-      "children": [
-        "04 - DevOps/CI-CD",
-        "04 - DevOps/Docker"
-      ],
-      "sortOrder": "custom"
-    },
-    "04 - DevOps/CI-CD": {
-      "children": [
-        "04 - DevOps/CI-CD/Index.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "04 - DevOps/Docker": {
-      "children": [
-        "04 - DevOps/Docker/Index.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "05 - Projects": {
-      "children": [
-        "05 - Projects/Serious Games - Hydration Bag"
-      ],
-      "sortOrder": "custom"
-    },
-    "05 - Projects/Serious Games - Hydration Bag": {
-      "children": [
-        "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad",
-        "05 - Projects/Serious Games - Hydration Bag/Database",
-        "05 - Projects/Serious Games - Hydration Bag/Architecture.md",
-        "05 - Projects/Serious Games - Hydration Bag/Technical Decisions.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad": {
-      "children": [
-        "05 - Projects/Serious Games - Hydration Bag/Arduino Lilypad/Components.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "05 - Projects/Serious Games - Hydration Bag/Database": {
-      "children": [
-        "05 - Projects/Serious Games - Hydration Bag/Database/Schema.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "06 - Tools": {
-      "children": [
-        "06 - Tools/Git",
-        "06 - Tools/IDEs.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "06 - Tools/Git": {
-      "children": [
-        "06 - Tools/Git/Index.md"
       ],
       "sortOrder": "custom"
     },
@@ -262,6 +193,10 @@
         "99 - Meta/01 - Notebooks/ScrapBook/polimorfismScrap.png",
         "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png"
       ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/01-notebooks/Excalidraw/Scripts": {
+      "children": [],
       "sortOrder": "custom"
     },
     "99 - Meta/attachments": {
@@ -387,39 +322,106 @@
     },
     "limbo": {
       "children": [
-        "limbo/C++ - constructors.md",
-        "limbo/CSS - basics.md",
-        "limbo/CSS - commonSelectors_Properties.md",
-        "limbo/HTML - basics.md",
-        "limbo/HTML - forms.md",
-        "limbo/HTML - lists.md",
-        "limbo/HTML - semanticStructuralElements.md",
-        "limbo/HTML - structuralElements.md",
-        "limbo/HTML - tables.md",
-        "limbo/HTML - tags.md",
-        "limbo/JS - DOM.md",
-        "limbo/Serious - databaseDescription.md",
-        "limbo/XML - atributtes.md",
-        "limbo/XML - Intro.md",
-        "limbo/XML - structure.md",
-        "limbo/XML - validDocuments.md",
-        "limbo/c++ - dataTypes.md",
-        "limbo/databases - dataModels.md",
-        "limbo/debugging.md",
         "limbo/executionQueues.md",
+        "limbo/databases - datamodels.md",
         "limbo/databases - relationsCharacteristics.md",
-        "limbo/serious - appRequirements.md",
-        "limbo/serious - arduinoDevelopment.md",
-        "limbo/serious - boardAlgorithms.md",
-        "limbo/serious - lilypadDesignRules.md",
+        "limbo/serious - apprequirements.md",
+        "limbo/serious - arduinodevelopment.md",
+        "limbo/serious - boardalgorithms.md",
+        "limbo/serious - databasedescription.md",
+        "limbo/serious - lilypaddesignrules.md",
         "limbo/serious - measurements.md",
         "limbo/serious - parametrisation.md",
-        "limbo/serious - technicalReuinon.md",
-        "limbo/serious - totalDrunk.md",
-        "limbo/serious - waterQuantity.md",
+        "limbo/serious - technicalMeeting.md",
+        "limbo/serious - totaldrunk.md",
+        "limbo/serious - waterquantity.md",
+        "limbo/css - basics.md",
+        "limbo/css - commonselectors_properties.md",
+        "limbo/html - basics.md",
+        "limbo/html - forms.md",
+        "limbo/html - lists.md",
+        "limbo/html - semantic_Structural_Elements.md",
+        "limbo/html - structuralElements.md",
+        "limbo/html - tables.md",
+        "limbo/html - tags.md",
+        "limbo/js - dom.md",
+        "limbo/xml - atributtes.md",
+        "limbo/xml - intro.md",
+        "limbo/xml - structure.md",
+        "limbo/xml - validDocuments.md",
+        "limbo/c++ - datatypes.md",
+        "limbo/debugging.md",
         "limbo/softwareDesignModels.md",
         "limbo/testing.md",
         "limbo/whiteBoxTexting.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps": {
+      "children": [
+        "04 - DevOps/ci-cd",
+        "04 - DevOps/docker"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps/ci-cd": {
+      "children": [
+        "04 - DevOps/ci-cd/index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "04 - DevOps/docker": {
+      "children": [
+        "04 - DevOps/docker/index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05  - Projects": {
+      "children": [
+        "05  - Projects/Serious Games - Hydration Bag"
+      ],
+      "sortOrder": "custom"
+    },
+    "05  - Projects/Serious Games - Hydration Bag": {
+      "children": [
+        "05  - Projects/Serious Games - Hydration Bag/Arduino Lilypad",
+        "05  - Projects/Serious Games - Hydration Bag/Database",
+        "05  - Projects/Serious Games - Hydration Bag/technicaldecisions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05  - Projects/Serious Games - Hydration Bag/Arduino Lilypad": {
+      "children": [
+        "05  - Projects/Serious Games - Hydration Bag/Arduino Lilypad/components.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05  - Projects/Serious Games - Hydration Bag/Database": {
+      "children": [
+        "05  - Projects/Serious Games - Hydration Bag/Database/schema.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "06 - Tools": {
+      "children": [
+        "06 - Tools/git",
+        "06 - Tools/ides.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "06 - Tools/git": {
+      "children": [
+        "06 - Tools/git/index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02 - Concepts": {
+      "children": [
+        "02 - Concepts/Databases.md",
+        "02 - Concepts/algorithms__datastructures.md",
+        "02 - Concepts/cleancoding.md",
+        "02 - Concepts/designpatterns.md",
+        "02 - Concepts/oop.md"
       ],
       "sortOrder": "custom"
     }

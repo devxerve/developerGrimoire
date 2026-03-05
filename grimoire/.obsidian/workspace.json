@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/databases - characteristics.md",
+                "file": "03 - Notes/cleancode - bestPractices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "databases - characteristics"
+              "title": "cleancode - bestPractices"
             }
           }
         ]
@@ -80,8 +80,8 @@
             "state": {
               "type": "trash-explorer",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "trash-explorer"
+              "icon": "trash",
+              "title": "Trash explorer"
             }
           }
         ]
@@ -219,38 +219,39 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "file-share:Toggle connection": false,
-      "keep-the-rhythm:Word Count Stats": false
+      "keep-the-rhythm:Word Count Stats": false,
+      "vault-file-renamer:Vault File Renamer": false
     }
   },
-  "active": "0951f1a9d0235778",
+  "active": "2767905274196705",
   "lastOpenFiles": [
-    "03 - Notes/databases - erm_Model.md",
-    "03 - Notes/Java - accesModifiers.md",
-    "03 - Notes/databases - characteristics.md",
-    "03 - Notes/database - relevantTerms.md",
-    "03 - Notes/database - erm_Rm_traduction.md",
-    "03 - Notes/databases - elements.md",
-    "03 - Notes/algorithms - algorithms.md",
-    "03 - Notes/SQL - joinSentence.md",
-    "03 - Notes/SQL - minimumSelect_syntax.md",
-    "03 - Notes/SQL - mysql_Introduction.md",
-    "03 - Notes/SQL - operators.md",
-    "03 - Notes/SQL - selectSentence.md",
-    "03 - Notes/SQL - subQuerys.md",
-    "01 - Languages/SQL/Index.md",
-    "01 - Languages/JavaScript/Index.md",
-    "01 - Languages/JavaScript/Core/Index.md",
-    "01 - Languages/Java/Index.md",
-    "01 - Languages/HTML-CSS/Index.md",
-    "01 - Languages/C++/Index.md",
-    "02 - Conceps/designPatterns.md",
-    "02 - Conceps/oop.md",
-    "02 - Conceps/databases.md",
-    "02 - Conceps/cleanCoding.md",
-    "02 - Conceps/algorithms_&_dataStructures.md",
+    "02 - Concepts/cleanCoding.md",
+    "03 - Notes/databases - relevantTerms.md",
+    "03 - Notes/java - iterationStructures.md",
+    "03 - Notes/java - selectionStructures.md",
+    "03 - Notes/sql - advancedStatements.md",
+    "03 - Notes/sql - altertableSentence.md",
+    "03 - Notes/sql - bulkInsert.md",
+    "03 - Notes/sql - correlatedQuerys.md",
+    "03 - Notes/sql - createSentence.md",
+    "03 - Notes/sql - deleteSentence.md",
+    "03 - Notes/sql - dropSentence.md",
+    "03 - Notes/sql - insertSentence.md",
+    "03 - Notes/sql - joinSentence.md",
+    "03 - Notes/sql - minimumSelect_syntax.md",
+    "03 - Notes/sql - selectSentence.md",
+    "03 - Notes/sql - updateSentence.md",
+    "03 - Notes/sql - subquerys.md",
+    "03 - Notes/sql - operators.md",
+    "03 - Notes/sql - mysql_introduction.md",
+    "03 - Notes/java - wrappers.md",
+    "03 - Notes/java - tryblocks.md",
+    "03 - Notes/java - stringbuilder.md",
+    "03 - Notes/java - snippets.md",
+    "03 - Notes/java - processes.md",
+    "03 - Notes/java - processbuilder.md",
+    "03 - Notes/java - operators.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
-    "limbo/xml - validDocuments.md",
-    "limbo/xml - structure.md",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_1.png",
