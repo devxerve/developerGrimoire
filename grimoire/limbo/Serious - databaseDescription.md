@@ -4,7 +4,7 @@ cssclasses:
   - " centerImages "
   - " roundedImages"
 ---
-# ::devMysqlOriginal:
+# :dev_mysql_original:
 # Create Sentence
 ```SQL title="Database Create Sentence"
 CREATE DATABASE serious_games

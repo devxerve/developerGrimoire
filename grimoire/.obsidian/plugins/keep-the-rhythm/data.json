@@ -684,6 +684,202 @@
         "charCountStart": 778,
         "changes": [],
         "id": 57
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ -  bestPractices.md",
+        "wordCountStart": 156,
+        "charCountStart": 1327,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": -156,
+            "c": -1327
+          }
+        ],
+        "id": 58
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ - constructors.md",
+        "wordCountStart": 4,
+        "charCountStart": 94,
+        "changes": [],
+        "id": 59
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ - dataTypes.md",
+        "wordCountStart": 132,
+        "charCountStart": 835,
+        "changes": [],
+        "id": 60
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - basics.md",
+        "wordCountStart": 217,
+        "charCountStart": 1616,
+        "changes": [],
+        "id": 61
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - commonSelectors_Properties.md",
+        "wordCountStart": 522,
+        "charCountStart": 4369,
+        "changes": [],
+        "id": 62
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases - dataModels.md",
+        "wordCountStart": 80,
+        "charCountStart": 603,
+        "changes": [],
+        "id": 63
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/debugging.md",
+        "wordCountStart": 77,
+        "charCountStart": 633,
+        "changes": [],
+        "id": 64
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - basics.md",
+        "wordCountStart": 149,
+        "charCountStart": 1209,
+        "changes": [],
+        "id": 65
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - forms.md",
+        "wordCountStart": 117,
+        "charCountStart": 812,
+        "changes": [],
+        "id": 66
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - lists.md",
+        "wordCountStart": 517,
+        "charCountStart": 3150,
+        "changes": [],
+        "id": 67
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - semanticStructuralElements.md",
+        "wordCountStart": 505,
+        "charCountStart": 3672,
+        "changes": [],
+        "id": 68
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - structuralElements.md",
+        "wordCountStart": 124,
+        "charCountStart": 832,
+        "changes": [],
+        "id": 69
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tables.md",
+        "wordCountStart": 190,
+        "charCountStart": 1802,
+        "changes": [],
+        "id": 70
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tags.md",
+        "wordCountStart": 262,
+        "charCountStart": 1738,
+        "changes": [],
+        "id": 71
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - concurrency .md",
+        "wordCountStart": 90,
+        "charCountStart": 688,
+        "changes": [],
+        "id": 72
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/Java - jUnit.md",
+        "wordCountStart": 362,
+        "charCountStart": 2853,
+        "changes": [],
+        "id": 73
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/js - DOM.md",
+        "wordCountStart": 160,
+        "charCountStart": 1465,
+        "changes": [],
+        "id": 74
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases - relationsCharacteristics.md",
+        "wordCountStart": 179,
+        "charCountStart": 1308,
+        "changes": [],
+        "id": 75
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - databaseDescription.md",
+        "wordCountStart": 962,
+        "charCountStart": 7710,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": 0,
+            "c": -187
+          }
+        ],
+        "id": 76
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - atributtes.md",
+        "wordCountStart": 74,
+        "charCountStart": 534,
+        "changes": [],
+        "id": 77
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - Intro.md",
+        "wordCountStart": 68,
+        "charCountStart": 504,
+        "changes": [],
+        "id": 78
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - structure.md",
+        "wordCountStart": 59,
+        "charCountStart": 457,
+        "changes": [],
+        "id": 79
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - validDocuments.md",
+        "wordCountStart": 198,
+        "charCountStart": 1356,
+        "changes": [],
+        "id": 80
       }
     ]
   }
