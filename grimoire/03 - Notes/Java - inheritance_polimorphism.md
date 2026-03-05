@@ -62,7 +62,7 @@ El polimorfismo se parece mucho a la herencia, permite que objetos de distintas 
 ## Tipos
 ### Sobrecarga (Compile-time)
 > [!info] Sobrecarga (Compile-time)
-> Metodos con el mismo nombre pero diferentes parámetros dentro de la misma clase, Java elige los parámetros según lo que pongamos nosotros, similar a [[Java - Constructors#Sobrecarga de constructores|la sobrecarga de constructores]]
+> Metodos con el mismo nombre pero diferentes parámetros dentro de la misma clase, Java elige los parámetros según lo que pongamos nosotros, similar a [[java - constructors#Sobrecarga de constructores|la sobrecarga de constructores]]
 > 
 
 ```java title="Polimorfismo Compile-time" group="polimorfismo"
@@ -94,7 +94,7 @@ public class Perro extends Animal{
 ### Sobreescritura (Runtime)
 
 > [!info] Sobreescritura (Runtime)
-> Clase hija reescribe el método de la superclase ([[Java - inheritance_polimorphism#Herencia|Herencia]]) con la anotación @Override
+> Clase hija reescribe el método de la superclase ([[java - inheritance_polimorphism#Herencia|Herencia]]) con la anotación @Override
 > Se ejecuta la versión correcta según el objeto que la llama
 > En el ejemplo de arriba si lo ejecuta Animal se mostrara GRRR, si lo ejecuta Perro se mostrara GUAU
 

@@ -5,30 +5,30 @@ cssclasses:
   - " roundedImages"
 ---
 
-# :dev_sql::dev_mysql_original: Sql
+# :dev_sql::dev_mysql_original: SQL
 
 ## :dev_sql: Notes
 ### :dev_sql::dev_mysql_original: SQL- basics
-[[SQL - mysql_Introduction]]
-[[SQL - operators]]
+[[sql - mysql_Introduction]]
+[[sql - operators]]
 
 ### 📝:dev_sql::dev_mysql_original: SQL - ddl (Definition)
-[[SQL - createSentence]]
-[[SQL - alterTableSentence]]
-[[SQL - dropSentence]]
+[[sql - createSentence]]
+[[sql - alterTableSentence]]
+[[sql - dropSentence]]
 
 ### ✏️ :dev_sql::dev_mysql_original: SQL - dml (Manipulation)
-[[SQL - insertSentence]]
-[[SQL - updateSentence]]
-[[SQL - deleteSentence]]
-[[SQL - bulkInsert]]
+[[sql - insertSentence]]
+[[sql - updateSentence]]
+[[sql - deleteSentence]]
+[[sql - bulkInsert]]
 
 ### 🔍 :dev_sql::dev_mysql_original: SQL - queries
-[[SQL - selectSentence]]
-[[SQL - minimumSelect_syntax]]
-[[SQL - joinSentence]]
-[[SQL - subQuerys]]
-[[SQL - correlatedQuerys]]
+[[sql - selectSentence]]
+[[sql - minimumSelect_syntax]]
+[[sql - joinSentence]]
+[[sql - subQuerys]]
+[[sql - correlatedQuerys]]
 
 ### ⚡:dev_sql::dev_mysql_original: SQL - advanced
-[[SQL - advancedStatements]]
+[[sql - advancedStatements]]

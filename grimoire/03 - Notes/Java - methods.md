@@ -77,7 +77,7 @@ public static int[] crearArray([int tam]){
 ```
 
 ### Método tipo objeto
-Este método devuelve un dato de tipo [[Java - introduction_to_Objects|Objeto.]]
+Este método devuelve un dato de tipo [[java - introduction_to_Objects|Objeto.]]
 ```java cpp title:Metodo_Objeto
 public static Persona crearPersona([String nombre]){
     Persona output = new Persona(nombre);

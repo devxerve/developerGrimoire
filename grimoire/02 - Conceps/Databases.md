@@ -1,7 +1,7 @@
 ---
 cssclasses:
-  - " centerImages "
-  - centerTitles
+  - "centerTitles "
+  - " centerImages"
   - " roundedImages"
 ---
 
@@ -13,3 +13,6 @@ cssclasses:
 [[database - relevantTerms]]
 [[databases - erm_Model]]
 [[database - erm_Rm_traduction]]
+
+# Related content
+[[01 - Languages/SQL/Index|SQL]]

@@ -71,7 +71,7 @@
     "dailyActivity": [
       {
         "date": "2026-03-03",
-        "filePath": "03 - Notes/algorithms.md",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
         "wordCountStart": 131,
         "charCountStart": 940,
         "changes": [
@@ -85,7 +85,7 @@
       },
       {
         "date": "2026-03-04",
-        "filePath": "03 - Notes/algorithms.md",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
         "wordCountStart": 131,
         "charCountStart": 940,
         "changes": [],
@@ -153,7 +153,7 @@
       },
       {
         "date": "2026-03-04",
-        "filePath": "03 - Notes/Java - snippets.md",
+        "filePath": "03 - Notes/java - snippets.md",
         "wordCountStart": 222,
         "charCountStart": 1995,
         "changes": [
@@ -167,7 +167,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "03 - Notes/Java - snippets.md",
+        "filePath": "03 - Notes/java - snippets.md",
         "wordCountStart": 222,
         "charCountStart": 1995,
         "changes": [
@@ -186,10 +186,16 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "03 - Notes/bestPractices.md",
+        "filePath": "03 - Notes/cleanCode - bestPractices.md",
         "wordCountStart": 1212,
         "charCountStart": 10375,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": -1212,
+            "c": -10375
+          }
+        ],
         "id": 8
       },
       {
@@ -255,7 +261,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "03 - Notes/algorithms.md",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
         "wordCountStart": 131,
         "charCountStart": 977,
         "changes": [
@@ -269,7 +275,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "03 - Notes/Java - Try Blocks.md",
+        "filePath": "03 - Notes/java - Try Blocks.md",
         "wordCountStart": 182,
         "charCountStart": 1556,
         "changes": [],
@@ -290,6 +296,394 @@
         "charCountStart": 1820,
         "changes": [],
         "id": 15
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - args.md",
+        "wordCountStart": 187,
+        "charCountStart": 1471,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": -5,
+            "c": -89
+          },
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 16
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/Databases.md",
+        "wordCountStart": 20,
+        "charCountStart": 305,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 7,
+            "c": 52
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/SQL/Index.md",
+        "wordCountStart": 61,
+        "charCountStart": 819,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": -34
+          },
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - databaseConnection.md",
+        "wordCountStart": 186,
+        "charCountStart": 1673,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 19,
+            "c": 80
+          }
+        ],
+        "id": 19
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/Algorithms & Data Structures.md",
+        "wordCountStart": 4,
+        "charCountStart": 72,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 4,
+            "c": 60
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/Clean coding.md",
+        "wordCountStart": 7,
+        "charCountStart": 122,
+        "changes": [],
+        "id": 21
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - accesModifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 965,
+        "changes": [],
+        "id": 22
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arraylist_forEach.md",
+        "wordCountStart": 283,
+        "charCountStart": 2138,
+        "changes": [],
+        "id": 23
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arrays.md",
+        "wordCountStart": 203,
+        "charCountStart": 1527,
+        "changes": [],
+        "id": 24
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - casting.md",
+        "wordCountStart": 129,
+        "charCountStart": 892,
+        "changes": [],
+        "id": 25
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - codeStructure.md",
+        "wordCountStart": 132,
+        "charCountStart": 942,
+        "changes": [],
+        "id": 26
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constants.md",
+        "wordCountStart": 99,
+        "charCountStart": 701,
+        "changes": [],
+        "id": 27
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constructors.md",
+        "wordCountStart": 110,
+        "charCountStart": 982,
+        "changes": [],
+        "id": 28
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - dataTypes.md",
+        "wordCountStart": 117,
+        "charCountStart": 761,
+        "changes": [],
+        "id": 29
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - fileHandling.md",
+        "wordCountStart": 4,
+        "charCountStart": 87,
+        "changes": [],
+        "id": 30
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - files.md",
+        "wordCountStart": 355,
+        "charCountStart": 2773,
+        "changes": [],
+        "id": 31
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - inheritance_polimorphism.md",
+        "wordCountStart": 359,
+        "charCountStart": 3027,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": -107
+          }
+        ],
+        "id": 32
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - introduction_to_Objects.md",
+        "wordCountStart": 199,
+        "charCountStart": 1548,
+        "changes": [],
+        "id": 33
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - iterationStructures.md",
+        "wordCountStart": 357,
+        "charCountStart": 2421,
+        "changes": [],
+        "id": 34
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - jFrame.md",
+        "wordCountStart": 55,
+        "charCountStart": 430,
+        "changes": [],
+        "id": 35
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - methods.md",
+        "wordCountStart": 340,
+        "charCountStart": 2478,
+        "changes": [],
+        "id": 36
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - operators.md",
+        "wordCountStart": 392,
+        "charCountStart": 2697,
+        "changes": [],
+        "id": 37
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processBuilder.md",
+        "wordCountStart": 366,
+        "charCountStart": 3457,
+        "changes": [],
+        "id": 38
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processes.md",
+        "wordCountStart": 20,
+        "charCountStart": 234,
+        "changes": [],
+        "id": 39
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - selectionStructures.md",
+        "wordCountStart": 283,
+        "charCountStart": 2034,
+        "changes": [],
+        "id": 40
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - stringBuilder.md",
+        "wordCountStart": 107,
+        "charCountStart": 879,
+        "changes": [],
+        "id": 41
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - wrappers.md",
+        "wordCountStart": 158,
+        "charCountStart": 1275,
+        "changes": [],
+        "id": 42
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - advancedStatements.md",
+        "wordCountStart": 368,
+        "charCountStart": 2519,
+        "changes": [],
+        "id": 43
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - alterTableSentence.md",
+        "wordCountStart": 76,
+        "charCountStart": 779,
+        "changes": [],
+        "id": 44
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - bulkInsert.md",
+        "wordCountStart": 76,
+        "charCountStart": 737,
+        "changes": [],
+        "id": 45
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - correlatedQuerys.md",
+        "wordCountStart": 82,
+        "charCountStart": 605,
+        "changes": [],
+        "id": 46
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - createSentence.md",
+        "wordCountStart": 168,
+        "charCountStart": 1375,
+        "changes": [],
+        "id": 47
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - deleteSentence.md",
+        "wordCountStart": 37,
+        "charCountStart": 395,
+        "changes": [],
+        "id": 48
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - dropSentence.md",
+        "wordCountStart": 38,
+        "charCountStart": 360,
+        "changes": [],
+        "id": 49
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - insertSentence.md",
+        "wordCountStart": 229,
+        "charCountStart": 1729,
+        "changes": [],
+        "id": 50
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - joinSentence.md",
+        "wordCountStart": 248,
+        "charCountStart": 1767,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": -47
+          }
+        ],
+        "id": 51
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - minimumSelect_syntax.md",
+        "wordCountStart": 123,
+        "charCountStart": 946,
+        "changes": [],
+        "id": 52
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - mysql_Introduction.md",
+        "wordCountStart": 66,
+        "charCountStart": 506,
+        "changes": [],
+        "id": 53
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - operators.md",
+        "wordCountStart": 66,
+        "charCountStart": 591,
+        "changes": [],
+        "id": 54
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - selectSentence.md",
+        "wordCountStart": 449,
+        "charCountStart": 3326,
+        "changes": [],
+        "id": 55
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - subQuerys.md",
+        "wordCountStart": 113,
+        "charCountStart": 950,
+        "changes": [],
+        "id": 56
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - updateSentence.md",
+        "wordCountStart": 99,
+        "charCountStart": 778,
+        "changes": [],
+        "id": 57
       }
     ]
   }

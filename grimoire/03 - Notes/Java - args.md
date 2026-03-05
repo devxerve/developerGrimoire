@@ -16,7 +16,7 @@ public static void main(String[] args){
 }
 ```
 
-`String[] args` Es un [[01 -Módulos/Programación/Apuntes/Arrays Java|Array]] de strings que contiene [[Java - args|argumentos]] que se le pasan al main
+`String[] args` Es un [[java - arrays]] de strings que contiene [[java - args|argumentos]] que se le pasan al main
 Estos argumentos pueden ser por ejemplo comandos de la linea de comandos del sistema y podemos trabajar con ellos usando cualquiera de los metodos asociados a los Arrays de Strings
 
 ```java title=Ejemplo args"

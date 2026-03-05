@@ -14,53 +14,53 @@ General purpose object oriented programming (OOP) language
 # Notes
 ## :dev_java_original: Java - Basics
 
-[[Java - codeStructure]]
-[[Java - dataTypes]]
-[[Java - constants]]
-[[Java - casting]]
-[[Java - operators]]
-[[Java - selectionStructures]]
-[[Java - iterationStructures]]
-[[Java - methods]]
-[[Java - arrays]]
-[[Java - arraylist_forEach]]
-[[Java - args]]
-[[Java - wrappers]]
+[[java - codeStructure]]
+[[java - dataTypes]]
+[[java - constants]]
+[[java - casting]]
+[[java - operators]]
+[[java - selectionStructures]]
+[[java - iterationStructures]]
+[[java - methods]]
+[[java - arrays]]
+[[java - arraylist_forEach]]
+[[java - args]]
+[[java - wrappers]]
 [[Java - tryCatch]]
-[[Java - Try Blocks]]
+[[java - Try Blocks]]
 ***
 ## :dev_java_original: Java - OOP
 
-[[Java - introduction_to_Objects]]
-[[Java - Constructors]]
-[[Java - accesModifiers]]
-[[Java - inheritance_polimorphism]]
+[[java - introduction_to_Objects]]
+[[java - constructors]]
+[[java - accesModifiers]]
+[[java - inheritance_polimorphism]]
 
 
 
 ***
 ## :dev_java_original: Java - GUI
-[[Java - jFrame]]
+[[java - jFrame]]
 
 
 ***
 ## :dev_java_original::luc_timer: Java - Concurrency
-[[Java - processes]]
-[[Java - processBuilder]]
+[[java - processes]]
+[[java - processBuilder]]
 
 ***
 ## :dev_java_original: :fas_database: Java - Files and database handling
-[[Java - files]]
-[[Java - fileHandling]]
-[[Java - databaseConnection]]
+[[java - files]]
+[[java - fileHandling]]
+[[java - databaseConnection]]
 
 ***
 ## :dev_java_original: 📖 Java - Resources
 - Official documentation  →  https://docs.oracle.com/en/java/
 
 ### :dev_java_original: :fas_tools: Utilities
-[[Java - stringBuilder]]
-[[Java - snippets]]
+[[java - stringBuilder]]
+[[java - snippets]]
 ***
 ## Yet to learn
 - [ ] Streams & lambdas

@@ -1,9 +1,9 @@
 ---
 cssclasses:
-  - " centerImages "
-  - centerTitles
+  - "centerTitles "
+  - " centerImages"
   - " roundedImages"
 ---
 
 # Clean coding
-[[bestPractices]]
+[[cleanCode - bestPractices]]

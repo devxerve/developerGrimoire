@@ -9,7 +9,7 @@ tags:
 
 # :dev_java_original:Wrappers
 Son clases envoltorio de datos primitivos 
-![[Java - dataTypes]]
+![[java - dataTypes]]
 
 Sirven para tratar los datos primitivos como objetos
 
@@ -28,7 +28,7 @@ valueOf(tipo) / valueOf(String) → // Devuelve el valor del objeto
 parse[Tipo](String)  → lanza NumberFormatException // 
 ```
 
-# Equivalencias con [[Java - dataTypes]]
+# Equivalencias con [[java - dataTypes]]
 
 <mark style="background: #FF5582A6;">LO SIGUIENTE NO ES CODIGO ES UNA FORMA VISUAL DE VER LA EQUIVALENCIA</mark>
 
