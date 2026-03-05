@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/databaseRelevantTerms.md",
+                "file": "03 - Notes/algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "databaseRelevantTerms"
+              "title": "algorithms"
             }
           }
         ]
@@ -222,13 +222,15 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "b85fdab943fd79cf",
+  "active": "6681dd15406b1c3e",
   "lastOpenFiles": [
     "03 - Notes/bestPractices.md",
+    "03 - Notes/database - erm_Rm_traduction.md",
+    "03 - Notes/databaseRelevantTerms.md",
+    "03 - Notes/databases - erm_Model.md",
     "03 - Notes/Java - snippets.md",
     "02 - Conceps/Databases.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
-    "03 - Notes/database - erm_Rm_traduction.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_1.png",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relations.excalidraw.md",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_N.png",
@@ -267,8 +269,6 @@
     "03 - Notes/SQL - dropSentence.md",
     "03 - Notes/SQL - deleteSentence.md",
     "03 - Notes/SQL - createSentence.md",
-    "03 - Notes/SQL - correlatedQuerys.md",
-    "03 - Notes/SQL - bulkInsert.md",
     "99 - Meta/attachments/draw_background.png",
     "Dashboard.canvas",
     "Fullstack Roadmap.canvas",
