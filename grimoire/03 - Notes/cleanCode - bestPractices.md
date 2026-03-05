@@ -43,7 +43,7 @@ class UserManager: # CapitalCase for classes
 
 ## :fas_align_justify: Keep your code clean
 
-More info about it on [[Clean coding]]
+More info about it on [[cleanCoding]]
 Use indents (4 spaces), short lines and separate code blocks by its use.
 ```java title="Clean Code" group="clean"
 public class PaymentProcessor{

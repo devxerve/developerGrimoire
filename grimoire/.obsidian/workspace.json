@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "444fa4102e2592fb",
+        "id": "50ddd8a2774cd9bc",
         "type": "tabs",
         "children": [
           {
-            "id": "6681dd15406b1c3e",
+            "id": "0951f1a9d0235778",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/java - databaseConnection.md",
+                "file": "03 - Notes/algorithms - algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "java - databaseConnection"
-            }
-          },
-          {
-            "id": "54223727ac200847",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Languages/SQL/Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
-            }
-          },
-          {
-            "id": "3e6bdda60685dcbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "limbo/xml - validDocuments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "xml - validDocuments"
+              "title": "algorithms - algorithms"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,8 +222,15 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "3e6bdda60685dcbb",
+  "active": "2767905274196705",
   "lastOpenFiles": [
+    "02 - Conceps/designPatterns.md",
+    "02 - Conceps/oop.md",
+    "02 - Conceps/databases.md",
+    "02 - Conceps/cleanCoding.md",
+    "02 - Conceps/algorithms_&_dataStructures.md",
+    "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
+    "limbo/xml - validDocuments.md",
     "limbo/xml - structure.md",
     "limbo/xml - Intro.md",
     "limbo/xml - atributtes.md",
@@ -273,12 +251,6 @@
     "limbo/css - commonSelectors_Properties.md",
     "limbo/css - basics.md",
     "limbo/c++ - dataTypes.md",
-    "limbo/c++ - constructors.md",
-    "03 - Notes/sql - updateSentence.md",
-    "limbo/c++ -  bestPractices.md",
-    "03 - Notes/sql - subQuerys.md",
-    "03 - Notes/sql - selectSentence.md",
-    "03 - Notes/sql - operators.md",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relations1_1.png",
@@ -298,7 +270,6 @@
     "Excalidraw/Scripts",
     "Excalidraw",
     "99 - Meta/01 - Notebooks/Excalidraw/polimorfism.png",
-    "99 - Meta/attachments/draw_background.png",
     "Dashboard.canvas",
     "Fullstack Roadmap.canvas",
     "00 - Home/Dashboard.canvas",

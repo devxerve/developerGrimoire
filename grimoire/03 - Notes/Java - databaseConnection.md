@@ -8,7 +8,7 @@ cssclasses:
 
 # Java - databaseConnection (jdbc)
 
-For content regarding SQL syntax visit [[01 - Languages/SQL/Index|SQL]] and for concepts regarding databases basics visit [[Databases]]
+For content regarding SQL syntax visit [[01 - Languages/SQL/Index|SQL]] and for concepts regarding databases basics visit [[databases]]
 
 # Ejemplo en una clase separada
 

@@ -77,11 +77,11 @@
     },
     "02 - Conceps": {
       "children": [
-        "02 - Conceps/Databases.md",
-        "02 - Conceps/Algorithms & Data Structures.md",
-        "02 - Conceps/Clean coding.md",
-        "02 - Conceps/Design Patterns.md",
-        "02 - Conceps/OOP.md"
+        "02 - Conceps/databases.md",
+        "02 - Conceps/algorithms_&_dataStructures.md",
+        "02 - Conceps/cleanCoding.md",
+        "02 - Conceps/designPatterns.md",
+        "02 - Conceps/oop.md"
       ],
       "sortOrder": "custom"
     },

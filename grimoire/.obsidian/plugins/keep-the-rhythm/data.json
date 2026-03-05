@@ -145,7 +145,7 @@
       },
       {
         "date": "2026-03-04",
-        "filePath": "02 - Conceps/Databases.md",
+        "filePath": "02 - Conceps/databases.md",
         "wordCountStart": 17,
         "charCountStart": 311,
         "changes": [],
@@ -318,7 +318,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "02 - Conceps/Databases.md",
+        "filePath": "02 - Conceps/databases.md",
         "wordCountStart": 20,
         "charCountStart": 305,
         "changes": [
@@ -365,7 +365,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "02 - Conceps/Algorithms & Data Structures.md",
+        "filePath": "02 - Conceps/algorithms_&_dataStructures.md",
         "wordCountStart": 4,
         "charCountStart": 72,
         "changes": [
@@ -379,7 +379,7 @@
       },
       {
         "date": "2026-03-05",
-        "filePath": "02 - Conceps/Clean coding.md",
+        "filePath": "02 - Conceps/cleanCoding.md",
         "wordCountStart": 7,
         "charCountStart": 122,
         "changes": [],
@@ -880,6 +880,22 @@
         "charCountStart": 1356,
         "changes": [],
         "id": 80
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/designPatterns.md",
+        "wordCountStart": 94,
+        "charCountStart": 854,
+        "changes": [],
+        "id": 81
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/oop.md",
+        "wordCountStart": 76,
+        "charCountStart": 800,
+        "changes": [],
+        "id": 82
       }
     ]
   }
