@@ -1,5 +1,4 @@
 ---
-date: 2026-02-11T10:26
 cssclasses:
   - "centerTitles "
   - " roundedImages"
@@ -8,7 +7,7 @@ cssclasses:
 
 # :dev_java_original::luc_layout_template: Snippets java
 # setCharset()
-## <mark style="background: #FF5582A6;">Includes characters UTF-8 in System.out</mark>
+## <mark style="background: #FF5582A6;">Includes Characters utf-8 in System.out</mark>
 
 ```java title="setCharset()"
 private static void setCharset() {
@@ -20,7 +19,7 @@ private static void setCharset() {
 }
 ```
 
-# Input Validation
+# Input validation
 
 ```java title="int_validation" group="validation"
 public static int readInt(Scanner input) {

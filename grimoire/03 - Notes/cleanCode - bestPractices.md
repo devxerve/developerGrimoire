@@ -5,6 +5,7 @@ cssclasses:
   - " centerImages"
 tags:
 ---
+
 # :luc_check_circle: Best practices
 
 ## 💪 Consistent and clear names
@@ -322,7 +323,7 @@ public void divide(int a, int b) {
 ```
 
 
-## 🚫 :luc_repeat: DRY principle (Dont repeat Yourself)
+## 🚫 :luc_repeat: Dry principle (Dont repeat Yourself)
 
 If a block of code is repeated in the code, make a method / function about it
 

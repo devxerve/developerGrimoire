@@ -9,7 +9,7 @@ tags:
   - databases
 ---
 
-# :fas_database: ERM to RM translation
+# :fas_database: Erm to rm translation
 ## Translation basics
 ### 1. Entity --> table
 Each entity is a table, for each entity there is a table in the relational model
@@ -17,7 +17,7 @@ Each entity is a table, for each entity there is a table in the relational model
 #### Attributes order:
 
 Attributes order is not meaningful, it does not matter.
-#### Relations 
+#### Relations
 ##### 1:N
 The primary key from the entity that is `1` is migrated to the `N` entity
 ![[entity_relations1_N.png]]

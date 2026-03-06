@@ -1,10 +1,10 @@
 ---
-date: 2026-02-28T14:13
 cssclasses:
   - "centerTitles "
   - " roundedImages"
   - " centerImages"
 ---
+
 # :dev_thealgorithms_original: Algorithms
 
 > [!note] Definition

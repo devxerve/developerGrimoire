@@ -7,7 +7,7 @@ cssclasses:
   - " centerImages"
 ---
 
-# :dev_mysql_original: Sentencia SELECT - sintaxis mínima
+# :dev_mysql_original: Sentencia select - sintaxis mínima
 
 ```SQL
 SELECT expresion [,expresion]
@@ -16,7 +16,7 @@ SELECT expresion [,expresion]
 -- * Selecciona todo
 ```
 
-### FROM
+### From
 Indica la(s) tabla(s) afectada(s) por la consulta
 ### Nombre_columna
 Indica el atributo de la tabla indicada en la cláusula from del que se desea mostrar su información 

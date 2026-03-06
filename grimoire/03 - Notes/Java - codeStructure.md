@@ -1,5 +1,4 @@
 ---
-date: 2026-02-28T14:20
 cssclasses:
   - "centerTitles "
   - " roundedImages"

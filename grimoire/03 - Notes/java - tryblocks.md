@@ -1,13 +1,12 @@
 ---
-date: 2026-02-19T12:17
 cssclasses:
   - "centerTitles "
   - " roundedImages"
   - " centerImages"
 ---
 
-# :dev_java_original:Exception’s control | try-catch blocks
-## :fab_java: try - catch
+# :dev_java_original:Exception’s Control | try-catch blocks
+## :fab_java: Try - catch
 When an exception (error) could be thrown the instruction that may cause that exception has to be enclosed in a try statement, followed by a catch statement specifying the exception that you are intending to control
 
 ```java title="try-catch"
@@ -33,7 +32,7 @@ try(Scanner input = new Scanner (System.in)){
 }
 ```
 
-## try-catch-finally
+## Try-catch-finally
 Try-catch-Finally blocks ensure that the instructions in the `finally` statement are executed whether is an exception or not. 
 
 ```java title="Try-with_Resources"

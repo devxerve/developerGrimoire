@@ -3,7 +3,6 @@ cssclasses:
   - "centerTitles "
   - " roundedImages"
   - " centerImages"
-date: 2026-01-28T08:59
 ---
 
 ---

@@ -7,7 +7,7 @@ tags:
   - java
 ---
 
-# :dev_java_original:🔒Modificadores de acceso Java
+# :dev_java_original:🔒Modificadores De acceso Java
 Los modificadores de acceso en Java controlan la visibilidad de atributos y métodos en clases. Existen cuatro niveles principales: public, protected, default (sin especificar) y private.
 
 - **public**: Accessible desde cualquier clase, en cualquier paquete.

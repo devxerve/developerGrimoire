@@ -8,7 +8,7 @@ cssclasses:
 # :dev_java_plain::rif_test_tube: Junit
 JUnit es un framework para automatizar pruebas unitarias, funciona mediante anotaciones (Se hacen con la @)
 
-## Anotaciones Junit 5
+## Anotaciones junit 5
 
 ### @Test
 Marca un método de prueba
@@ -36,7 +36,7 @@ System.out.println("Fin del test" + contador+1);
 }
 ```
 
-## Directivas Junit 5
+## Directivas junit 5
 ### @Before/After All
 Marcan instrucciones para la prueba, pueden set instrucciones anteriores (BeforeAll) o posteriores (After all) a todos los test (en conjunto)
 
@@ -52,15 +52,15 @@ System.out.println("Acaban las pruebas Unitarias con JUnit5")
 }
 ```
 
-## Aserciones Más Comunes En Junit 5
-### assertEquals(valor Esperado, Valor recibido)
+## Aserciones más comunes en junit 5
+### assertEquals(valor Esperado, valor recibido)
 Se compara el esperado con el recibido
 ```java cpp title:assertEquals()
 assertEquals(8, 5 + 3); // Pasa (true)
 assertEquals("Hola", "Hola"); // Pasa
 ```
 
-### assertNotEquals(valor Esperado, Valor recibido)
+### assertNotEquals(valor Esperado, valor recibido)
 Se verifica que el valor esperado NO sea igual al recibido.
 ```java cpp title:assertNotEquals
 assertNotEquals(5, 3 + 3); // Pasa (false esperado)

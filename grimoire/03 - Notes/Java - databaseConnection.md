@@ -1,12 +1,11 @@
 ---
-date: 2026-02-13T12:58
 cssclasses:
   - "centerTitles "
   - " roundedImages"
   - " centerImages"
 ---
 
-# Java - databaseConnection (jdbc)
+# Java - databaseconnection (jdbc)
 
 For content regarding SQL syntax visit [[01 - Languages/SQL/Index|SQL]] and for concepts regarding databases basics visit [[databases]]
 

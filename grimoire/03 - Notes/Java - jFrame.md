@@ -3,7 +3,6 @@ cssclasses:
   - "centerTitles "
   - " roundedImages"
   - " centerImages"
-date: 2026-02-02T12:26
 ---
 
 # Jframe (javax.swing) :dev_java_plain:
