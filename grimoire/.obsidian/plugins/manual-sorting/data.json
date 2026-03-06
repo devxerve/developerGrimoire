@@ -349,7 +349,7 @@
         "limbo/xml - intro.md",
         "limbo/xml - structure.md",
         "limbo/xml - validDocuments.md",
-        "limbo/c++ - datatypes.md",
+        "limbo/c++ - dataTypes.md",
         "limbo/debugging.md",
         "limbo/softwareDesignModels.md",
         "limbo/testing.md",
@@ -417,9 +417,9 @@
     },
     "02 - Concepts": {
       "children": [
+        "02 - Concepts/cleanCoding.md",
         "02 - Concepts/Databases.md",
         "02 - Concepts/algorithms__datastructures.md",
-        "02 - Concepts/cleancoding.md",
         "02 - Concepts/designpatterns.md",
         "02 - Concepts/oop.md"
       ],

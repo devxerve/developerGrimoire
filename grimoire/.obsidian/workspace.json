@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/cleancode - bestPractices.md",
+                "file": "03 - Notes/databases - relevantTerms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cleancode - bestPractices"
+              "title": "databases - relevantTerms"
             }
           }
         ]
@@ -223,8 +223,12 @@
       "vault-file-renamer:Vault File Renamer": false
     }
   },
-  "active": "2767905274196705",
+  "active": "0951f1a9d0235778",
   "lastOpenFiles": [
+    "03 - Notes/databases - erm_model.md",
+    "03 - Notes/databases - characteristics.md",
+    "limbo/c++ - dataTypes.md",
+    "03 - Notes/cleancode - bestPractices.md",
     "02 - Concepts/cleanCoding.md",
     "03 - Notes/databases - relevantTerms.md",
     "03 - Notes/java - iterationStructures.md",
@@ -247,10 +251,6 @@
     "03 - Notes/java - wrappers.md",
     "03 - Notes/java - tryblocks.md",
     "03 - Notes/java - stringbuilder.md",
-    "03 - Notes/java - snippets.md",
-    "03 - Notes/java - processes.md",
-    "03 - Notes/java - processbuilder.md",
-    "03 - Notes/java - operators.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
