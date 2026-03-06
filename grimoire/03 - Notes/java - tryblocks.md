@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 ---
 
 # :dev_java_original:Exception’s Control | try-catch blocks

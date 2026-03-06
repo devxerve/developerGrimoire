@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 ---
 
 # Jframe (javax.swing) :dev_java_plain:

@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 tags:
   - java
 ---

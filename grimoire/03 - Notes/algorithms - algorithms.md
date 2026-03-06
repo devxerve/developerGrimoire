@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 ---
 
 # :dev_thealgorithms_original: Algorithms

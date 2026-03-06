@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 ---
 
 # ::dev_java_original:Original: Sincronización de procesos

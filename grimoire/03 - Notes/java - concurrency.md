@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " centerImages "
-  - " roundedImages"
+cssclasses: pageGrid
 ---
 
 # Programación concurrente

@@ -1,8 +1,5 @@
 ---
-cssclasses:
-  - "centerTitles "
-  - " centerImages "
-  - " roundedImages"
+cssclasses: pageGrid
 ---
 
 # :dev_java_plain::rif_test_tube: Junit

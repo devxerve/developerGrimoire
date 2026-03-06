@@ -1,10 +1,7 @@
 ---
 References:
   - "[[bbdd_relacionales.pdf]]"
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 tags:
   - databases
 ---

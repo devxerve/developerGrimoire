@@ -1,10 +1,7 @@
 ---
 References:
   - "[[almacenamiento_informacion.pdf]]"
-cssclasses:
-  - "centerTitles "
-  - " roundedImages"
-  - " centerImages"
+cssclasses: pageGrid
 tags:
   - databases
 ---
