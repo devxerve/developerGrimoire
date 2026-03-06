@@ -1704,6 +1704,25 @@
           }
         ],
         "id": 164
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "03 - Notes/Java - accesModifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 937,
+        "changes": [
+          {
+            "timeKey": "14:45",
+            "w": 20,
+            "c": 137
+          },
+          {
+            "timeKey": "14:50",
+            "w": -20,
+            "c": -235
+          }
+        ],
+        "id": 165
       }
     ]
   }

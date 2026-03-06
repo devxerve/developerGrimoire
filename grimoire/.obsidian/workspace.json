@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/cleancode - bestpractices.md",
+                "file": "03 - Notes/Java - accesModifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cleancode - bestpractices"
+              "title": "Java - accesModifiers"
             }
           }
         ]
