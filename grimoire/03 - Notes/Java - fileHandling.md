@@ -1,3 +1,6 @@
 ---
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---

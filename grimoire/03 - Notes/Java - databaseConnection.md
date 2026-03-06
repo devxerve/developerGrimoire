@@ -1,5 +1,8 @@
 ---
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---
 
 # Java - databaseconnection (jdbc)

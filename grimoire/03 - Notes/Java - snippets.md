@@ -1,5 +1,8 @@
 ---
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_java_original::luc_layout_template: Snippets java

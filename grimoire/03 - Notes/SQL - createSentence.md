@@ -1,7 +1,10 @@
 ---
 tags:
   - sql
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_mysql_original: Creacion de bases, tablas y vistas sentencia create

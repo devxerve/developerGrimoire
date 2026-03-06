@@ -1,7 +1,10 @@
 ---
 tags:
   - sql
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---
 
 

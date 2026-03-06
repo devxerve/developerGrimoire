@@ -1,7 +1,10 @@
 ---
 tags:
   - sql
-cssclasses: pageGrid
+cssclasses:
+  - centerTitles
+  - " roundedImages"
+  - " centerImages"
 ---
 
 # :dev_mysql_original: Modificación en la definición de las tablas sentencia alter table
