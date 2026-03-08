@@ -8,45 +8,45 @@ tags:
 ---
 
 # :dev_java_original: Args
-Cuando creamos un main siempre tiene esta estructura
+When we create a main method it always has this structure
 
 ```java title="Main"
 public static void main(String[] args){
-	(Instrucciones);
+	(Instructions);
 }
 ```
 
-`String[] args` Es un [[java - arrays]] de strings que contiene [[java - args|argumentos]] que se le pasan al main
-Estos argumentos pueden ser por ejemplo comandos de la linea de comandos del sistema y podemos trabajar con ellos usando cualquiera de los metodos asociados a los Arrays de Strings
+`String[] args` is an [[java - arrays|array]] of strings that insert parameters into the main method
+Those parameters could be for example commands on the system cli, or parameters needed by the main method, and we can work with them using the methods associated to the arrays
 
 ```java title=Ejemplo args"
-package ejemplo_args;
+package example_args;
 
-public class Principal {
+public class Example {
 	public static void main(String[] args) {
 		if(args.length < 2) {
-			System.out.println("[MAIN] Se esperaban mas de 2 argumentos de entrada");
+			System.out.println("[Example] - FATAL: 2 or more args were expected");
 		System.exit(-3);
 		}else {
-			String nombre = args[0];
-			String palabra = args[1];
-			System.out.println(palabra + " " + nombre);
-			System.out.println("Programa finalizado correctamente");
+			String name = args[0];
+			String greeting = args[1];
+			System.out.println(greeting + " " + name);
+			System.out.println("[Example] - Program executed correctly");
 			System.exit(0);
 		}
 }
 }
 ```
 
-# Lanzamiento con argumentos
-Argumentos : Javi Hola
+# Running with args
+Argumentos : Javi , “Hello there”
 
 ```batch prompt:cmd title="Ejemplo lanzamiento por comandos" group:bash
-cd Exercises\2nd Quarter\ejemplo_args\bin
-java ejemplo_args.Principal Javi Hola
+cd Exercises\2nd Quarter\example_args\bin
+java example_args.Example Javi "Hello there"
 ```
 ```shell prompt:bash title="Ejemplo lanzamiento por comandos" group:bash
-cd /javi/Exercises/2nd Quarter/ejemplo_args
-java -cp bin ejemplo_args.Principal Javi Hola
+cd /javi/Exercises/2nd Quarter/example_args
+java -cp bin example_args.Example Javi "Hello there"
 ```
 

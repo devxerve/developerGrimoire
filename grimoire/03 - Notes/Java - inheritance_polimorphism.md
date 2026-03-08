@@ -94,7 +94,7 @@ public class Perro extends Animal{
 ### Sobreescritura (Runtime)
 
 > [!info] Sobreescritura (Runtime)
-> Clase hija reescribe el método de la superclase ([[java - inheritance_polimorphism#Herencia|Herencia]]) con la anotación @Override
+> Clase hija reescribe el método de la superclase ([[java - inheritance_Polimorphism#Herencia|Herencia]]) con la anotación @Override
 > Se ejecuta la versión correcta según el objeto que la llama
 > En el ejemplo de arriba si lo ejecuta Animal se mostrara GRRR, si lo ejecuta Perro se mostrara GUAU
 

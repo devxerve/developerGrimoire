@@ -11,7 +11,7 @@ cssclasses:
 [[databases - elements]]
 [[databases - characteristics]]
 [[database - relevantTerms]]
-[[databases - erm_Model]]
+[[databases - ermModel]]
 [[databases - erm_rm_traduction]]
 
 # Related content

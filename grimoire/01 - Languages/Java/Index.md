@@ -22,7 +22,7 @@ General purpose object oriented programming (OOP) language
 [[java - iterationStructures]]
 [[java - methods]]
 [[java - arrays]]
-[[java - arraylist_forEach]]
+[[java - arraylist]]
 [[java - args]]
 [[java - wrappers]]
 [[Java - tryCatch]]
@@ -33,7 +33,7 @@ General purpose object oriented programming (OOP) language
 [[java - introduction_to_Objects]]
 [[java - constructors]]
 [[java - accesModifiers]]
-[[java - inheritance_polimorphism]]
+[[java - inheritance_Polimorphism]]
 
 
 
