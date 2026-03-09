@@ -1,0 +1,1900 @@
+{
+  "schema": "0.2",
+  "settings": {
+    "enabledLanguages": [
+      "LATIN"
+    ],
+    "dailyWritingGoal": 500,
+    "startOfTheWeek": "SUNDAY",
+    "heatmapNavigation": true,
+    "heatmapConfig": {
+      "roundCells": true,
+      "hideMonthLabels": false,
+      "hideWeekdayLabels": false,
+      "intensityMode": "gradual",
+      "intensityStops": {
+        "low": 100,
+        "medium": 500,
+        "high": 1000
+      },
+      "colors": {
+        "light": {
+          "0": "#e0e0e0",
+          "1": "#9be9a8",
+          "2": "#6ad286",
+          "3": "#2ebd54",
+          "4": "#12a53e"
+        },
+        "dark": {
+          "0": "#ebedf015",
+          "1": "#0e4429",
+          "2": "#006d32",
+          "3": "#26a641",
+          "4": "#39d353"
+        }
+      }
+    },
+    "sidebarConfig": {
+      "visibility": {
+        "showSlots": true,
+        "showEntries": true,
+        "showHeatmap": true
+      },
+      "slots": [
+        {
+          "index": 0,
+          "option": "CURRENT_DAY",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 1,
+          "option": "CURRENT_WEEK",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 2,
+          "option": "LAST_MONTH",
+          "unit": "WORD",
+          "calc": "AVG"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "currentStreak": 0,
+    "highestStreak": 0,
+    "highestStreakStartDate": "",
+    "highestStreakEndDate": "",
+    "daysWithCompletedGoal": [],
+    "dailyActivity": [
+      {
+        "date": "2026-03-03",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
+        "wordCountStart": 131,
+        "charCountStart": 940,
+        "changes": [
+          {
+            "timeKey": "00:45",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 1
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
+        "wordCountStart": 131,
+        "charCountStart": 940,
+        "changes": [],
+        "id": 2
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "03 - Notes/databases - erm_rm_traduction.md",
+        "wordCountStart": 135,
+        "charCountStart": 950,
+        "changes": [
+          {
+            "timeKey": "08:25",
+            "w": -4,
+            "c": -55
+          },
+          {
+            "timeKey": "08:30",
+            "w": 6,
+            "c": 10
+          },
+          {
+            "timeKey": "08:35",
+            "w": -35,
+            "c": -203
+          },
+          {
+            "timeKey": "08:50",
+            "w": 2,
+            "c": 30
+          },
+          {
+            "timeKey": "08:55",
+            "w": 4,
+            "c": 58
+          },
+          {
+            "timeKey": "09:00",
+            "w": 48,
+            "c": 898
+          },
+          {
+            "timeKey": "09:05",
+            "w": -8,
+            "c": -64
+          }
+        ],
+        "id": 3
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "99 - Meta/01 - Notebooks/Excalidraw/entity_relations.excalidraw.md",
+        "wordCountStart": 44,
+        "charCountStart": 570,
+        "changes": [],
+        "id": 4
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "02 - Conceps/databases.md",
+        "wordCountStart": 17,
+        "charCountStart": 311,
+        "changes": [],
+        "id": 5
+      },
+      {
+        "date": "2026-03-04",
+        "filePath": "03 - Notes/java - snippets.md",
+        "wordCountStart": 222,
+        "charCountStart": 1995,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": 0,
+            "c": -84
+          }
+        ],
+        "id": 6
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - snippets.md",
+        "wordCountStart": 222,
+        "charCountStart": 1995,
+        "changes": [
+          {
+            "timeKey": "09:45",
+            "w": -1,
+            "c": -111
+          },
+          {
+            "timeKey": "09:50",
+            "w": -22,
+            "c": -187
+          }
+        ],
+        "id": 7
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/cleancode - bestPractices.md",
+        "wordCountStart": 1212,
+        "charCountStart": 10375,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": -1212,
+            "c": -10375
+          }
+        ],
+        "id": 8
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - relevantTerms.md",
+        "wordCountStart": 135,
+        "charCountStart": 862,
+        "changes": [
+          {
+            "timeKey": "09:55",
+            "w": 6,
+            "c": 31
+          },
+          {
+            "timeKey": "10:00",
+            "w": 46,
+            "c": 251
+          },
+          {
+            "timeKey": "10:20",
+            "w": -52,
+            "c": -307
+          },
+          {
+            "timeKey": "10:30",
+            "w": -13,
+            "c": -58
+          },
+          {
+            "timeKey": "23:25",
+            "w": 13,
+            "c": 63
+          },
+          {
+            "timeKey": "23:30",
+            "w": 59,
+            "c": 335
+          }
+        ],
+        "id": 9
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - ermModel.md",
+        "wordCountStart": 152,
+        "charCountStart": 1240,
+        "changes": [
+          {
+            "timeKey": "10:45",
+            "w": 12,
+            "c": 28
+          },
+          {
+            "timeKey": "10:50",
+            "w": 4,
+            "c": 7
+          },
+          {
+            "timeKey": "10:55",
+            "w": 1,
+            "c": 1
+          }
+        ],
+        "id": 10
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - erm_rm_traduction.md",
+        "wordCountStart": 148,
+        "charCountStart": 1698,
+        "changes": [],
+        "id": 11
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
+        "wordCountStart": 131,
+        "charCountStart": 977,
+        "changes": [
+          {
+            "timeKey": "10:45",
+            "w": 0,
+            "c": -36
+          }
+        ],
+        "id": 12
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - Try Blocks.md",
+        "wordCountStart": 182,
+        "charCountStart": 1556,
+        "changes": [],
+        "id": 13
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - characteristics.md",
+        "wordCountStart": 108,
+        "charCountStart": 833,
+        "changes": [
+          {
+            "timeKey": "23:20",
+            "w": 39,
+            "c": 225
+          },
+          {
+            "timeKey": "23:25",
+            "w": -41,
+            "c": -281
+          }
+        ],
+        "id": 14
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/databases - elements.md",
+        "wordCountStart": 261,
+        "charCountStart": 1820,
+        "changes": [
+          {
+            "timeKey": "23:25",
+            "w": -261,
+            "c": -1820
+          }
+        ],
+        "id": 15
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - args.md",
+        "wordCountStart": 187,
+        "charCountStart": 1471,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": -5,
+            "c": -89
+          },
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 16
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/databases.md",
+        "wordCountStart": 20,
+        "charCountStart": 305,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 7,
+            "c": 52
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/SQL/Index.md",
+        "wordCountStart": 61,
+        "charCountStart": 819,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": -34
+          },
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - databaseConnection.md",
+        "wordCountStart": 186,
+        "charCountStart": 1673,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 19,
+            "c": 80
+          }
+        ],
+        "id": 19
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/algorithms_&_dataStructures.md",
+        "wordCountStart": 4,
+        "charCountStart": 72,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 4,
+            "c": 60
+          },
+          {
+            "timeKey": "23:40",
+            "w": -8,
+            "c": -132
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/cleanCoding.md",
+        "wordCountStart": 7,
+        "charCountStart": 122,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -7,
+            "c": -122
+          }
+        ],
+        "id": 21
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - accesModifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 965,
+        "changes": [],
+        "id": 22
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arraylist_forEach.md",
+        "wordCountStart": 283,
+        "charCountStart": 2138,
+        "changes": [],
+        "id": 23
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arrays.md",
+        "wordCountStart": 203,
+        "charCountStart": 1527,
+        "changes": [],
+        "id": 24
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - casting.md",
+        "wordCountStart": 129,
+        "charCountStart": 892,
+        "changes": [],
+        "id": 25
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - codeStructure.md",
+        "wordCountStart": 132,
+        "charCountStart": 942,
+        "changes": [],
+        "id": 26
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constants.md",
+        "wordCountStart": 99,
+        "charCountStart": 701,
+        "changes": [],
+        "id": 27
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constructors.md",
+        "wordCountStart": 110,
+        "charCountStart": 982,
+        "changes": [],
+        "id": 28
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - dataTypes.md",
+        "wordCountStart": 117,
+        "charCountStart": 761,
+        "changes": [],
+        "id": 29
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - fileHandling.md",
+        "wordCountStart": 4,
+        "charCountStart": 87,
+        "changes": [],
+        "id": 30
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - files.md",
+        "wordCountStart": 355,
+        "charCountStart": 2773,
+        "changes": [],
+        "id": 31
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - inheritance_Polimorphism.md",
+        "wordCountStart": 359,
+        "charCountStart": 3027,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": -107
+          }
+        ],
+        "id": 32
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - introduction_to_Objects.md",
+        "wordCountStart": 199,
+        "charCountStart": 1548,
+        "changes": [],
+        "id": 33
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - iterationStructures.md",
+        "wordCountStart": 357,
+        "charCountStart": 2421,
+        "changes": [],
+        "id": 34
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - jFrame.md",
+        "wordCountStart": 55,
+        "charCountStart": 430,
+        "changes": [],
+        "id": 35
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - methods.md",
+        "wordCountStart": 340,
+        "charCountStart": 2478,
+        "changes": [],
+        "id": 36
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - operators.md",
+        "wordCountStart": 392,
+        "charCountStart": 2697,
+        "changes": [],
+        "id": 37
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processBuilder.md",
+        "wordCountStart": 366,
+        "charCountStart": 3457,
+        "changes": [],
+        "id": 38
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processes.md",
+        "wordCountStart": 20,
+        "charCountStart": 234,
+        "changes": [],
+        "id": 39
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - selectionStructures.md",
+        "wordCountStart": 283,
+        "charCountStart": 2034,
+        "changes": [],
+        "id": 40
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - stringBuilder.md",
+        "wordCountStart": 107,
+        "charCountStart": 879,
+        "changes": [],
+        "id": 41
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - wrappers.md",
+        "wordCountStart": 158,
+        "charCountStart": 1275,
+        "changes": [],
+        "id": 42
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - advancedStatements.md",
+        "wordCountStart": 368,
+        "charCountStart": 2519,
+        "changes": [],
+        "id": 43
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - alterTableSentence.md",
+        "wordCountStart": 76,
+        "charCountStart": 779,
+        "changes": [],
+        "id": 44
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - bulkInsert.md",
+        "wordCountStart": 76,
+        "charCountStart": 737,
+        "changes": [],
+        "id": 45
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - correlatedQuerys.md",
+        "wordCountStart": 82,
+        "charCountStart": 605,
+        "changes": [],
+        "id": 46
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - createSentence.md",
+        "wordCountStart": 168,
+        "charCountStart": 1375,
+        "changes": [],
+        "id": 47
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - deleteSentence.md",
+        "wordCountStart": 37,
+        "charCountStart": 395,
+        "changes": [],
+        "id": 48
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - dropSentence.md",
+        "wordCountStart": 38,
+        "charCountStart": 360,
+        "changes": [],
+        "id": 49
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - insertSentence.md",
+        "wordCountStart": 229,
+        "charCountStart": 1729,
+        "changes": [],
+        "id": 50
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - joinSentence.md",
+        "wordCountStart": 248,
+        "charCountStart": 1767,
+        "changes": [
+          {
+            "timeKey": "11:05",
+            "w": 0,
+            "c": -47
+          }
+        ],
+        "id": 51
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - minimumSelect_syntax.md",
+        "wordCountStart": 123,
+        "charCountStart": 946,
+        "changes": [],
+        "id": 52
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - mysql_Introduction.md",
+        "wordCountStart": 66,
+        "charCountStart": 506,
+        "changes": [],
+        "id": 53
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - operators.md",
+        "wordCountStart": 66,
+        "charCountStart": 591,
+        "changes": [],
+        "id": 54
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - selectSentence.md",
+        "wordCountStart": 449,
+        "charCountStart": 3326,
+        "changes": [],
+        "id": 55
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - subQuerys.md",
+        "wordCountStart": 113,
+        "charCountStart": 950,
+        "changes": [],
+        "id": 56
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - updateSentence.md",
+        "wordCountStart": 99,
+        "charCountStart": 778,
+        "changes": [],
+        "id": 57
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ -  bestPractices.md",
+        "wordCountStart": 156,
+        "charCountStart": 1327,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": -156,
+            "c": -1327
+          }
+        ],
+        "id": 58
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ - constructors.md",
+        "wordCountStart": 4,
+        "charCountStart": 94,
+        "changes": [],
+        "id": 59
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ - dataTypes.md",
+        "wordCountStart": 132,
+        "charCountStart": 835,
+        "changes": [],
+        "id": 60
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - basics.md",
+        "wordCountStart": 217,
+        "charCountStart": 1616,
+        "changes": [],
+        "id": 61
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - commonSelectors_Properties.md",
+        "wordCountStart": 522,
+        "charCountStart": 4369,
+        "changes": [],
+        "id": 62
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases - datamodels-2.md",
+        "wordCountStart": 80,
+        "charCountStart": 603,
+        "changes": [
+          {
+            "timeKey": "23:50",
+            "w": -80,
+            "c": -603
+          }
+        ],
+        "id": 63
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/debugging.md",
+        "wordCountStart": 77,
+        "charCountStart": 633,
+        "changes": [],
+        "id": 64
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - basics.md",
+        "wordCountStart": 149,
+        "charCountStart": 1209,
+        "changes": [],
+        "id": 65
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - forms.md",
+        "wordCountStart": 117,
+        "charCountStart": 812,
+        "changes": [],
+        "id": 66
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - lists.md",
+        "wordCountStart": 517,
+        "charCountStart": 3150,
+        "changes": [],
+        "id": 67
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - semantic_Structural_Elements.md",
+        "wordCountStart": 505,
+        "charCountStart": 3672,
+        "changes": [],
+        "id": 68
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - structuralElements.md",
+        "wordCountStart": 124,
+        "charCountStart": 832,
+        "changes": [],
+        "id": 69
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tables.md",
+        "wordCountStart": 190,
+        "charCountStart": 1802,
+        "changes": [],
+        "id": 70
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tags.md",
+        "wordCountStart": 262,
+        "charCountStart": 1738,
+        "changes": [],
+        "id": 71
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - concurrency.md",
+        "wordCountStart": 90,
+        "charCountStart": 688,
+        "changes": [],
+        "id": 72
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - junit.md",
+        "wordCountStart": 362,
+        "charCountStart": 2853,
+        "changes": [],
+        "id": 73
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/js - DOM.md",
+        "wordCountStart": 160,
+        "charCountStart": 1465,
+        "changes": [],
+        "id": 74
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases-relationscharacteristics-2.md",
+        "wordCountStart": 179,
+        "charCountStart": 1308,
+        "changes": [
+          {
+            "timeKey": "23:45",
+            "w": -179,
+            "c": -1308
+          }
+        ],
+        "id": 75
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - databaseDescription.md",
+        "wordCountStart": 962,
+        "charCountStart": 7710,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": 0,
+            "c": -187
+          }
+        ],
+        "id": 76
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - atributtes.md",
+        "wordCountStart": 74,
+        "charCountStart": 534,
+        "changes": [],
+        "id": 77
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - Intro.md",
+        "wordCountStart": 68,
+        "charCountStart": 504,
+        "changes": [],
+        "id": 78
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - structure.md",
+        "wordCountStart": 59,
+        "charCountStart": 457,
+        "changes": [],
+        "id": 79
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - validDocuments.md",
+        "wordCountStart": 198,
+        "charCountStart": 1356,
+        "changes": [],
+        "id": 80
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/designPatterns.md",
+        "wordCountStart": 94,
+        "charCountStart": 854,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -94,
+            "c": -854
+          }
+        ],
+        "id": 81
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "02 - Conceps/oop.md",
+        "wordCountStart": 76,
+        "charCountStart": 800,
+        "changes": [],
+        "id": 82
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/C++/Index.md",
+        "wordCountStart": 38,
+        "charCountStart": 299,
+        "changes": [
+          {
+            "timeKey": "11:15",
+            "w": -15,
+            "c": -78
+          }
+        ],
+        "id": 83
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/HTML-CSS/Index.md",
+        "wordCountStart": 55,
+        "charCountStart": 472,
+        "changes": [],
+        "id": 84
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/Java/Index.md",
+        "wordCountStart": 123,
+        "charCountStart": 1458,
+        "changes": [],
+        "id": 85
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/JavaScript/Core/Index.md",
+        "wordCountStart": 62,
+        "charCountStart": 446,
+        "changes": [],
+        "id": 86
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "01 - Languages/JavaScript/Index.md",
+        "wordCountStart": 78,
+        "charCountStart": 591,
+        "changes": [],
+        "id": 87
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - subquerys.md",
+        "wordCountStart": 113,
+        "charCountStart": 913,
+        "changes": [],
+        "id": 88
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - selectSentence.md",
+        "wordCountStart": 449,
+        "charCountStart": 3225,
+        "changes": [],
+        "id": 89
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - operators.md",
+        "wordCountStart": 66,
+        "charCountStart": 564,
+        "changes": [],
+        "id": 90
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - mysql_introduction.md",
+        "wordCountStart": 66,
+        "charCountStart": 482,
+        "changes": [],
+        "id": 91
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - minimumSelect_syntax.md",
+        "wordCountStart": 123,
+        "charCountStart": 917,
+        "changes": [],
+        "id": 92
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - joinSentence.md",
+        "wordCountStart": 248,
+        "charCountStart": 1720,
+        "changes": [],
+        "id": 93
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - accesmodifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 940,
+        "changes": [],
+        "id": 94
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - lists.md",
+        "wordCountStart": 517,
+        "charCountStart": 3150,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -517,
+            "c": -3150
+          }
+        ],
+        "id": 95
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - forms.md",
+        "wordCountStart": 117,
+        "charCountStart": 812,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -117,
+            "c": -812
+          }
+        ],
+        "id": 96
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - basics.md",
+        "wordCountStart": 149,
+        "charCountStart": 1209,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -149,
+            "c": -1209
+          }
+        ],
+        "id": 97
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - atributtes.md",
+        "wordCountStart": 74,
+        "charCountStart": 534,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -74,
+            "c": -534
+          }
+        ],
+        "id": 98
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c++ - dataTypes.md",
+        "wordCountStart": 132,
+        "charCountStart": 797,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -132,
+            "c": -797
+          }
+        ],
+        "id": 99
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/C++ - constructors.md",
+        "wordCountStart": 4,
+        "charCountStart": 85,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -4,
+            "c": -85
+          }
+        ],
+        "id": 100
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/c-constructors.md",
+        "wordCountStart": 4,
+        "charCountStart": 94,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -4,
+            "c": -94
+          }
+        ],
+        "id": 101
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - basics.md",
+        "wordCountStart": 217,
+        "charCountStart": 1616,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -217,
+            "c": -1616
+          }
+        ],
+        "id": 102
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - wrappers.md",
+        "wordCountStart": 158,
+        "charCountStart": 1230,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -158,
+            "c": -1230
+          }
+        ],
+        "id": 103
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - advancedStatements.md",
+        "wordCountStart": 368,
+        "charCountStart": 2441,
+        "changes": [
+          {
+            "timeKey": "23:40",
+            "w": -368,
+            "c": -2441
+          }
+        ],
+        "id": 104
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/css - commonselectors_properties.md",
+        "wordCountStart": 522,
+        "charCountStart": 4212,
+        "changes": [],
+        "id": 105
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases - datamodels.md",
+        "wordCountStart": 80,
+        "charCountStart": 603,
+        "changes": [],
+        "id": 106
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/databases - relationsCharacteristics.md",
+        "wordCountStart": 179,
+        "charCountStart": 1272,
+        "changes": [],
+        "id": 107
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/executionqueues.md",
+        "wordCountStart": 70,
+        "charCountStart": 549,
+        "changes": [
+          {
+            "timeKey": "23:45",
+            "w": -70,
+            "c": -549
+          }
+        ],
+        "id": 108
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - semantic_Structural_Elements.md",
+        "wordCountStart": 505,
+        "charCountStart": 3567,
+        "changes": [],
+        "id": 109
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - structuralElements.md",
+        "wordCountStart": 124,
+        "charCountStart": 810,
+        "changes": [],
+        "id": 110
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tables.md",
+        "wordCountStart": 190,
+        "charCountStart": 1706,
+        "changes": [],
+        "id": 111
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/html - tags.md",
+        "wordCountStart": 262,
+        "charCountStart": 1654,
+        "changes": [],
+        "id": 112
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/js - dom.md",
+        "wordCountStart": 160,
+        "charCountStart": 1421,
+        "changes": [],
+        "id": 113
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - apprequirements.md",
+        "wordCountStart": 420,
+        "charCountStart": 2657,
+        "changes": [],
+        "id": 114
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious-apprequirements-2.md",
+        "wordCountStart": 420,
+        "charCountStart": 2609,
+        "changes": [
+          {
+            "timeKey": "23:45",
+            "w": -420,
+            "c": -2609
+          }
+        ],
+        "id": 115
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious-arduinodevelopment-2.md",
+        "wordCountStart": 261,
+        "charCountStart": 1952,
+        "changes": [
+          {
+            "timeKey": "23:45",
+            "w": -261,
+            "c": -1952
+          }
+        ],
+        "id": 116
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - arduinodevelopment.md",
+        "wordCountStart": 261,
+        "charCountStart": 2030,
+        "changes": [],
+        "id": 117
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - boardalgorithms.md",
+        "wordCountStart": 329,
+        "charCountStart": 2057,
+        "changes": [],
+        "id": 118
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - databasedescription.md",
+        "wordCountStart": 962,
+        "charCountStart": 7523,
+        "changes": [],
+        "id": 119
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - lilypaddesignrules.md",
+        "wordCountStart": 313,
+        "charCountStart": 2635,
+        "changes": [],
+        "id": 120
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - measurements.md",
+        "wordCountStart": 49,
+        "charCountStart": 478,
+        "changes": [],
+        "id": 121
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - parametrisation.md",
+        "wordCountStart": 88,
+        "charCountStart": 969,
+        "changes": [],
+        "id": 122
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - technicalMeeting.md",
+        "wordCountStart": 461,
+        "charCountStart": 3059,
+        "changes": [],
+        "id": 123
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - totaldrunk.md",
+        "wordCountStart": 36,
+        "charCountStart": 415,
+        "changes": [],
+        "id": 124
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/serious - waterquantity.md",
+        "wordCountStart": 59,
+        "charCountStart": 656,
+        "changes": [],
+        "id": 125
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/softwareDesignModels.md",
+        "wordCountStart": 109,
+        "charCountStart": 866,
+        "changes": [],
+        "id": 126
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/whiteBoxTexting.md",
+        "wordCountStart": 223,
+        "charCountStart": 1622,
+        "changes": [],
+        "id": 127
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - intro.md",
+        "wordCountStart": 68,
+        "charCountStart": 492,
+        "changes": [],
+        "id": 128
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - structure.md",
+        "wordCountStart": 59,
+        "charCountStart": 446,
+        "changes": [],
+        "id": 129
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "limbo/xml - validDocuments.md",
+        "wordCountStart": 198,
+        "charCountStart": 1332,
+        "changes": [],
+        "id": 130
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - args.md",
+        "wordCountStart": 182,
+        "charCountStart": 1382,
+        "changes": [],
+        "id": 131
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arraylist.md",
+        "wordCountStart": 283,
+        "charCountStart": 2081,
+        "changes": [],
+        "id": 132
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - arrays.md",
+        "wordCountStart": 203,
+        "charCountStart": 1464,
+        "changes": [],
+        "id": 133
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - casting.md",
+        "wordCountStart": 129,
+        "charCountStart": 864,
+        "changes": [],
+        "id": 134
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - codeStructure.md",
+        "wordCountStart": 132,
+        "charCountStart": 912,
+        "changes": [],
+        "id": 135
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constants.md",
+        "wordCountStart": 99,
+        "charCountStart": 674,
+        "changes": [],
+        "id": 136
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - constructors.md",
+        "wordCountStart": 110,
+        "charCountStart": 949,
+        "changes": [],
+        "id": 137
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - databaseConnection.md",
+        "wordCountStart": 205,
+        "charCountStart": 1753,
+        "changes": [],
+        "id": 138
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - dataTypes.md",
+        "wordCountStart": 117,
+        "charCountStart": 738,
+        "changes": [],
+        "id": 139
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - fileHandling.md",
+        "wordCountStart": 4,
+        "charCountStart": 81,
+        "changes": [],
+        "id": 140
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - files.md",
+        "wordCountStart": 355,
+        "charCountStart": 2695,
+        "changes": [],
+        "id": 141
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - inheritance_Polimorphism.md",
+        "wordCountStart": 359,
+        "charCountStart": 2920,
+        "changes": [],
+        "id": 142
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - introduction_to_Objects.md",
+        "wordCountStart": 199,
+        "charCountStart": 1502,
+        "changes": [],
+        "id": 143
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - iterationStructures.md",
+        "wordCountStart": 357,
+        "charCountStart": 2332,
+        "changes": [],
+        "id": 144
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - jframe.md",
+        "wordCountStart": 55,
+        "charCountStart": 414,
+        "changes": [],
+        "id": 145
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - methods.md",
+        "wordCountStart": 340,
+        "charCountStart": 2390,
+        "changes": [],
+        "id": 146
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - operators.md",
+        "wordCountStart": 392,
+        "charCountStart": 2591,
+        "changes": [],
+        "id": 147
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processbuilder.md",
+        "wordCountStart": 366,
+        "charCountStart": 3339,
+        "changes": [],
+        "id": 148
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - processes.md",
+        "wordCountStart": 20,
+        "charCountStart": 223,
+        "changes": [],
+        "id": 149
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - selectionStructures.md",
+        "wordCountStart": 283,
+        "charCountStart": 1969,
+        "changes": [],
+        "id": 150
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - stringbuilder.md",
+        "wordCountStart": 107,
+        "charCountStart": 837,
+        "changes": [],
+        "id": 151
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - snippets.md",
+        "wordCountStart": 199,
+        "charCountStart": 1699,
+        "changes": [],
+        "id": 152
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/java - tryblocks.md",
+        "wordCountStart": 182,
+        "charCountStart": 1503,
+        "changes": [],
+        "id": 153
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - altertableSentence.md",
+        "wordCountStart": 76,
+        "charCountStart": 752,
+        "changes": [],
+        "id": 154
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - bulkInsert.md",
+        "wordCountStart": 76,
+        "charCountStart": 706,
+        "changes": [],
+        "id": 155
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - correlatedQuerys.md",
+        "wordCountStart": 82,
+        "charCountStart": 584,
+        "changes": [],
+        "id": 156
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - createSentence.md",
+        "wordCountStart": 168,
+        "charCountStart": 1325,
+        "changes": [],
+        "id": 157
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - deleteSentence.md",
+        "wordCountStart": 37,
+        "charCountStart": 362,
+        "changes": [],
+        "id": 158
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - dropSentence.md",
+        "wordCountStart": 38,
+        "charCountStart": 337,
+        "changes": [],
+        "id": 159
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - insertSentence.md",
+        "wordCountStart": 229,
+        "charCountStart": 1678,
+        "changes": [],
+        "id": 160
+      },
+      {
+        "date": "2026-03-05",
+        "filePath": "03 - Notes/sql - updateSentence.md",
+        "wordCountStart": 99,
+        "charCountStart": 744,
+        "changes": [],
+        "id": 161
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "03 - Notes/java - args.md",
+        "wordCountStart": 182,
+        "charCountStart": 1382,
+        "changes": [],
+        "id": 162
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
+        "wordCountStart": 131,
+        "charCountStart": 942,
+        "changes": [
+          {
+            "timeKey": "02:00",
+            "w": -6,
+            "c": -23
+          }
+        ],
+        "id": 163
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "03 - Notes/cleancode - bestPractices.md",
+        "wordCountStart": 1211,
+        "charCountStart": 9964,
+        "changes": [
+          {
+            "timeKey": "02:00",
+            "w": 0,
+            "c": -3
+          }
+        ],
+        "id": 164
+      },
+      {
+        "date": "2026-03-06",
+        "filePath": "03 - Notes/java - accesModifiers.md",
+        "wordCountStart": 107,
+        "charCountStart": 937,
+        "changes": [
+          {
+            "timeKey": "14:45",
+            "w": 20,
+            "c": 137
+          },
+          {
+            "timeKey": "14:50",
+            "w": -20,
+            "c": -235
+          }
+        ],
+        "id": 165
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - accesModifiers.md",
+        "wordCountStart": 60,
+        "charCountStart": 483,
+        "changes": [],
+        "id": 167
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - args.md",
+        "wordCountStart": 182,
+        "charCountStart": 1379,
+        "changes": [
+          {
+            "timeKey": "08:15",
+            "w": 1,
+            "c": -14
+          },
+          {
+            "timeKey": "08:20",
+            "w": 3,
+            "c": 13
+          }
+        ],
+        "id": 168
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - arraylist.md",
+        "wordCountStart": 283,
+        "charCountStart": 2078,
+        "changes": [
+          {
+            "timeKey": "08:20",
+            "w": 3,
+            "c": 17
+          },
+          {
+            "timeKey": "08:25",
+            "w": 21,
+            "c": 136
+          },
+          {
+            "timeKey": "08:30",
+            "w": -43,
+            "c": -302
+          },
+          {
+            "timeKey": "08:35",
+            "w": -37,
+            "c": -225
+          },
+          {
+            "timeKey": "08:40",
+            "w": -63,
+            "c": -455
+          }
+        ],
+        "id": 169
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - iterationStructures.md",
+        "wordCountStart": 357,
+        "charCountStart": 2329,
+        "changes": [],
+        "id": 170
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - fileHandling.md",
+        "wordCountStart": 4,
+        "charCountStart": 78,
+        "changes": [],
+        "id": 171
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - codeStructure.md",
+        "wordCountStart": 126,
+        "charCountStart": 886,
+        "changes": [],
+        "id": 172
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - dataTypes.md",
+        "wordCountStart": 111,
+        "charCountStart": 712,
+        "changes": [],
+        "id": 173
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - inheritance_Polimorphism.md",
+        "wordCountStart": 359,
+        "charCountStart": 2917,
+        "changes": [
+          {
+            "timeKey": "08:40",
+            "w": -359,
+            "c": -2917
+          }
+        ],
+        "id": 174
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - introduction_to_Objects.md",
+        "wordCountStart": 199,
+        "charCountStart": 1499,
+        "changes": [],
+        "id": 175
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - jframe.md",
+        "wordCountStart": 49,
+        "charCountStart": 388,
+        "changes": [],
+        "id": 176
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/java - selectionStructures.md",
+        "wordCountStart": 283,
+        "charCountStart": 1966,
+        "changes": [],
+        "id": 177
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/sql - advancedStatements.md",
+        "wordCountStart": 368,
+        "charCountStart": 2438,
+        "changes": [],
+        "id": 178
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/databases - relevantTerms.md",
+        "wordCountStart": 194,
+        "charCountStart": 1174,
+        "changes": [],
+        "id": 179
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/databases - ermModel.md",
+        "wordCountStart": 169,
+        "charCountStart": 1273,
+        "changes": [],
+        "id": 180
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/cleancode - bestPractices.md",
+        "wordCountStart": 1211,
+        "charCountStart": 9961,
+        "changes": [],
+        "id": 181
+      },
+      {
+        "date": "2026-03-08",
+        "filePath": "03 - Notes/algorithms - algorithms.md",
+        "wordCountStart": 125,
+        "charCountStart": 916,
+        "changes": [],
+        "id": 182
+      }
+    ]
+  }
+}
