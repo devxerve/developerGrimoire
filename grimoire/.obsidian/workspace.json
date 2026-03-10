@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/algorithms - algorithms.md",
+                "file": "05  - Projects/OPI - Hydration Bag/appArchitecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "algorithms - algorithms"
+              "title": "appArchitecture"
+            }
+          },
+          {
+            "id": "77e88835f8974987",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "05  - Projects/OPI - Hydration Bag/appDesignPatterns.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "appDesignPatterns"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +93,8 @@
             "state": {
               "type": "trash-explorer",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "trash-explorer"
+              "icon": "trash",
+              "title": "Trash explorer"
             }
           }
         ]
@@ -222,8 +235,17 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "0951f1a9d0235778",
+  "active": "2767905274196705",
   "lastOpenFiles": [
+    "05  - Projects/OPI - Hydration Bag/appDesignPatterns.md",
+    "99 - Meta/attachments/Pasted Image 20260309204633_496.png",
+    "99 - Meta/attachments/Pasted Image 20260309204218_665.png",
+    "99 - Meta/attachments/Pasted Image 20260309203545_600.png",
+    "99 - Meta/attachments/Pasted Image 20260309203706_340.png",
+    "99 - Meta/attachments/draw_background.png",
+    "05  - Projects/OPI - Hydration Bag/appArchitecture.md",
+    "05  - Projects/OPI - Hydration Bag/technicaldecisions.md",
+    "03 - Notes/algorithms - algorithms.md",
     "03 - Notes/cleancode - bestPractices.md",
     "03 - Notes/databases - ermModel.md",
     "03 - Notes/databases - relevantTerms.md",
@@ -240,16 +262,11 @@
     "03 - Notes/java - iterationStructures.md",
     "03 - Notes/java - args.md",
     "03 - Notes/java - accesModifiers.md",
-    "03 - Notes/algorithms - algorithms.md",
     "03 - Notes/databases - characteristics.md",
     "limbo/c++ - dataTypes.md",
     "02 - Concepts/cleanCoding.md",
     "03 - Notes/sql - altertableSentence.md",
     "03 - Notes/sql - bulkInsert.md",
-    "03 - Notes/sql - correlatedQuerys.md",
-    "03 - Notes/sql - createSentence.md",
-    "03 - Notes/sql - deleteSentence.md",
-    "03 - Notes/sql - dropSentence.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
@@ -258,18 +275,13 @@
     "99 - Meta/01 - Notebooks/Excalidraw/algorithm.png",
     "output/bestPractices.html",
     "output",
-    "99 - Meta/01 - Notebooks/Excalidraw/inheritance.png",
-    "99 - Meta/01 - Notebooks/Excalidraw/polymorphism.png",
     "06 - Archives/02 - Notebooks/Excalidraw",
     "06 - Archives/02 - Notebooks",
     "06 - Archives",
     "99 - Meta/01 - Notebooks/Excalidraw/Scripts",
-    "99 - Meta/01 - Notebooks/Excalidraw/Scripts/Downloaded/Toggle Grid.svg",
-    "99 - Meta/01 - Notebooks/Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "99 - Meta/01 - Notebooks/Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "99 - Meta/01 - Notebooks/Excalidraw/polimorfism.png",
     "Dashboard.canvas",
     "Fullstack Roadmap.canvas",
     "00 - Home/Dashboard.canvas",
