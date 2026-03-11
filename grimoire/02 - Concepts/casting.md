@@ -11,7 +11,7 @@ tags:
 Is the process of converting from one data type to another
 2 types
 ## Implicit casting
-Automatic conversion, occurs when Java automatically converts without the programmer having to do it explicitly.
+Automatic conversion, occurs when data is  automatically converted without the programmer having to do it explicitly.
 ```java title="implicitCasting" group="implicit"
 int n = 42;
 long m = n; //Widening: int → long (safe)
