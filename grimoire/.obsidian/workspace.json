@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/casting.md",
+                "file": "02 - Concepts/casting.md",
                 "mode": "preview",
                 "source": false
               },
@@ -224,8 +224,10 @@
   },
   "active": "0951f1a9d0235778",
   "lastOpenFiles": [
+    "02 - Concepts/cleanCoding.md",
+    "02 - Concepts/Untitled.md",
+    "02 - Concepts/casting.md",
     "limbo/c++ - dataTypes.md",
-    "03 - Notes/casting.md",
     "03 - Notes/java - args.md",
     "02 - Concepts/OOP.md",
     "02 - Concepts/designPatterns.md",
@@ -253,8 +255,6 @@
     "03 - Notes/java - jframe.md",
     "03 - Notes/java - introduction_to_Objects.md",
     "03 - Notes/java - dataTypes.md",
-    "03 - Notes/java - inheritance_Polimorphism.md",
-    "03 - Notes/java - inheritance_polimorphism.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",
