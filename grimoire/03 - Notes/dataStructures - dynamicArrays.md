@@ -4,11 +4,11 @@ cssclasses:
   - " roundedImages"
   - " centerImages"
 tags:
-  - java
+  - dataStructures
 ---
 
 # :dev_java_original: Arraylists
-Arraylists are a special type of arrays that have dynamic size, <mark style="background: #FF5582A6;">THIS TYPE OF ARRAY CAN ONLY CONTAIN OBJECTS</mark> these type of arrays need to be imported
+Dynamic are a special type of arrays that have dynamic size.
 
 ```java cpp title:Import_ArrayList
 import java.util.ArrayList;

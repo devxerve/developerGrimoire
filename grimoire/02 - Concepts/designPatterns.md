@@ -4,25 +4,24 @@ cssclasses:
   - " centerImages"
   - " roundedImages"
 ---
+# Design Patterns
 
-# Design patterns
+Reusable solutions to common problems in software design.
 
-## Descripción
-Soluciones reutilizables a problemas comunes en el diseño de software.
+## Creational — how to create objects
+- **Singleton** — single instance of the class
+- **Factory Method** — delegate creation to subclasses
+- **Builder** — build complex objects step by step
 
-## Creacionales — cómo crear objetos
-- **Singleton** — una sola instancia de la clase
-- **Factory Method** — delegar la creación a subclases
-- **Builder** — construir objetos complejos paso a paso
+## Structural — how to compose classes
+- **Adapter** — adapt one interface to another
+- **Decorator** — add behavior without modifying the class
+- **Facade** — simplify a complex system with a unified interface
 
-## Estructurales — cómo componer clases
-- **Adapter** — adaptar una interfaz a otra
-- **Decorator** — añadir comportamiento sin modificar la clase
-- **Facade** — simplificar un sistema complejo con una interfaz unificada
+## Behavioral — how objects interact
+- **Observer** — notify subscribers when something changes
+- **Strategy** — choose algorithm at runtime
+- **Command** — encapsulate an action as an object
 
-## De comportamiento — cómo interactúan los objetos
-- **Observer** — notificar a suscriptores cuando algo cambia
-- **Strategy** — elegir algoritmo en tiempo de ejecución
-- **Command** — encapsular una acción como objeto
 
 

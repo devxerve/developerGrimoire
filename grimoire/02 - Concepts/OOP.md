@@ -4,22 +4,21 @@ cssclasses:
   - " centerImages"
   - " roundedImages"
 ---
+# OOP — Object-Oriented Programming
 
-# Oop — object-oriented programming
+## Description
+Programming paradigm that organizes code around **objects** that combine state (attributes) and behavior (methods).
 
-## Descripción
-Paradigma de programación que organiza el código en torno a **objetos** que combinan estado (atributos) y comportamiento (métodos).
+## The 4 Pillars
+- **Encapsulation** → hide internal details, expose interfaces
+- **Inheritance** → code reuse between related classes
+- **Polymorphism** → same interface, different behaviors
+- **Abstraction** → model only what's relevant to the domain
 
-## Los 4 pilares
-- **Encapsulación** → ocultar detalles internos, exponer interfaces
-- **Herencia** → reutilización de código entre clases relacionadas
-- **Polimorfismo** → mismo interfaz, comportamientos distintos
-- **Abstracción** → modelar solo lo relevante del dominio
-
-## Implementación por lenguaje
-| Lenguaje | Herencia múltiple | Interfaces | Nota |
+## Implementation by Language
+| Language | Multiple Inheritance | Interfaces | Note |
 |---|---|---|---|
-| Java | ❌ (solo una) | ✅ | `implements` múltiple |
-| C++ | ✅ | ✅ (clases abstractas) | Más complejo |
-| C# | ❌ | ✅ | Similar a Java |
+| Java | ❌ (single only) | ✅ | Multiple `implements` |
+| C++ | ✅ | ✅ (abstract classes) | More complex |
+| C# | ❌ | ✅ | Similar to Java |
 

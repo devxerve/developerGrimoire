@@ -5,9 +5,9 @@ cssclasses:
   - " roundedImages"
 ---
 
-# Algorithms & data structures
-
-[[algorithms]]
+# Algorithms 
+[[algorithms - algorithms]]
+## Data Structures
 [[dataStructures - arrays]]
-
+[[dataStructures - dynamicArrays]]
 

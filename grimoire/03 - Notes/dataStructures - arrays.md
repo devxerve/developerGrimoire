@@ -4,7 +4,7 @@ cssclasses:
   - " roundedImages"
   - " centerImages"
 tags:
-  - java
+  - dataStructures
 ---
 
 # :dev_java_original: Arrays
@@ -28,7 +28,7 @@ list = [] [] [] [] # name = [datum1] [datum2] (Dynamic size)
 ```
 
 
-To insert values onto an array 
+To insert values into an array 
 
 ```java title="valuesInsertion" group="values"
 lista[0] = 100; //In the index 0, int 100 is inserted
@@ -45,6 +45,8 @@ list[0] = 100; //In index 0, 100 is inserted
 ```python title="valuesInsertion" group="values"
 list[0] = 100; # In index 0, 100 is inserted
 ```
+
+To select values in an array
 
 ```java title="valuesSelection" group="selection"
 lista[0] = 100; // Assign the value
@@ -72,26 +74,7 @@ print(list[0]) # Print 100
 x = list[0]  # Read value from index 0 into x
 ```
 
-## Ejemplo de array (simple)
-```java cpp title:Ejemplo_array
-package ejemplo_arrays;
-	public class Arrays_simples {
-	final static int INI_INT = 0;
-	public static void main(String[] args) {
-		int inicial = INI_INT;
-		int[] lista = new int [10];
-	
-		for (int i = INI_INT; i < lista.length; i++) {
-			inicial = inicial + 100;
-			lista[i] = inicial;	
-		}
 
-		for (int i = 0; i < lista.length; i++) {
-			System.out.println(lista[i]);
-		}
-	}
-}
-```
 
 
 
