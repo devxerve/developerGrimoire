@@ -21,7 +21,7 @@ General purpose object oriented programming (OOP) language
 [[java - selectionStructures]]
 [[java - iterationStructures]]
 [[java - methods]]
-[[java - arrays]]
+[[dataStructures - arrays]]
 [[java - arraylist]]
 [[java - args]]
 [[java - wrappers]]

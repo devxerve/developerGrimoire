@@ -8,6 +8,6 @@ cssclasses:
 # Algorithms & data structures
 
 [[algorithms]]
-
+[[dataStructures - arrays]]
 
 

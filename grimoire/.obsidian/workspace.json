@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05  - Projects/OPI - Hydration Bag/appArchitecture.md",
-                "mode": "source",
+                "file": "03 - Notes/dataStructures - arrays.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "appArchitecture"
-            }
-          },
-          {
-            "id": "77e88835f8974987",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "05  - Projects/OPI - Hydration Bag/appDesignPatterns.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "appDesignPatterns"
+              "title": "dataStructures - arrays"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,15 +222,20 @@
       "keep-the-rhythm:Word Count Stats": false
     }
   },
-  "active": "2767905274196705",
+  "active": "0951f1a9d0235778",
   "lastOpenFiles": [
+    "02 - Concepts/algorithms__datastructures.md",
+    "03 - Notes/dataStructures - arrays.md",
+    "03 - Notes/java - arraylist.md",
+    "03 - Notes/java - args.md",
+    "03 - Notes/java - accesModifiers.md",
+    "05  - Projects/OPI - Hydration Bag/appArchitecture.md",
     "05  - Projects/OPI - Hydration Bag/appDesignPatterns.md",
     "99 - Meta/attachments/Pasted Image 20260309204633_496.png",
     "99 - Meta/attachments/Pasted Image 20260309204218_665.png",
     "99 - Meta/attachments/Pasted Image 20260309203545_600.png",
     "99 - Meta/attachments/Pasted Image 20260309203706_340.png",
     "99 - Meta/attachments/draw_background.png",
-    "05  - Projects/OPI - Hydration Bag/appArchitecture.md",
     "05  - Projects/OPI - Hydration Bag/technicaldecisions.md",
     "03 - Notes/algorithms - algorithms.md",
     "03 - Notes/cleancode - bestPractices.md",
@@ -257,16 +249,12 @@
     "03 - Notes/java - inheritance_Polimorphism.md",
     "03 - Notes/java - inheritance_polimorphism.md",
     "03 - Notes/java - codeStructure.md",
-    "03 - Notes/java - arraylist.md",
     "03 - Notes/java - fileHandling.md",
     "03 - Notes/java - iterationStructures.md",
-    "03 - Notes/java - args.md",
-    "03 - Notes/java - accesModifiers.md",
     "03 - Notes/databases - characteristics.md",
     "limbo/c++ - dataTypes.md",
     "02 - Concepts/cleanCoding.md",
     "03 - Notes/sql - altertableSentence.md",
-    "03 - Notes/sql - bulkInsert.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",

@@ -16,7 +16,7 @@ public static void main(String[] args){
 }
 ```
 
-`String[] args` is an [[java - arrays|array]] of strings that insert parameters into the main method
+`String[] args` is an [[dataStructures - arrays|array]] of strings that insert parameters into the main method
 Those parameters could be for example commands on the system cli, or parameters needed by the main method, and we can work with them using the methods associated to the arrays
 
 ```java title=Ejemplo args"
