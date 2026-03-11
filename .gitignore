@@ -1,0 +1,36 @@
+# Obsidian cache and settings (keep content, ignore config)
+.obsidian/workspace*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/.obsidian.cache
+
+# Plugin data (configs stay, code excluded)
+.obsidian/plugins/*/data.json
+# .obsidian/plugins/  # Descomenta si NO quieres compartir plugins
+
+# Obsidian trash and limbo
+grimoire/.trash/
+grimoire/limbo/
+grimoire/.keep-the-rhythm/  # Si contiene notas privadas
+
+# Temp files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# OS/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Builds/Exports
+*.pdf
+*.html
+export/
+
+# Empty folders (Obsidian)
+**/.keep
