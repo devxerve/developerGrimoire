@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "_config",
+        "Dashboard.md",
         "02 - Concepts",
         "05  - Projects",
         "limbo",
@@ -10,6 +12,13 @@
         "04 - DevOps",
         "06 - Tools",
         "99 - Meta"
+      ],
+      "sortOrder": "custom"
+    },
+    "_config": {
+      "children": [
+        "_config/zen-os-config.md",
+        "_config/zen-os-setup-complete.md"
       ],
       "sortOrder": "custom"
     },
