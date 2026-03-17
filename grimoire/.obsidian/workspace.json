@@ -80,8 +80,8 @@
             "state": {
               "type": "trash-explorer",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "trash-explorer"
+              "icon": "trash",
+              "title": "Trash explorer"
             }
           }
         ]
@@ -226,10 +226,10 @@
   "active": "0951f1a9d0235778",
   "lastOpenFiles": [
     "_config/zen-os-setup-complete.md",
+    "Dashboard.md",
     "_config/zen-os-config.md",
     "_config",
     "03 - Notes/Java - codeStructure.md",
-    "Dashboard.md",
     "02 - Concepts/casting.md",
     "02 - Concepts/cleanCoding.md",
     "02 - Concepts/Untitled.md",

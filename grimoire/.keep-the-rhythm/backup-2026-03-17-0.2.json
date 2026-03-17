@@ -2258,8 +2258,87 @@
         "filePath": "Dashboard.md",
         "wordCountStart": 31463,
         "charCountStart": 287860,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": 0,
+            "c": -10
+          },
+          {
+            "timeKey": "11:55",
+            "w": 248,
+            "c": 2508
+          },
+          {
+            "timeKey": "12:00",
+            "w": 0,
+            "c": 23
+          },
+          {
+            "timeKey": "12:05",
+            "w": -31709,
+            "c": -290363
+          },
+          {
+            "timeKey": "12:10",
+            "w": 31709,
+            "c": 290363
+          },
+          {
+            "timeKey": "12:15",
+            "w": -31711,
+            "c": -290381
+          },
+          {
+            "timeKey": "12:30",
+            "w": 31463,
+            "c": 287860
+          },
+          {
+            "timeKey": "12:45",
+            "w": -244,
+            "c": -2641
+          },
+          {
+            "timeKey": "13:00",
+            "w": -31219,
+            "c": -285219
+          }
+        ],
         "id": 213
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "_config/zen-os-config.md",
+        "wordCountStart": 50,
+        "charCountStart": 396,
+        "changes": [
+          {
+            "timeKey": "12:15",
+            "w": -50,
+            "c": -396
+          }
+        ],
+        "id": 214
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "_config/zen-os-setup-complete.md",
+        "wordCountStart": 39,
+        "charCountStart": 216,
+        "changes": [
+          {
+            "timeKey": "12:15",
+            "w": -39,
+            "c": -216
+          },
+          {
+            "timeKey": "13:00",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 215
       }
     ]
   }

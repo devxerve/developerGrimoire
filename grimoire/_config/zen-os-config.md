@@ -8,8 +8,8 @@
 - **Accent:** #00ff88 (rgb: 0,255,136)
 
 ## Integrations
-- **Google:** ✅ Connected
-- **AI:** ✅ Key saved
+- **Google:** ⚠️ Not connected
+- **AI:** ⚠️ No key saved
 
 ## Notes
 - To re-run setup wizard, delete the file: `_config/zen-os-setup-complete.md`

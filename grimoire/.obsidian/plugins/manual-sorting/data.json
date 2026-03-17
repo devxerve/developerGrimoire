@@ -17,8 +17,8 @@
     },
     "_config": {
       "children": [
-        "_config/zen-os-config.md",
-        "_config/zen-os-setup-complete.md"
+        "_config/zen-os-setup-complete.md",
+        "_config/zen-os-config.md"
       ],
       "sortOrder": "custom"
     },
