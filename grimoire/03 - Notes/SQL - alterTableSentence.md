@@ -17,7 +17,7 @@ alter_especification [, alter_especification ...];
 ```
 
 ## alter_especification
-```SQL title:Alter_especification
+```sql title:Alter_especification
 ADD [COLUMN] especificación_columna
 ADD [CONSTRAINT [symbol]] PRIMARY KEY (index_col_name,...) 
 ADD [CONSTRAINT [symbol]] UNIQUE [name] (col_name,...) 

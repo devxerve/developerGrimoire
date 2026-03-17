@@ -2318,6 +2318,11 @@
             "timeKey": "15:00",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "18:25",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 213
@@ -2367,6 +2372,118 @@
         "charCountStart": 1764,
         "changes": [],
         "id": 216
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "03 - Notes/SQL - selectSentence.md",
+        "wordCountStart": 449,
+        "charCountStart": 3222,
+        "changes": [
+          {
+            "timeKey": "18:25",
+            "w": -2,
+            "c": -10
+          },
+          {
+            "timeKey": "18:30",
+            "w": -7,
+            "c": -86
+          },
+          {
+            "timeKey": "18:35",
+            "w": 5,
+            "c": 38
+          },
+          {
+            "timeKey": "18:40",
+            "w": -2,
+            "c": -45
+          },
+          {
+            "timeKey": "18:45",
+            "w": -26,
+            "c": -171
+          },
+          {
+            "timeKey": "18:50",
+            "w": -13,
+            "c": -75
+          },
+          {
+            "timeKey": "18:55",
+            "w": 0,
+            "c": -7
+          },
+          {
+            "timeKey": "19:00",
+            "w": 0,
+            "c": 5
+          },
+          {
+            "timeKey": "19:05",
+            "w": -3,
+            "c": 5
+          },
+          {
+            "timeKey": "19:50",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 217
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "03 - Notes/SQL - advancedStatements.md",
+        "wordCountStart": 368,
+        "charCountStart": 2438,
+        "changes": [
+          {
+            "timeKey": "19:10",
+            "w": -11,
+            "c": -82
+          },
+          {
+            "timeKey": "19:15",
+            "w": 7,
+            "c": 19
+          },
+          {
+            "timeKey": "19:20",
+            "w": 12,
+            "c": 82
+          },
+          {
+            "timeKey": "19:25",
+            "w": -5,
+            "c": -53
+          },
+          {
+            "timeKey": "19:30",
+            "w": -17,
+            "c": -99
+          },
+          {
+            "timeKey": "19:35",
+            "w": 199,
+            "c": 1235
+          }
+        ],
+        "id": 218
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "03 - Notes/SQL - alterTableSentence.md",
+        "wordCountStart": 76,
+        "charCountStart": 749,
+        "changes": [
+          {
+            "timeKey": "19:40",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 219
       }
     ]
   }

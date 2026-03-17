@@ -10,7 +10,7 @@ cssclasses:
 # :dev_mysql_original: Creacion de bases, tablas y vistas sentencia create
 ## Tablas
 <mark style="background: #FFB86CA6;">(Código que crea el ejemplo de los apuntes)</mark>
-```SQL Cpp title:CREATE_EJEMPLO_APUNTES
+```sql Cpp title:CREATE_EJEMPLO_APUNTES
 CREATE TABLE clientes(
 codigo_cliente BIGINT NOT NULL AUTO_INCREMENT UNIQUE KEY ,
 dni varchar(11) NOT NULL PRIMARY KEY, 

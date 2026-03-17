@@ -22,5 +22,13 @@
   },
   "03 - Notes/casting.md": {
     "explicit": 1461
+  },
+  "03 - Notes/SQL - advancedStatements.md": {
+    "Predicado IN": 250,
+    "IN": 250,
+    "Between": 662,
+    "Predicado NULL": 1085,
+    "Exists": 3370,
+    "like": 1959
   }
 }

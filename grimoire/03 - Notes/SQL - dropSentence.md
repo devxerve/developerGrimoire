@@ -13,7 +13,7 @@ Sirve para Borrar las bases de datos, tablas o vistas
 
 ## Sintaxis
 
-```SQL title:Drop
+```sql title:Drop
 DROP {DATABASE | TABLE | VIEW } nombre_objeto [, nombre_objeto2...];
 ```
 

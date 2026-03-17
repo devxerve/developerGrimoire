@@ -3,7 +3,14 @@
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
-  "fileMenu": [],
+  "fileMenu": [
+    {
+      "id": "editor:toggle-readable-line-length",
+      "icon": "lucide-ruler",
+      "name": "Toggle readable line length",
+      "mode": "any"
+    }
+  ],
   "leftRibbon": [
     {
       "id": "file-explorer:move-file",

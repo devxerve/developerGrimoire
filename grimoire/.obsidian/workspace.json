@@ -10,17 +10,29 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "03 - Notes/SQL - alterTableSentence.md",
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "SQL - alterTableSentence"
+            }
+          },
+          {
+            "id": "17694837b5950606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Notes/SQL - selectSentence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL - selectSentence"
             }
           }
         ]
@@ -46,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -206,15 +218,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "zk-prefixer:Crear nueva nota única": false,
-      "bases:Crear nueva base": false,
       "templater-obsidian:Templater": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
@@ -228,7 +240,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "03 - Notes/SQL - advancedStatements.md",
     "Dashboard.md",
+    "03 - Notes/SQL - selectSentence.md",
     "03 - Notes/SQL - joinSentence.md",
     "99 - Meta/_config/zen-os-setup-complete.md",
     "99 - Meta/_config/zen-os-config.md",
@@ -258,8 +272,6 @@
     "99 - Meta/attachments/draw_background.png",
     "05  - Projects/OPI - Hydration Bag/technicaldecisions.md",
     "03 - Notes/algorithms - algorithms.md",
-    "03 - Notes/cleancode - bestPractices.md",
-    "03 - Notes/databases - relevantTerms.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",

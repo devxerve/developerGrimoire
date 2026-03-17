@@ -6,7 +6,7 @@ cssclasses:
 ---
 # :dev_mysql_original:
 # Create Sentence
-```SQL title="Database Create Sentence"
+```sql title="Database Create Sentence"
 CREATE DATABASE serious_games
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;

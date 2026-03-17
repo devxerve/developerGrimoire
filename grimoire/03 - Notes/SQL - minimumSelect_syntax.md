@@ -9,7 +9,7 @@ cssclasses:
 
 # :dev_mysql_original: Sentencia select - sintaxis mínima
 
-```SQL
+```sql
 SELECT expresion [,expresion]
 [FROM tabla];
 -- expresión = nombre_columna [Alias] | * | expresion [Alias] 

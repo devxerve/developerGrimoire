@@ -19,7 +19,7 @@ Sirve para hacer tablas intermedias
 <mark style="background: #FF5582A6;">HAY 3 FORMAS</mark>
 
 ## Inner join
-```SQL title:Inner_Join
+```sql title:Inner_Join
 SELECT a.*, p.nombre, p.apellido 
 FROM asignatura a INNER JOIN profesor p 
 ON a.profesor=p.DNI;

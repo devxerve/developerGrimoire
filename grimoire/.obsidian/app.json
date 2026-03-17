@@ -10,7 +10,7 @@
   "showFrontmatter": true,
   "propertiesInDocument": "visible",
   "autoPairBrackets": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "spellcheck": true,
   "showLineNumber": false,
   "pdfExportSettings": {

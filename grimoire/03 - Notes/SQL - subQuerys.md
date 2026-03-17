@@ -19,7 +19,7 @@ Los operadores de subconsultas son los operadores de comparación y los [[Predic
 
 ![[Operadores#Operadores Relacionales / De Comparación#Resumen]]
 
-```SQL title="Comparación SQL"
+```sql title="Comparación SQL"
 WHERE edad        >  18
 WHERE precio      <  100
 WHERE salario     >= 1500

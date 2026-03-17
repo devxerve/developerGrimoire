@@ -26,7 +26,7 @@ VALUES (lista_valores);
 > [!example] Ejemplo de valores a insertar
 >  Inserta en la tabla profesroes a César Mateos con DNI 65987452N, email cesar.materos@gmail.com y teléfono 652321452
 
-```SQL title:Insert_simple_sin-columnas 
+```sql title:Insert_simple_sin-columnas 
 INSERT INTO profesor 
 VALUES 
 ('65987452N', 'César', 'Mateos', 'cesar.materos@gmail.com', '652321452', NULL)
@@ -40,7 +40,7 @@ VALUES
 > • Blanca Sánchez, con DNI 54123654B, email b.sanchez@gmail.com,número de teléfono 632145854 y dirección Rúa Mayor, 15, Madrid. 
 > • Pedro, con DNI 74854521L, teléfono 652145487 y email pedro@gmail.com.
 
-```SQL title:Insert_Multiple
+```sql title:Insert_Multiple
 INSERT INTO profesor 
 VALUES 
 ('12457843N', 'Julia', 'Pérez', 'julia.perez@ufv.es', '698745487', NULL), 

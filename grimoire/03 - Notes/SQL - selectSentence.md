@@ -7,95 +7,96 @@ cssclasses:
   - " centerImages"
 ---
 
-# :dev_mysql_original: Cláusulas de la sentencia select
+# :dev_mysql_original: SELECT sentence
 
-## All | disctint
-Permiten eliminar filas repetidas en la tabla resultante al ejecutar la consulta.
+## ALL | DISCTINT
+State if the duplicated tuples in the result table are being shown or not 
 
-<mark style="background: #FFF3A3A6;">ALL</mark>: Se mostrarán todas las opciones (Repeticiones incluidas). Opción default 
+<mark style="background: #FFF3A3A6;">ALL</mark>: All tuples will show, including duplicated ones (Default option)
 
-<mark style="background: #FFF3A3A6;">DISCTINT</mark>: Fuerza a que solo se muestren registros únicos, es decir, elimina los repetidos. 
-### Sintaxis
-```SQL cpp title:Sintaxis_select
-SELECT [ALL | DISCTINT] expresion [, expresion...]
-[FROM tabla];
+<mark style="background: #FFF3A3A6;">DISCTINT</mark>: If a tuple is duplicated is only being selected once.  
+### Syntax
+```sql cpp title:Sintaxis_select
+SELECT [ALL | DISCTINT] expression [, expression...]
+[FROM table];
 ```
 
-## Order by
-Podemos querer mostrar el resultado en un orden determinado, para eso utilizamos esta cláusula, si no se especifica, las filas se muestran en cualquier orden. Argumentos:
+## ORDER BY
+We can choose the order of the resulting data of the query, if there is no order specified, the data will be random OPTIONS: 
 
-<mark style="background: #FFF3A3A6;">ASC</mark>: Permite ordenar el resultado de la consulta de forma ascendente, Opción default.
+<mark style="background: #FFF3A3A6;">ASC</mark>: Orders the result in an Ascending way
 
-<mark style="background: #FFF3A3A6;">DESC</mark>: Permite ordenar el resultado de la consulta de forma descendente. 
+<mark style="background: #FFF3A3A6;">DESC</mark>: Orders the result in a Descending way
 
-La posición de la columna que se usa para ordenar también sirve como argumento (en vez del nombre)
-### Sintaxis
+### Syntax
 
-```SQL
-SELECT [ALL | DISCTINT] expresion [, expresion...]
-[FROM tabla
-[ORDER BY {nombre_columna | posicion_columna} [ASC | DESC],...]
+```sql
+SELECT [ALL | DISCTINT] expression [, expression...]
+[FROM table
+[ORDER BY {column_name | column_position} [ASC | DESC],...]
 ];
 ```
 
-## Where
-Sirve para poner condiciones sobre los registros que se mostraran, es decir, pone una condición a la consulta.
+## WHERE
+It states a conditional clause for the data shown in the query (Equivalent to [[Java - selectionStructures|If]] in any programming language)
 
-<mark style="background: #ADCCFFA6;">Las condiciones tienen estos elementos </mark>
-- Nombre columna 
-- Constantes (Números que no cambian o cadenas de textos fijas)
-- Expresiones (Algebraicas o con funciones propias de MySQL)
-- [[Predicados Avanzados - IN, BETWEEN, IS NULL, LIKE, ALL , ANY , EXISTS ]]
-- Paréntesis: Permiten alterar la prioridad de los operadores 
-- Operadores
+<mark style="background: #ADCCFFA6;">Conditions have this element </mark>
+- Column name
+- Constants (Numbers that dont change or fixed strings)
+- Expressions (Algebra or MYSQL functions)
+- [[SQL - advancedStatements]]
+- Parenthesis: Alter the priority of the statements
+- Operands
 
-```SQL title="Comparación SQL"
-WHERE edad        >  18
-WHERE precio      <  100
-WHERE salario     >= 1500
-WHERE cantidad    <= 20
-WHERE nombre      =  'Juan'
-WHERE tipo        != 'admin'
-WHERE puntuacion  !> 80
+```sql title="comparisonOperands"
+WHERE age        >  18
+WHERE price      <  100
+WHERE salary     >= 1500
+WHERE quantity    <= 20
+WHERE name      =  'Jhon'
+WHERE type        != 'admin'
+WHERE score  !> 80
 WHERE ranking     !< 5
 ```
 
-
-```SQL title="Operadores logicos SQL"
-WHERE edad > 18 AND ciudad = 'Madrid'
-WHERE precio < 100 OR cantidad > 5
-WHERE NOT estado = 'activo'
+```sql title="logicOperands"
+WHERE age > 18 AND city = 'Madrid'
+WHERE price < 100 OR quantity > 5
+WHERE NOT status = 'active'
 ```
-## Group by
-Realizan operaciones sobre un conjunto de todos ellos, y devuelve <mark style="background: #FF5582A6;">UN UNICO VALOR</mark> agregado de todos ellos.
+## GROUP BY
+Returns and <mark style="background: #FF5582A6;">unique grouped value</mark> of all the data selected 
 
 > [!warning] IMPORTANTE
-> SI USAS EL GROUP BY NO SE PUEDE USAR SELECT *
+> IF USED, YOU CANT **USE SELECT** *
+> **ALL THE DATA MUST BE DECLARED EXPLICITLY IN THE SENTENCE OR IN GROUPING FUNCTIONS**
 
-Casos de uso:
-- AVG = calcula la media aritmética de los valores agrupados. Solo columnas numéricas
-- SUM = Calcula la suma de los valores agrupados. Solo columnas numéricas.
-- MAX = Devuelve el valor máximo de los valores agrupados.
-- MIN = Devuelve el valor mínimo de los valores agrupados.
-- COUNT = Devuelve el número de filas agrupadas.
+Grouping functions
+- AVG = Calculates the arithmetic average of the grouped values, only numeric columns.
+- SUM =Calculates the sum of the grouped values, only numeric columns.
+- MAX = Returns the maximum value of all the grouped values.
+- MIN = Returns the minimum value of all the grouped values.
+- COUNT = Returns the number of the grouped columns.
+### Syntax
 
-```sql title:Group_by
-SELECT profesor, COUNT(*) 
-FROM asignatura 
-WHERE ciclo='DAM' 
-GROUP BY profesor;
--- Numero asignaturas impartidas por profesor en DAM --
+```sql title="GROUP BY"
+SELECT teacher, COUNT(*) 
+FROM subject 
+WHERE career='Computer science' 
+GROUP BY teacher;
+--Number of subjects that belongs to each teacher (grouped by teacher)--
 ```
 
-## Having
+## HAVING
 
-Filtra grupos después de GROUP BY
-### Sintaxis
-```SQL title:Having
-SELECT asignatura, AVG (nota_1Ev) AS 'Nota media en 1Ev' 
-FROM alumno_asignatura 
-GROUP BY asignatura 
-HAVING AVG(nota_1Ev)>7  
--- Solo asinaturas cuya nota media en la primera ev sea mayor de 7
+Filters grouped data
+### Syntax
+
+```sql title:Having
+SELECT subject, AVG (grade) AS 'Average grades' 
+FROM student_subject 
+GROUP BY subject 
+HAVING AVG(grade)>7  
+-- Only subjects with a >7 average grade 
 ```
 
