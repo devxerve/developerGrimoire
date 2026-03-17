@@ -46,7 +46,19 @@
       "color": "#59ff00"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editor:toggle-readable-line-length"
+        }
+      ],
+      "name": "dashboard-out",
+      "icon": "star",
+      "startup": false
+    }
+  ],
   "explorer": [],
   "hide": {
     "statusbar": [],

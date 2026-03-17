@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "_config",
         "Dashboard.md",
         "02 - Concepts",
         "05  - Projects",
@@ -12,13 +11,6 @@
         "04 - DevOps",
         "06 - Tools",
         "99 - Meta"
-      ],
-      "sortOrder": "custom"
-    },
-    "_config": {
-      "children": [
-        "_config/zen-os-setup-complete.md",
-        "_config/zen-os-config.md"
       ],
       "sortOrder": "custom"
     },
@@ -208,10 +200,18 @@
     },
     "99 - Meta": {
       "children": [
+        "99 - Meta/_config",
         "99 - Meta/00 - Templates",
         "99 - Meta/01 - Notebooks",
         "99 - Meta/attachments",
         "99 - Meta/Preloaded Classes"
+      ],
+      "sortOrder": "custom"
+    },
+    "99 - Meta/_config": {
+      "children": [
+        "99 - Meta/_config/zen-os-config.md",
+        "99 - Meta/_config/zen-os-setup-complete.md"
       ],
       "sortOrder": "custom"
     },

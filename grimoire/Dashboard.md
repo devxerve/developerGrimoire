@@ -53,7 +53,7 @@ async function getWorkspaceAccessToken(){
 // -- LOAD AI KEYS FROM VAULT -----------
 async function loadAIKeysFromVault() {
     try {
-        const keyFile = app.vault.getAbstractFileByPath("_config/ai-keys.md");
+        const keyFile = app.vault.getAbstractFileByPath("99 - Meta/_config/ai-keys.md");
         if (!keyFile) return;
         const content = await app.vault.read(keyFile);
         const lines = content.split("\n");
@@ -1501,7 +1501,7 @@ async function fetchCTFs(){
         const res=await request({url:`https://ctftime.org/api/v1/events/?limit=100&start=${lookbackStart}&finish=${finish}`,method:"GET",headers:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36","Accept":"application/json"}});
         const ctfEvents=JSON.parse(res);
         if(Array.isArray(ctfEvents)&&ctfEvents.length>0){
-            localStorage.setItem("zos-ctf-cache",JSON.stringify(ctfEvents.slice(0,50)));
+            localStorage.setItem("zos-ctf-cache",JSON.stringify(ctfEvents.slice(0,25)));
         }
         if(!Array.isArray(ctfEvents)||ctfEvents.length===0){
             ctfListEl.innerHTML="";ctfListEl.createDiv({cls:"zos-hint"}).innerText="No upcoming CTFs found.";return;
@@ -3443,7 +3443,7 @@ document.head.appendChild(zosStyle);
 // -- BOOT ENTRY POINT ----------------
 async function loadSettingsFromVault(){
     try {
-        const configPath = "_config/zen-os-config.md";
+        const configPath = "99 - Meta/_config/zen-os-config.md";
         const file = app.vault.getAbstractFileByPath(configPath);
         if(!file) return;
         const content = await app.vault.read(file);
@@ -3473,7 +3473,7 @@ async function loadSettingsFromVault(){
 }
 
 async function boot(){
-    const flagPath = "_config/zen-os-setup-complete.md";
+    const flagPath = "99 - Meta/_config/zen-os-setup-complete.md";
     let done = false;
     try {
         const flagFile = app.vault.getAbstractFileByPath(flagPath);
@@ -3845,7 +3845,7 @@ async function launchSetupWizard(){
     // -- SAVE CONFIG NOTE --------------
     async function saveConfigNote(){
         try {
-            const configDir = "_config";
+            const configDir = "99 - Meta/_config";
             if(!app.vault.getAbstractFileByPath(configDir)){
                 await app.vault.createFolder(configDir);
             }
@@ -3864,16 +3864,16 @@ async function launchSetupWizard(){
                 `- **AI:** ${S.aiSaved ? "✅ Key saved" : "⚠️ No key saved"}`,
                 "",
                 "## Notes",
-                "- To re-run setup wizard, delete the file: `_config/zen-os-setup-complete.md`",
+                "- To re-run setup wizard, delete the file: `99 - Meta/_config/zen-os-setup-complete.md`",
                 "- AI keys are stored in browser localStorage (never in this file)",
             ].join("\n");
-            const path = "_config/zen-os-config.md";
+            const path = "99 - Meta/_config/zen-os-config.md";
             const existing = app.vault.getAbstractFileByPath(path);
             if(existing){ await app.vault.modify(existing, content); }
             else { await app.vault.create(path, content); }
 
             // Write the completion flag file
-            const flagPath = "_config/zen-os-setup-complete.md";
+            const flagPath = "99 - Meta/_config/zen-os-setup-complete.md";
             const flagContent = `# ZEN-OS Setup Complete\n\nSetup completed on: ${new Date().toLocaleString()}\n\nDo not delete this file — it tells ZEN-OS that setup has already been done.\nTo re-run the setup wizard, delete this file and reload the dashboard.\n`;
             const existingFlag = app.vault.getAbstractFileByPath(flagPath);
             if(existingFlag){ await app.vault.modify(existingFlag, flagContent); }
@@ -4328,7 +4328,7 @@ deepLinkBtn.onclick=()=>{
                 { icon:"✏️",  title:"Create notes",      desc:"Can create new notes when you ask the AI to (e.g. 'Create a note for this assignment').", level:"Optional" },
                 { icon:"📁",  title:"List folders",      desc:"Browses your folder structure so you can choose where to save new notes.", level:"Read only" },
                 { icon:"🔑",  title:"CSS snippets",      desc:"Writes one snippet file to .obsidian/snippets/ to persist your accent color across restarts.", level:"One-time write" },
-                { icon:"⚙️",  title:"Config note",       desc:"Creates _config/zen-os-config.md with your settings summary (no API keys stored here).", level:"One-time write" },
+                { icon:"⚙️",  title:"Config note",       desc:"Creates 99 - Meta/_config/zen-os-config.md with your settings summary (no API keys stored here).", level:"One-time write" },
             ];
 
             perms.forEach(p => {
@@ -4648,7 +4648,7 @@ deepLinkBtn.onclick=()=>{
 
 // -- CONFETTI ------------------------------
 function launchConfetti(parent){
-    const colors = ["#6366f1","#00ff88","#ffc800","#ff5578","#00e5ff","#b450ff","#ff8c00","#ffffff"];
+    const colors = ["#6366f1","#00ff88","#ffc800","#ff5578","#00e5ff",,"#ff8c00","#ffffff"];
     for(let i = 0; i < 100; i++){
         const size   = 5 + Math.random() * 8;
         const isRect = Math.random() > 0.4;

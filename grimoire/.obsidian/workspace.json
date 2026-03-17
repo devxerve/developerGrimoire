@@ -1,15 +1,16 @@
 {
   "main": {
-    "id": "604d9676555633ad",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "50ddd8a2774cd9bc",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "0951f1a9d0235778",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Dashboard"
             }
@@ -44,7 +46,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -204,14 +206,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "zk-prefixer:Crear nueva nota única": false,
+      "bases:Crear nueva base": false,
       "templater-obsidian:Templater": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
@@ -223,12 +226,13 @@
       "google-workspace-obsidian:Google Workspace": false
     }
   },
-  "active": "0951f1a9d0235778",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "_config/zen-os-setup-complete.md",
     "Dashboard.md",
-    "_config/zen-os-config.md",
-    "_config",
+    "03 - Notes/SQL - joinSentence.md",
+    "99 - Meta/_config/zen-os-setup-complete.md",
+    "99 - Meta/_config/zen-os-config.md",
+    "99 - Meta/_config",
     "03 - Notes/Java - codeStructure.md",
     "02 - Concepts/casting.md",
     "02 - Concepts/cleanCoding.md",
@@ -256,7 +260,6 @@
     "03 - Notes/algorithms - algorithms.md",
     "03 - Notes/cleancode - bestPractices.md",
     "03 - Notes/databases - relevantTerms.md",
-    "03 - Notes/sql - advancedStatements.md",
     "99 - Meta/01 - Notebooks/ScrapBook/inheritanceScrap.png",
     "03 - Notes.zip",
     "99 - Meta/01 - Notebooks/Excalidraw/entity_relationsN_N.png",

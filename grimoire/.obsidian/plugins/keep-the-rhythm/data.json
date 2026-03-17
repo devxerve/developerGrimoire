@@ -2303,13 +2303,28 @@
             "timeKey": "13:00",
             "w": -31219,
             "c": -285219
+          },
+          {
+            "timeKey": "14:00",
+            "w": 31479,
+            "c": 287940
+          },
+          {
+            "timeKey": "14:55",
+            "w": -1,
+            "c": -9
+          },
+          {
+            "timeKey": "15:00",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 213
       },
       {
         "date": "2026-03-17",
-        "filePath": "_config/zen-os-config.md",
+        "filePath": "99 - Meta/_config/zen-os-config.md",
         "wordCountStart": 50,
         "charCountStart": 396,
         "changes": [
@@ -2323,7 +2338,7 @@
       },
       {
         "date": "2026-03-17",
-        "filePath": "_config/zen-os-setup-complete.md",
+        "filePath": "99 - Meta/_config/zen-os-setup-complete.md",
         "wordCountStart": 39,
         "charCountStart": 216,
         "changes": [
@@ -2336,9 +2351,22 @@
             "timeKey": "13:00",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "14:05",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 215
+      },
+      {
+        "date": "2026-03-17",
+        "filePath": "03 - Notes/SQL - joinSentence.md",
+        "wordCountStart": 248,
+        "charCountStart": 1764,
+        "changes": [],
+        "id": 216
       }
     ]
   }
