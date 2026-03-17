@@ -5,7 +5,7 @@
 .obsidian/.obsidian.cache
 
 # Plugin data (configs stay, code excluded)
-.obsidian/plugins/*/data.json
+grimoire/.obsidian/plugins/*/data.json
 # .obsidian/plugins/  # Descomenta si NO quieres compartir plugins
 
 # Obsidian trash and limbo
