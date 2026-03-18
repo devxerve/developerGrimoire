@@ -10,8 +10,9 @@ grimoire/.obsidian/plugins/*/data.json
 
 # Obsidian trash and limbo
 grimoire/.trash/
-grimoire/limbo/
 grimoire/.keep-the-rhythm/  # Si contiene notas privadas
+grimoire/00 - Uni
+grimoire/98 - Personal
 
 # Temp files
 *.tmp
