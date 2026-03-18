@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"00 - Uni\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6684927
+      }
+    },
+    {
+      "query": "path:\"98 - Personal\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "-path:\"98 - Personal\" -path:\"00 - Uni\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14172619
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -2.5,
+  "nodeSizeMultiplier": 1.01875,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.609375,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 302,
+  "scale": 0.09590046996260135,
+  "close": false
+}

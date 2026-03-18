@@ -1,0 +1,29 @@
+{
+  "showInlineTitle": true,
+  "autoPairMarkdown": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "99 - Meta/attachments",
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "99 - Meta/"
+  ],
+  "showFrontmatter": true,
+  "propertiesInDocument": "visible",
+  "autoPairBrackets": true,
+  "readableLineLength": true,
+  "spellcheck": true,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "04 - Fleeting",
+  "strictLineBreaks": false,
+  "showUnsupportedFiles": true,
+  "openBehavior": "file:00 - Home/Dashboard.canvas"
+}
