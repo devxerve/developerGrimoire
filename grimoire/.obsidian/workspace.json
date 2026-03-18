@@ -181,8 +181,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -206,7 +206,10 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "file-share:Toggle connection": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e7a7b303c61786dc",
