@@ -2508,18 +2508,7 @@
         "filePath": "Dashboard.md",
         "wordCountStart": 31480,
         "charCountStart": 292644,
-        "changes": [
-          {
-            "timeKey": "13:05",
-            "w": -31476,
-            "c": -292593
-          },
-          {
-            "timeKey": "13:10",
-            "w": 2093,
-            "c": 22488
-          }
-        ],
+        "changes": [],
         "id": 297
       },
       {
@@ -2529,49 +2518,6 @@
         "charCountStart": 835,
         "changes": [],
         "id": 298
-      },
-      {
-        "date": "2026-03-18",
-        "filePath": "limbo/serious - appRequirements.md",
-        "wordCountStart": 420,
-        "charCountStart": 2657,
-        "changes": [],
-        "id": 299
-      },
-      {
-        "date": "2026-03-18",
-        "filePath": "03 - Notes/SQL - minimumSelect_syntax.md",
-        "wordCountStart": 123,
-        "charCountStart": 943,
-        "changes": [],
-        "id": 300
-      },
-      {
-        "date": "2026-03-18",
-        "filePath": "03 - Notes/SQL - selectSentence.md",
-        "wordCountStart": 401,
-        "charCountStart": 2978,
-        "changes": [],
-        "id": 301
-      },
-      {
-        "date": "2026-03-18",
-        "filePath": "Dashboard.md",
-        "wordCountStart": 0,
-        "charCountStart": 0,
-        "changes": [
-          {
-            "timeKey": "13:05",
-            "w": -31476,
-            "c": -292593
-          },
-          {
-            "timeKey": "13:10",
-            "w": 2093,
-            "c": 22488
-          }
-        ],
-        "id": 302
       }
     ]
   }

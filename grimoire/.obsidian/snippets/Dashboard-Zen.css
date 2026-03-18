@@ -1,6 +1,7 @@
 /* 
    Dashboard-Zen-OS.css
    Professional Edition — Refined Dark
+   Tokens & visual language from v1 · Functional classes from v2
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
@@ -26,7 +27,6 @@
     --zos-font-ser:   'DM Sans', sans-serif;
     --zos-font-mono:  'JetBrains Mono', monospace;
 
-    /* Subtle glow accent */
     --zos-glow: rgba(var(--zos-accent-rgb), 0.12);
 }
 
@@ -57,7 +57,6 @@
     box-shadow: var(--zos-shadow);
 }
 
-/* Ambient glow — top left */
 .zos-header::before {
     content: '';
     position: absolute;
@@ -69,7 +68,6 @@
     pointer-events: none;
 }
 
-/* Ambient glow — bottom right */
 .zos-header::after {
     content: '';
     position: absolute;
@@ -105,6 +103,16 @@
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     display: block !important;
+}
+
+/* Greeting text (from v2) */
+.zos-greeting-text {
+    font-size: 2em !important;
+    font-weight: 600;
+    margin-top: 14px;
+    opacity: 0.75;
+    display: block;
+    font-family: var(--zos-font-main);
 }
 
 /* ── BANNER SETTINGS ───────────────────────────────────────── */
@@ -202,7 +210,6 @@
     overflow: hidden;
 }
 
-/* Subtle top shine on cards */
 .zos-card::before {
     content: '';
     position: absolute;
@@ -221,7 +228,7 @@
 }
 
 .zos-card-title {
-    font-size: 0.8em;        /* change to 1em */
+    font-size: 0.8em;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -232,7 +239,6 @@
     gap: 10px;
 }
 
-/* Objective card text */
 .zos-card [contenteditable] {
     font-family: 'Georgia', 'Times New Roman', serif !important;
     font-size: 2em;
@@ -304,6 +310,43 @@
     .zos-col-grid    { grid-template-columns: 1fr; }
     .zos-card-shell  { grid-column: 1 / -1; }
     .zos-resize-handle { display: none; }
+}
+
+/* ── MICRO-HABITS (from v2) ────────────────────────────────── */
+.zos-habit-strip {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 15px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 14px;
+    margin-bottom: 10px;
+    border: var(--zos-border-subtle);
+    transition: background 0.2s, border-color 0.2s;
+}
+.zos-habit-strip:hover {
+    background: rgba(var(--zos-accent-rgb), 0.04);
+    border-color: rgba(var(--zos-accent-rgb), 0.15);
+}
+
+.zos-dot-grid {
+    display: flex;
+    gap: 5px;
+}
+
+.zos-dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.zos-dot.active {
+    background: rgba(var(--zos-accent-rgb), 0.75);
+    box-shadow: 0 0 10px rgba(var(--zos-accent-rgb), 0.35);
+    border-color: rgba(var(--zos-accent-rgb), 0.5);
 }
 
 /* ── TASK ROW ──────────────────────────────────────────────── */
@@ -401,6 +444,66 @@
     transform: scale(1.15);
 }
 
+/* ── EDITABLE HABIT TITLE (from v2) ────────────────────────── */
+.zos-habit-title {
+    font-weight: 600;
+    font-size: 0.78em;
+    letter-spacing: 1px;
+    cursor: context-menu;
+    padding: 2px 6px;
+    border-radius: 5px;
+    transition: background 0.2s;
+    font-family: var(--zos-font-mono);
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+.zos-habit-title:hover {
+    background: rgba(var(--zos-accent-rgb), 0.08);
+    opacity: 1;
+}
+
+/* ── REFRESH ICON (from v2) ────────────────────────────────── */
+.zos-refresh-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.03);
+    border: var(--zos-border-subtle);
+    color: var(--zos-accent);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.2s;
+}
+.zos-refresh-icon:hover {
+    background: rgba(var(--zos-accent-rgb), 0.12);
+    border-color: rgba(var(--zos-accent-rgb), 0.3);
+    transform: rotate(180deg);
+}
+
+/* ── MOOD TRACKER (from v2) ────────────────────────────────── */
+.zos-mood-grid {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.zos-mood-item {
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), filter 0.2s;
+    opacity: 0.6;
+}
+.zos-mood-item:hover {
+    transform: scale(1.35);
+    opacity: 1;
+}
+.zos-mood-item.selected {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(var(--zos-accent-rgb), 0.5));
+}
+
 /* ── PIPELINE BADGES ───────────────────────────────────────── */
 .zos-task-source-indicator {
     font-family: var(--zos-font-mono);
@@ -469,6 +572,20 @@
     border-color: rgba(var(--zos-accent-rgb), 0.3);
 }
 
+/* ── TITLE BADGE (from v2) ─────────────────────────────────── */
+.zos-title-badge {
+    font-family: var(--zos-font-mono);
+    font-size: 0.62em;
+    font-weight: 500;
+    color: var(--zos-accent);
+    background: rgba(var(--zos-accent-rgb), 0.08);
+    padding: 3px 10px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(var(--zos-accent-rgb), 0.18);
+    text-transform: uppercase;
+}
+
 /* ── FOOTER ────────────────────────────────────────────────── */
 .zos-footer {
     grid-column: 1 / -1;
@@ -507,9 +624,9 @@
     width: 380px;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
     animation: scaleIn 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
 }
 
-/* Modal top edge highlight */
 .zos-modal::before {
     content: '';
     position: absolute;
@@ -546,6 +663,19 @@
 .zos-modal-input:focus {
     border-color: rgba(var(--zos-accent-rgb), 0.45) !important;
     background: rgba(var(--zos-accent-rgb), 0.05) !important;
+}
+
+/* Modal select (from v2, re-skinned) */
+.zos-modal-select {
+    appearance: auto !important;
+    background: rgba(255,255,255,0.04) !important;
+    color: rgba(255,255,255,0.9) !important;
+    border: 1px solid rgba(255,255,255,0.09) !important;
+    border-radius: 11px !important;
+}
+.zos-modal-select option {
+    background-color: #1a1a2e !important;
+    color: rgba(255,255,255,0.9) !important;
 }
 
 .zos-modal-btns {
@@ -636,6 +766,16 @@
     to   { opacity: 1; transform: scale(1) translateY(0); }
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.9) translateY(20px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
 /* ── STAGGERED CARD ENTRANCE ───────────────────────────────── */
 .zos-left-card:nth-child(1) .zos-card  { animation: zos-slide-up 0.6s 0.05s cubic-bezier(0.22,1,0.36,1) backwards; }
 .zos-left-card:nth-child(2) .zos-card  { animation: zos-slide-up 0.6s 0.12s cubic-bezier(0.22,1,0.36,1) backwards; }
@@ -643,7 +783,7 @@
 .zos-right-card:nth-child(1) .zos-card { animation: zos-slide-up 0.6s 0.08s cubic-bezier(0.22,1,0.36,1) backwards; }
 .zos-right-card:nth-child(2) .zos-card { animation: zos-slide-up 0.6s 0.16s cubic-bezier(0.22,1,0.36,1) backwards; }
 
-/* ── FOCUS RING ON INPUTS ──────────────────────────────────── */
+/* ── FOCUS RING ────────────────────────────────────────────── */
 input:focus-visible,
 textarea:focus-visible {
     outline: none;
@@ -661,8 +801,6 @@ textarea:focus-visible {
     flex-direction: column !important;
 }
 
-/* ── MATERIAL VIEWER OVERRIDE ──────────────────────────────── */
 .zos-modal-overlay {
     align-items: center !important;
 }
-
