@@ -3,7 +3,6 @@ cssclasses:
   - readable
 ---
 ```dataviewjs
-
 // --- ⚙️ PERSISTENCE ENGINE ---
 const defaultHabitNames = ["Reading", "Coding", "Meditate", "Gym"];
 let savedHabits = JSON.parse(localStorage.getItem("zos-final-habits")) || defaultHabitNames;
@@ -164,7 +163,7 @@ const heroSubtitleEl = hero.createDiv({
     attr: { style: "opacity: 0.6; font-size: 1.1em; letter-spacing: 0.5px;" }
 });
 
-// Botón ⚙️ del banner (hijo del header, esquina superior derecha)
+// Botón ⚙️ del banner
 const bannerSettingsBtn = header.createDiv({ cls: "zos-banner-settings-btn" });
 try { setIcon(bannerSettingsBtn, "settings"); } catch(e) { bannerSettingsBtn.innerText = "⚙️"; }
 
@@ -227,7 +226,7 @@ renderHeroStats();
 // --- MAIN GRID ---
 const grid = container.createDiv({ cls: "zos-grid" });
 
-// --- LEFT COLUMN ---
+// ── LEFT COLUMN (span-4) ─────────────────────────────────────
 const colLeft = grid.createDiv({ cls: "span-4" });
 
 // Card: Objetivo
@@ -239,7 +238,7 @@ const focusVal = cardFocus.createDiv({
 });
 focusVal.onblur = () => localStorage.setItem("zos-final-focus", focusVal.innerText);
 
-// Modulo: Sistema
+// Card: Sistema
 const cardActions = colLeft.createDiv({ cls: "zos-card", attr: { style: "margin-top: 32px;" } });
 cardActions.createDiv({ cls: "zos-card-title", text: "🛠️ SYSTEM" });
 const aGrid = cardActions.createDiv({ attr: { style: "display: grid; grid-template-columns: 1fr 1fr; gap: 15px;" }});
@@ -278,12 +277,12 @@ const bioBarBg = cardBioPerf.createDiv({ attr: { style: "height: 8px; background
 bioBar = bioBarBg.createDiv({ attr: { style: `height: 100%; width: ${hStats.percent}%; background: #00ff88; box-shadow: 0 0 10px rgba(0,255,136,0.3); transition: width 0.6s ease;` }});
 
 bioInfoEl = cardBioPerf.createDiv({ attr: { style: "font-size: 0.75em; opacity: 0.6; line-height: 1.4;" } });
-bioInfoEl.innerHTML = `Completed: <b>${hStats.active}</b> of <b>${hStats.total}</b> points.<br>${hStats.percent >= 80 ? "🔥 Elite performance detected." : "🚀 Keep maintaining your focus."}` ;
+bioInfoEl.innerHTML = `Completed: <b>${hStats.active}</b> of <b>${hStats.total}</b> points.<br>${hStats.percent >= 80 ? "🔥 Elite performance detected." : "🚀 Keep maintaining your focus."}`;
 
-// --- RIGHT COLUMN ---
+// ── RIGHT COLUMN (span-8) ────────────────────────────────────
 const colCenter = grid.createDiv({ cls: "span-8" });
 
-// Pipeline Card
+// Card: Task Pipeline
 const cardTasks = colCenter.createDiv({ cls: "zos-card" });
 const tHeader = cardTasks.createDiv({ cls: "zos-card-title", attr: { style: "justify-content: space-between;" } });
 const tLeftHeader = tHeader.createDiv({ attr: { style: "display: flex; align-items: center; gap: 10px;" } });
@@ -371,7 +370,7 @@ function renderTasks() {
 }
 renderTasks();
 
-// Global Efficiency Card
+// Card: Task Performance
 const cardHealth = colCenter.createDiv({ cls: "zos-card", attr: { style: "margin-top: 32px;" } });
 cardHealth.createDiv({ cls: "zos-card-title", text: "📊 TASK PERFORMANCE" });
 
@@ -381,8 +380,8 @@ taskText = cardHealth.createDiv({ attr: { style: "font-size: 0.9em; margin-botto
 const barBg = cardHealth.createDiv({ attr: { style: "height: 8px; background: rgba(255,255,255,0.05); border-radius: 6px; overflow: hidden;" }});
 taskBar = barBg.createDiv({ attr: { style: `height: 100%; width: ${progress}%; background: #00ff88; box-shadow: 0 0 10px rgba(0,255,136,0.3); transition: width 0.6s ease;` }});
 
-// --- HABITS ROW ---
-const cardHabits = grid.createDiv({ cls: "zos-card span-12", attr: { style: "margin-top: 20px;" } });
+// ── BIO-METRICS — en columna derecha, debajo de Task Performance ──
+const cardHabits = colCenter.createDiv({ cls: "zos-card", attr: { style: "margin-top: 32px;" } });
 const hHeader = cardHabits.createDiv({ cls: "zos-card-title", attr: { style: "justify-content: space-between;" } });
 hHeader.createDiv({ text: "🧬 BIO-METRICS (WEEKLY)" });
 const addBtn = hHeader.createDiv({ 
@@ -390,7 +389,8 @@ const addBtn = hHeader.createDiv({
     attr: { style: "font-size: 0.75em; opacity: 0.6; cursor: pointer; color: var(--zos-accent); font-weight: 800; background: rgba(var(--zos-accent-rgb), 0.1); padding: 5px 15px; border-radius: 20px; transition: all 0.3s ease;" }
 });
 
-const hGrid = cardHabits.createDiv({ attr: { style: "display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;" }});
+// Grid de hábitos: 2 columnas dentro del span-8
+const hGrid = cardHabits.createDiv({ attr: { style: "display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;" }});
 
 function renderHabits() {
     hGrid.innerHTML = "";
@@ -451,8 +451,8 @@ addBtn.onmouseleave = () => { addBtn.style.opacity = "0.6"; addBtn.style.transfo
 renderHabits();
 Utils.updateBars();
 
-// --- DISCOVERY ---
-const discovery = container.createDiv({ cls: "span-12", attr: { style: "margin-top: 20px;" }});
+// --- DISCOVERY (span-12 full width) ---
+const discovery = container.createDiv({ attr: { style: "margin-top: 28px;" }});
 const cardSeren = discovery.createDiv({ cls: "zos-card" });
 const sHead = cardSeren.createDiv({ cls: "zos-card-title", attr: { style: "justify-content: space-between;" }});
 sHead.createDiv({ text: "💡 SERENDIPITY" });
