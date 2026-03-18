@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "00 - Uni",
+        "98 - Personal",
         "Dashboard.md",
         "02 - Concepts",
         "05  - Projects",
@@ -11,6 +13,291 @@
         "04 - DevOps",
         "06 - Tools",
         "99 - Meta"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni": {
+      "children": [
+        "00 - Uni/01 - Modulos",
+        "00 - Uni/02 - Proyectos"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Acceso a Datos",
+        "00 - Uni/01 - Modulos/Bases de Datos",
+        "00 - Uni/01 - Modulos/Ciberseguridad",
+        "00 - Uni/01 - Modulos/Desarrollo de Interfaces",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n",
+        "00 - Uni/01 - Modulos/Programacion",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos",
+        "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles",
+        "00 - Uni/01 - Modulos/Sistemas de Gestion Empresarial",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos",
+        "00 - Uni/01 - Modulos/Wiimote Script.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Acceso a Datos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Acceso a Datos/Apuntes",
+        "00 - Uni/01 - Modulos/Acceso a Datos/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Acceso a Datos/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Acceso a Datos/Apuntes/Acceso a ficheros.md",
+        "00 - Uni/01 - Modulos/Acceso a Datos/Apuntes/Conexi├│n a una base de datos desde java.md",
+        "00 - Uni/01 - Modulos/Acceso a Datos/Apuntes/Conexi├│n a una base de datos desde java 1.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Bases de Datos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes",
+        "00 - Uni/01 - Modulos/Bases de Datos/Correcci├│n examen 30 de octubre.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Bases de Datos/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Actualizaci├│n de registros Sentencia UPDATE.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Caracter├¡sticas de una base de datos.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Caracter├¡sticas de una Relaci├│n.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Cl├íusulas de la sentencia SELECT.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Consultas Correlacionadas.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Creacion de bases, tablas y vistas Sentencia CREATE.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Elementos de una BBDD.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Eliminaci├│n de registros Sentencia DELETE.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Eliminacion de bases, tablas y vistas Sentencia DROP.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/ESTUDIO EXAMEN BBDD.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Inserci├│n - Sentencia INSERT.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Inserci├│n Grandes Cantidades de registros.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Introducci├│n MySQL.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/JOIN.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Modelo de Datos.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Modelo Entidad-Relaci├│n (MER).md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Modificacion en la definici├│n de las tablas Sentencia ALTER TABLE.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Predicados Avanzados - IN, BETWEEN, IS NULL, LIKE, ALL , ANY , EXISTS.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Sentencia SELECT - Sintaxis m├¡nima.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/SQL - Operadores.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Subconsultas.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/T┬érminos relevantes BBDD.md",
+        "00 - Uni/01 - Modulos/Bases de Datos/Apuntes/Traducci├│n Modelo Entidad-Relaci├│n a Modelo Relacional.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Ciberseguridad": {
+      "children": [
+        "00 - Uni/01 - Modulos/Ciberseguridad/Ciber-trabajoSeguridadLogica.md",
+        "00 - Uni/01 - Modulos/Ciberseguridad/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Desarrollo de Interfaces": {
+      "children": [
+        "00 - Uni/01 - Modulos/Desarrollo de Interfaces/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Entornos de Desarrollo": {
+      "children": [
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Ciclo de vida del desarrollo de software.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Configuraci├│n del Entorno de Desarrollo.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Depuraci├│n del c├│digo.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Desarrollo Software.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Fases del desarrollo de Software.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Git - Basic Commands.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Git - Branching.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Git - Rebase vs Merge.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/JUnit.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Modelos de desarrollo software.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Pruebas del c├│digo.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Pruebas Unitarias - Caja Blanca.md",
+        "00 - Uni/01 - Modulos/Entornos de Desarrollo/Apuntes/Realizaci├│n de Pruebas.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube": {
+      "children": [
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes/Computaci├│n en la nube.md",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes/Fundamentos de la Facturaci├│n.md",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes/Introducci├│n a la Econom├¡a y facturaci├│n en la Nube.md",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes/Modelos de Implementaci├│n.md",
+        "00 - Uni/01 - Modulos/Fundamentos de Computacion en la Nube/Apuntes/Ventajas de la computaci├│n en la nube.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n": {
+      "children": [
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Atributos XML.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Documentos validos XML.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Ejemplo DTD.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Elementos estructurales.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Elementos Estructurales Sem├ínticos.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Estructura XML.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Etiquetas.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Formularios.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Funcionamiento b├ísico CSS.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/HTML5 - Introducci├│n y Estructura B├ísica.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Introducci├│n a HTML.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Introducci├│n a XML.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Listas.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Propiedades y Selectores CSS M├ís Comunes.md",
+        "00 - Uni/01 - Modulos/Lenguajes de Marcas y Sistemas de Gesti├│n de Informaci├│n/Apuntes/Tablas HTML5.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion/Apuntes",
+        "00 - Uni/01 - Modulos/Programacion/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Algoritmos.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/ARGS.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/ArrayLists - ForEach.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Arrays Java.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Buenas Pr├ícticas.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Casting.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Clases y Paquetes.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Constantes y Literales.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Constructores.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Datos Primitivos.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Estructuras de Iteraci├│n.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Estructuras de Selecci├│n Java.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/For anidados.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Herencia y polimorfismo.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Introduccion a objetos.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Modificadores de Acceso.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Operadores.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Programaci├│n Modular.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/StringBuilder.md",
+        "00 - Uni/01 - Modulos/Programacion/Apuntes/Wrappers.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/Colas de Ejecuci├│n.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/ProcessBuilder.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/Programaci├│n Concurrente vs Secuencial.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/Programaci├│n MultiHilo.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/Programaci├│n Paralela - Distribuida.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/stream_pipes.md",
+        "00 - Uni/01 - Modulos/Programacion de Servicios y Procesos/Apuntes/Tarea 6.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles/Trabajos",
+        "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles/Trabajos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Programacion Multimedia y Dispositivos Moviles/Trabajos/Trabajo unidad 1.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Sistemas de Gestion Empresarial": {
+      "children": [
+        "00 - Uni/01 - Modulos/Sistemas de Gestion Empresarial/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Sistemas Informaticos": {
+      "children": [
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes": {
+      "children": [
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Cambios en las Placas Base Modernas.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Codificaci├│n ASCII.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Componentes Fundamentales de un Sistema Inform├ítico.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Funcionamiento B├ísico de un Sistema Inform├ítico.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Historia y Evoluci├│n de los Sistemas Inform├íticos.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Introducci├│n a los Sistemas Inform├íticos.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/M├íquinas Virtuales.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Mecanismos de conversi├│n.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Shell de Comandos.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Sistemas de Numeraci├│n.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Sistemas Operativos y Gestores de Arranque.md",
+        "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Unidades de Medida de Informaci├│n.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/02 - Proyectos": {
+      "children": [
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag": {
+      "children": [
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad",
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones",
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App",
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Descripci├│n del Proyecto.md",
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Tareas y Issues.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad": {
+      "children": [
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad/Componentes.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones": {
+      "children": [
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones/Reuni├│n DAM y ASIR.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App": {
+      "children": [
+        "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App/Index.md"
       ],
       "sortOrder": "custom"
     },
@@ -198,20 +485,64 @@
       ],
       "sortOrder": "custom"
     },
+    "98 - Personal": {
+      "children": [
+        "98 - Personal/00 - Maps of Content",
+        "98 - Personal/01 - Projects",
+        "98 - Personal/04 - Fleeting",
+        "98 - Personal/07 - People"
+      ],
+      "sortOrder": "custom"
+    },
+    "98 - Personal/00 - Maps of Content": {
+      "children": [
+        "98 - Personal/00 - Maps of Content/javi_Personal.md",
+        "98 - Personal/00 - Maps of Content/People.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "98 - Personal/01 - Projects": {
+      "children": [
+        "98 - Personal/01 - Projects/Camino de Santiago.md",
+        "98 - Personal/01 - Projects/Chef.md",
+        "98 - Personal/01 - Projects/Driving.md",
+        "98 - Personal/01 - Projects/Socials.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "98 - Personal/04 - Fleeting": {
+      "children": [
+        "98 - Personal/04 - Fleeting/Banana and Strawberry Smoothie.md",
+        "98 - Personal/04 - Fleeting/Cartas.md",
+        "98 - Personal/04 - Fleeting/Etapas.md",
+        "98 - Personal/04 - Fleeting/Flores.md",
+        "98 - Personal/04 - Fleeting/Fotos.md",
+        "98 - Personal/04 - Fleeting/Hacerle comida.md",
+        "98 - Personal/04 - Fleeting/Heedia ring.md",
+        "98 - Personal/04 - Fleeting/Mango Milkshake.md",
+        "98 - Personal/04 - Fleeting/Manualidades.md",
+        "98 - Personal/04 - Fleeting/Mensajitos.md",
+        "98 - Personal/04 - Fleeting/Paleta de uñas roja.md",
+        "98 - Personal/04 - Fleeting/Planning.md",
+        "98 - Personal/04 - Fleeting/Ropa.md",
+        "98 - Personal/04 - Fleeting/Vídeo sobre brechas de datos, y como comprobarlas.md",
+        "98 - Personal/04 - Fleeting/Vídeo sobre contraseñas y gestores - 1-01-2025.md",
+        "98 - Personal/04 - Fleeting/Votos.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "98 - Personal/07 - People": {
+      "children": [
+        "98 - Personal/07 - People/Pau.md"
+      ],
+      "sortOrder": "custom"
+    },
     "99 - Meta": {
       "children": [
-        "99 - Meta/_config",
         "99 - Meta/00 - Templates",
         "99 - Meta/01 - Notebooks",
         "99 - Meta/attachments",
         "99 - Meta/Preloaded Classes"
-      ],
-      "sortOrder": "custom"
-    },
-    "99 - Meta/_config": {
-      "children": [
-        "99 - Meta/_config/zen-os-config.md",
-        "99 - Meta/_config/zen-os-setup-complete.md"
       ],
       "sortOrder": "custom"
     },

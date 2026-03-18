@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Notes/SQL - selectSentence.md",
-                "mode": "source",
+                "file": "Dashboard.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL - selectSentence"
-            }
-          },
-          {
-            "id": "38439ab742cbaa0d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Dashboard"
             }
           }
         ]
@@ -194,19 +184,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "b85fdab943fd79cf",
-            "type": "leaf",
-            "state": {
-              "type": "keep-the-rhythm",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "keep-the-rhythm"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -234,8 +214,9 @@
       "google-workspace-obsidian:Google Workspace": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e10e70b0669df391",
   "lastOpenFiles": [
+    "03 - Notes/SQL - selectSentence.md",
     "98 - Personal/00 - Maps of Content/javi_Personal.md",
     "Dashboard.md",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App/Index.md",
@@ -261,7 +242,6 @@
     "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Funcionamiento B├ísico de un Sistema Inform├ítico.md",
     "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Componentes Fundamentales de un Sistema Inform├ítico.md",
     "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Codificaci├│n ASCII.md",
-    "00 - Uni/01 - Modulos/Sistemas Informaticos/Apuntes/Cambios en las Placas Base Modernas.md",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad",

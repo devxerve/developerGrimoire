@@ -388,6 +388,182 @@ const addBtn = hHeader.createDiv({
     text: "ADD HABIT +", 
     attr: { style: "font-size: 0.75em; opacity: 0.6; cursor: pointer; color: var(--zos-accent); font-weight: 800; background: rgba(var(--zos-accent-rgb), 0.1); padding: 5px 15px; border-radius: 20px; transition: all 0.3s ease;" }
 });
+// ── CARD: GITHUB ACTIVITY — devxerve ────────────────────────
+const cardGH = dv.container.createDiv({ cls: "zos-card", attr: { style: "margin-top:32px;" } });
+ 
+// Header con botón refresh
+const ghHeader = cardGH.createDiv({ cls: "zos-card-title", attr: { style: "justify-content:space-between;" } });
+ghHeader.createDiv({ text: "🐙 GITHUB — devxerve" });
+const ghRefresh = ghHeader.createDiv({ cls: "zos-refresh-icon" });
+try { setIcon(ghRefresh, "refresh-cw"); } catch(e) { ghRefresh.innerText = "↺"; }
+ 
+const ghBody = cardGH.createDiv();
+ 
+async function loadGitHub() {
+    ghBody.innerHTML = `<div style="opacity:0.4;font-size:0.85em;padding:8px 0;">Loading GitHub data…</div>`;
+ 
+    try {
+        const USERNAME = "devxerve";
+        const CACHE_KEY = "zos-gh-cache";
+        const CACHE_TTL = 5 * 60 * 1000; // 5 min
+ 
+        // Cache para no spammear la API
+        const cached = localStorage.getItem(CACHE_KEY);
+        let repos, events;
+ 
+        if (cached) {
+            const parsed = JSON.parse(cached);
+            if (Date.now() - parsed.ts < CACHE_TTL) {
+                repos  = parsed.repos;
+                events = parsed.events;
+            }
+        }
+ 
+        if (!repos || !events) {
+            const [rRes, eRes] = await Promise.all([
+                fetch(`https://api.github.com/users/${USERNAME}/repos?sort=pushed&per_page=5`),
+                fetch(`https://api.github.com/users/${USERNAME}/events/public?per_page=30`)
+            ]);
+            repos  = await rRes.json();
+            events = await eRes.json();
+            localStorage.setItem(CACHE_KEY, JSON.stringify({ repos, events, ts: Date.now() }));
+        }
+ 
+        if (!Array.isArray(repos)) {
+            ghBody.innerHTML = `<div style="opacity:0.4;font-size:0.85em;">GitHub API rate limit reached. Try again in a minute.</div>`;
+            return;
+        }
+ 
+        // Commits de los últimos 30 eventos
+        const pushEvents   = events.filter(e => e.type === "PushEvent");
+        const totalCommits = pushEvents.reduce((acc, e) => acc + (e.payload.commits?.length || 0), 0);
+ 
+        // Días con actividad (streak aproximado)
+        const activeDays = [...new Set(pushEvents.map(e => e.created_at.slice(0, 10)))];
+        activeDays.sort((a, b) => b.localeCompare(a));
+ 
+        let streak = 0;
+        const today = new Date();
+        for (let i = 0; i < activeDays.length; i++) {
+            const d = new Date(activeDays[i]);
+            const diffDays = Math.round((today - d) / 86400000);
+            if (diffDays === i || diffDays === i + 1) streak++;
+            else break;
+        }
+ 
+        // Último evento
+        const lastPush = pushEvents[0];
+        const lastRepo = lastPush ? lastPush.repo.name.replace(`${USERNAME}/`, "") : "—";
+        const lastMsg  = lastPush?.payload.commits?.[0]?.message?.split('\n')[0] || "—";
+        const lastDate = lastPush ? new Date(lastPush.created_at) : null;
+        const lastAgo  = lastDate ? (() => {
+            const mins = Math.round((Date.now() - lastDate) / 60000);
+            if (mins < 60)   return `${mins}m ago`;
+            if (mins < 1440) return `${Math.round(mins/60)}h ago`;
+            return `${Math.round(mins/1440)}d ago`;
+        })() : "—";
+ 
+        // Mini heatmap — últimos 14 días
+        const commitsByDay = {};
+        pushEvents.forEach(e => {
+            const day = e.created_at.slice(0, 10);
+            commitsByDay[day] = (commitsByDay[day] || 0) + (e.payload.commits?.length || 0);
+        });
+        const heatmapDays = Array.from({ length: 14 }, (_, i) => {
+            const d = new Date(); d.setDate(d.getDate() - (13 - i));
+            return d.toISOString().slice(0, 10);
+        });
+ 
+        const heatmapHTML = heatmapDays.map(day => {
+            const count = commitsByDay[day] || 0;
+            const alpha = count === 0 ? 0.06 : count <= 2 ? 0.3 : count <= 5 ? 0.6 : 1;
+            const title = `${day}: ${count} commit${count !== 1 ? 's' : ''}`;
+            return `<div title="${title}" style="width:16px;height:16px;border-radius:4px;background:rgba(var(--zos-accent-rgb),${alpha});cursor:default;transition:transform 0.15s;" onmouseenter="this.style.transform='scale(1.3)'" onmouseleave="this.style.transform='scale(1)'"></div>`;
+        }).join("");
+ 
+        // Repos list
+        const reposHTML = repos.slice(0, 5).map(r => {
+            const pushedAgo = (() => {
+                const mins = Math.round((Date.now() - new Date(r.pushed_at)) / 60000);
+                if (mins < 60)   return `${mins}m`;
+                if (mins < 1440) return `${Math.round(mins/60)}h`;
+                return `${Math.round(mins/1440)}d`;
+            })();
+            const lang = r.language || "—";
+            const langColor = {
+                JavaScript:"#f7df1e", TypeScript:"#3178c6", Java:"#b07219",
+                Python:"#3572A5", Kotlin:"#A97BFF", "C++":"#f34b7d",
+                HTML:"#e34c26", CSS:"#563d7c", Shell:"#89e051"
+            }[lang] || "rgba(255,255,255,0.3)";
+            return `
+                <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:11px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);margin-bottom:7px;transition:background 0.2s;"
+                     onmouseenter="this.style.background='rgba(var(--zos-accent-rgb),0.05)'"
+                     onmouseleave="this.style.background='rgba(255,255,255,0.02)'"
+                     onclick="window.open('${r.html_url}','_blank')" style="cursor:pointer;">
+                    <div style="flex-grow:1;min-width:0;">
+                        <div style="font-weight:600;font-size:0.88em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.name}</div>
+                        <div style="font-size:0.65em;opacity:0.4;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${r.description || 'No description'}</div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+                        <div style="display:flex;align-items:center;gap:4px;">
+                            <div style="width:8px;height:8px;border-radius:50%;background:${langColor};"></div>
+                            <span style="font-size:0.6em;font-family:var(--zos-font-mono);opacity:0.5;">${lang}</span>
+                        </div>
+                        <div style="font-size:0.6em;font-family:var(--zos-font-mono);opacity:0.35;">${pushedAgo}</div>
+                        <div style="font-size:0.6em;opacity:0.35;">⭐${r.stargazers_count}</div>
+                    </div>
+                </div>`;
+        }).join("");
+ 
+        ghBody.innerHTML = `
+            <!-- Stats row -->
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;">
+                <div style="background:rgba(var(--zos-accent-rgb),0.07);border:1px solid rgba(var(--zos-accent-rgb),0.15);border-radius:12px;padding:12px;text-align:center;">
+                    <div style="font-family:var(--zos-font-head);font-size:1.8em;font-weight:800;color:var(--zos-accent);line-height:1;">${totalCommits}</div>
+                    <div style="font-size:0.58em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:1.5px;opacity:0.45;margin-top:3px;">commits</div>
+                </div>
+                <div style="background:rgba(var(--zos-accent-rgb),0.07);border:1px solid rgba(var(--zos-accent-rgb),0.15);border-radius:12px;padding:12px;text-align:center;">
+                    <div style="font-family:var(--zos-font-head);font-size:1.8em;font-weight:800;color:var(--zos-accent);line-height:1;">${streak}</div>
+                    <div style="font-size:0.58em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:1.5px;opacity:0.45;margin-top:3px;">day streak</div>
+                </div>
+                <div style="background:rgba(var(--zos-accent-rgb),0.07);border:1px solid rgba(var(--zos-accent-rgb),0.15);border-radius:12px;padding:12px;text-align:center;">
+                    <div style="font-family:var(--zos-font-head);font-size:1.8em;font-weight:800;color:var(--zos-accent);line-height:1;">${repos.length}</div>
+                    <div style="font-size:0.58em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:1.5px;opacity:0.45;margin-top:3px;">repos</div>
+                </div>
+            </div>
+ 
+            <!-- Last commit -->
+            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:12px 14px;margin-bottom:20px;">
+                <div style="font-size:0.6em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:2px;opacity:0.35;margin-bottom:6px;">Last push · ${lastAgo}</div>
+                <div style="font-weight:600;font-size:0.88em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:rgba(255,255,255,0.85);">${lastMsg}</div>
+                <div style="font-size:0.65em;opacity:0.4;margin-top:3px;font-family:var(--zos-font-mono);">→ ${lastRepo}</div>
+            </div>
+ 
+            <!-- Heatmap 14 días -->
+            <div style="margin-bottom:20px;">
+                <div style="font-size:0.6em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:2px;opacity:0.35;margin-bottom:8px;">Activity · last 14 days</div>
+                <div style="display:flex;gap:5px;align-items:center;">${heatmapHTML}</div>
+            </div>
+ 
+            <!-- Repos -->
+            <div>
+                <div style="font-size:0.6em;font-family:var(--zos-font-mono);text-transform:uppercase;letter-spacing:2px;opacity:0.35;margin-bottom:10px;">Recent repos</div>
+                ${reposHTML}
+            </div>
+        `;
+    } catch(e) {
+        ghBody.innerHTML = `<div style="opacity:0.4;font-size:0.85em;">Could not load GitHub data. Check your connection.</div>`;
+        console.error("GitHub card error:", e);
+    }
+}
+ 
+ghRefresh.onclick = (e) => {
+    e.stopPropagation();
+    localStorage.removeItem("zos-gh-cache");
+    loadGitHub();
+};
+ 
+loadGitHub();
 
 // Grid de hábitos: 2 columnas dentro del span-8
 const hGrid = cardHabits.createDiv({ attr: { style: "display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;" }});
