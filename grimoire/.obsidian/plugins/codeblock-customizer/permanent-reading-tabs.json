@@ -1,0 +1,22 @@
+{
+  "03 - Notes/bestPractices.md": {
+    "scope": 0,
+    "undry": 1,
+    "naming": 2
+  },
+  "03 - Notes/dataStructures - arrays.md": {
+    "arrays": 0,
+    "values": 0,
+    "selection": 0
+  },
+  "03 - Notes/cleanCode - bestPractices.md": {
+    "naming": 0,
+    "clean": 0
+  },
+  "03 - Notes/casting.md": {
+    "explicit": 0
+  },
+  "02 - Concepts/casting.md": {
+    "implicit": 0
+  }
+}

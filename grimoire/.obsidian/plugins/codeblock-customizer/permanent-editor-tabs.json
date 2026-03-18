@@ -1,0 +1,34 @@
+{
+  "03 - Notes/bestPractices.md": {
+    "not_dry": 8568,
+    "dry": 9141,
+    "naming": 530
+  },
+  "03 - Notes/Java - snippets.md": {
+    "validation": 514,
+    "genNum": 1500
+  },
+  "03 - Notes/java - args.md": {
+    "bash": 1203
+  },
+  "03 - Notes/dataStructures - arrays.md": {
+    "arrays": 323,
+    "values": 721,
+    "selection": 1215
+  },
+  "03 - Notes/Java - casting.md": {
+    "implicit": 656,
+    "explicit": 1087
+  },
+  "03 - Notes/casting.md": {
+    "explicit": 1461
+  },
+  "03 - Notes/SQL - advancedStatements.md": {
+    "Predicado IN": 250,
+    "IN": 250,
+    "Between": 662,
+    "Predicado NULL": 1085,
+    "Exists": 3370,
+    "like": 1959
+  }
+}
