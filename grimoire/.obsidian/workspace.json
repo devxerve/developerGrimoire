@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Concepts/OOP.md",
+                "file": "01 - Languages/C/Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OOP"
+              "title": "Index"
             }
           }
         ]
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Concepts/OOP.md",
+                "file": "01 - Languages/C/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OOP"
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Concepts/OOP.md",
+                "file": "01 - Languages/C/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OOP"
+              "title": "Outline of Index"
             }
           },
           {
@@ -181,8 +181,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -206,14 +206,12 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "file-share:Toggle connection": false,
-      "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02 - Concepts/OOP.md",
     "02 - Concepts/designPatterns.md",
     "02 - Concepts/Databases.md",
     "02 - Concepts/cleanCoding.md",
@@ -239,7 +237,6 @@
     "03 - Notes/SQL - selectSentence.md",
     "limbo/SQL - subQuerys.md",
     "limbo/SQL - updateSentence.md",
-    "03 - Notes/cleanCode - bestPractices.md",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad",
