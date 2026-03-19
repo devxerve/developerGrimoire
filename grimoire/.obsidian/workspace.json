@@ -11,14 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "03 - Notes/dataStructures - dynamicArrays.md",
-                "mode": "source",
-                "source": false
+                "aFile": "grimoire/99 - Meta/TaskNotes/Views/agenda-default.base",
+                "bFile": "grimoire/99 - Meta/TaskNotes/Views/agenda-default.base",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "dataStructures - dynamicArrays"
+              "icon": "diff",
+              "title": "Diff: agenda-default.base  (Working Tree)"
             }
           }
         ]
@@ -222,6 +222,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "03 - Notes/SQL - insertSentence.md",
+    "03 - Notes/SQL - selectSentence.md",
+    "99 - Meta/TaskNotes/Views/relationships.base",
+    "99 - Meta/TaskNotes/Views/agenda-default.base",
+    "99 - Meta/TaskNotes/Views/calendar-default.base",
+    "99 - Meta/TaskNotes/Views/tasks-default.base",
+    "99 - Meta/TaskNotes/Views/kanban-default.base",
+    "99 - Meta/TaskNotes/Views/mini-calendar-default.base",
+    "99 - Meta/TaskNotes/Views",
+    "99 - Meta/TaskNotes",
+    "03 - Notes/dataStructures - dynamicArrays.md",
     "03 - Notes/java - accesModifiers.md",
     "03 - Notes/java - args.md",
     "03 - Notes/java - codeStructure.md",
@@ -246,17 +257,6 @@
     "99 - Meta/TaskNotes/Tasks/Java.md",
     "99 - Meta/TaskNotes/Tasks/SQL.md",
     "99 - Meta/TaskNotes/Tasks",
-    "99 - Meta/TaskNotes/Views/relationships.base",
-    "99 - Meta/TaskNotes/Views/agenda-default.base",
-    "99 - Meta/TaskNotes/Views/calendar-default.base",
-    "99 - Meta/TaskNotes/Views/tasks-default.base",
-    "99 - Meta/TaskNotes/Views/kanban-default.base",
-    "99 - Meta/TaskNotes/Views/mini-calendar-default.base",
-    "99 - Meta/TaskNotes/Views",
-    "99 - Meta/TaskNotes",
-    "98 - Personal/01 - Projects/pinterest.md",
-    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Descripcion del Proyecto.md",
-    "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones/Reunion DAM y ASIR.md",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App",
     "99 - Meta/attachments/Pasted Image 20260309204633_496.png",
     "99 - Meta/attachments/Pasted Image 20260309204218_665.png",
