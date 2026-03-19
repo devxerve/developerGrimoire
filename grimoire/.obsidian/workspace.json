@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Concepts/OOP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OOP"
+              "title": "New tab"
             }
           }
         ]
@@ -123,12 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Concepts/OOP.md",
+                "file": "01 - Languages/C/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OOP"
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -166,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Concepts/OOP.md",
+                "file": "01 - Languages/C/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OOP"
+              "title": "Outline of Index"
             }
           },
           {
@@ -214,6 +210,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01 - Languages/C/Index.md",
+    "02 - Concepts/OOP.md",
     "02 - Concepts/designPatterns.md",
     "02 - Concepts/Databases.md",
     "02 - Concepts/cleanCoding.md",
@@ -231,7 +229,6 @@
     "01 - Languages/JavaScript/Node.js/Index.md",
     "01 - Languages/JavaScript/Core/Index.md",
     "01 - Languages/C++/Index.md",
-    "01 - Languages/C/Index.md",
     "01 - Languages/HTML-CSS/Index.md",
     "01 - Languages/Java/Index.md",
     "03 - Notes/SQL - advancedStatements.md",
@@ -239,7 +236,6 @@
     "03 - Notes/SQL - selectSentence.md",
     "limbo/SQL - subQuerys.md",
     "limbo/SQL - updateSentence.md",
-    "03 - Notes/cleanCode - bestPractices.md",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Software - BD & App",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Reuniones",
     "00 - Uni/02 - Proyectos/Serious Games - Hydration Bag/Hardware - Arduino Lilypad",
