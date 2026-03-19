@@ -7,17 +7,15 @@ private: "true"
 ---
 
 # C
+### About This Language
+Low-level programming language, the foundation of many other languages (C++, Java...).
+Pending learning as a systems fundamentals base.
 
-## Sobre este lenguaje
-Lenguaje de programación de bajo nivel, base de muchos otros lenguajes (C++, Java...).
-Pendiente de aprender como fundamento de sistemas.
+### Learning Plan
+- Variables, types, and operators
+- Pointers and dynamic memory
+- Structs
+- Files
+- Basic Makefile
 
-## Plan de aprendizaje
-- [ ] Variables, tipos y operadores
-- [ ] Punteros y memoria dinámica
-- [ ] Structs
-- [ ] Ficheros
-- [ ] Makefile básico
-
-## Recursos
-- 
+### Resources

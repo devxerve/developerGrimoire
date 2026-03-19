@@ -23,5 +23,7 @@
   "obsidian-style-settings",
   "dataview",
   "homepage",
-  "obsidian-git"
+  "obsidian-git",
+  "clone-vault",
+  "tasknotes"
 ]

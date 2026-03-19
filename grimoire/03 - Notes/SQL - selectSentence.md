@@ -44,7 +44,7 @@ It states a conditional clause for the data shown in the query (Equivalent to [[
 - Column name
 - Constants (Numbers that dont change or fixed strings)
 - Expressions (Algebra or MYSQL functions)
-- [[SQL - advancedStatements]]
+- [[sql - advancedStatements]]
 - Parenthesis: Alter the priority of the statements
 - Operands
 

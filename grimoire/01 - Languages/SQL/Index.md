@@ -13,22 +13,22 @@ cssclasses:
 [[SQL - operators]]
 
 ### 📝:dev_sql::dev_mysql_original: SQL - ddl (Definition)
-[[SQL - createSentence]]
-[[sql - altertableSentence]]
-[[SQL - dropSentence]]
+[[sql - createSentence]]
+[[sql - alterTableSentence]]
+[[sql - dropSentence]]
 
 ### ✏️ :dev_sql::dev_mysql_original: SQL - dml (Manipulation)
-[[SQL - insertSentence]]
+[[sql - insertSentence]]
 [[SQL - updateSentence]]
-[[SQL - deleteSentence]]
-[[SQL - bulkInsert]]
+[[sql - deleteSentence]]
+[[sql - bulkInsert]]
 
 ### 🔍 :dev_sql::dev_mysql_original: SQL - queries
 [[sql - selectSentence]]
 [[SQL - minimumSelect_syntax]]
 [[SQL - joinSentence]]
 [[SQL - subQuerys]]
-[[SQL - correlatedQuerys]]
+[[sql - correlatedQuerys]]
 
 ### ⚡:dev_sql::dev_mysql_original: SQL - advanced
 [[sql - advancedStatements]]
