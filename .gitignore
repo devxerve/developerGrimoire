@@ -7,12 +7,13 @@
 # Plugin data (configs stay, code excluded)
 grimoire/.obsidian/plugins/*/data.json
 # .obsidian/plugins/  # Descomenta si NO quieres compartir plugins
-
+grimoire/.obsidian/plugins/tasknotes/main.js
 # Obsidian trash and limbo
 grimoire/.trash/
 grimoire/.keep-the-rhythm/  # Si contiene notas privadas
 grimoire/00 - Uni
 grimoire/98 - Personal
+grimoire/.obsidian/
 
 # Temp files
 *.tmp
