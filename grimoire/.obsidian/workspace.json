@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Languages/C/Index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "New tab"
             }
           }
         ]
@@ -214,6 +210,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01 - Languages/C/Index.md",
     "02 - Concepts/OOP.md",
     "02 - Concepts/designPatterns.md",
     "02 - Concepts/Databases.md",
@@ -232,7 +229,6 @@
     "01 - Languages/JavaScript/Node.js/Index.md",
     "01 - Languages/JavaScript/Core/Index.md",
     "01 - Languages/C++/Index.md",
-    "01 - Languages/C/Index.md",
     "01 - Languages/HTML-CSS/Index.md",
     "01 - Languages/Java/Index.md",
     "03 - Notes/SQL - advancedStatements.md",
